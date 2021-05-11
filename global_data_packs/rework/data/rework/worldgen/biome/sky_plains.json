@@ -1,0 +1,56 @@
+{
+    "scale": 0.35,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        },
+        "sky_color": 10479866,
+        "fog_color": 12638463,
+        "water_color": 4159204,
+        "water_fog_color": 329011
+    },
+    "surface_builder": "minecraft:grass",
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:canyon"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:patch_tall_grass_2",
+            "minecraft:plain_vegetation",
+            "minecraft:flower_plain_decorated",
+            "minecraft:forest_flower_vegetation_common",
+            "minecraft:patch_grass_plain"
+        ],
+        []
+    ],
+    "starts": [],
+    "spawners": {
+        "monster": [],
+        "creature": [],
+        "ambient": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": true,
+    "precipitation": "rain",
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "category": "plains",
+    "depth": 0.125
+}

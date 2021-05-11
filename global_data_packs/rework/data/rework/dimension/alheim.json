@@ -1,0 +1,28 @@
+{
+    "type": {
+        "name": "rework:alfheim",
+        "ultrawarm": false,
+        "natural": false,
+        "piglin_safe": true,
+        "respawn_anchor_works": true,
+        "bed_works": false,
+        "has_raids": false,
+        "has_skylight": true,
+        "has_ceiling": false,
+        "coordinate_scale": 1,
+        "ambient_light": 1,
+        "logical_height": 256,
+        "effects": "minecraft:overworld",
+        "infiniburn": "minecraft:infiniburn_overworld"
+    },
+    "generator": {
+        "type": "minecraft:noise",
+        "seed": 8,
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "seed": 8,
+            "biome": "minecraft:plains"
+        },
+        "settings": "minecraft:floating_islands"
+    }
+}

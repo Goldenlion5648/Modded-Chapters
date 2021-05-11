@@ -1,0 +1,16 @@
+# First, ignore everything
+*
+# Now, whitelist anything that's a directory
+!/config/**
+!/defaultconfigs/**
+!/global_data_packs/**
+!/kubejs/**
+
+!/config
+!/defaultconfigs
+!/global_data_packs
+!/kubejs
+# And all the file types you're interested in.
+# !*.one
+# !*.two
+!.gitignore

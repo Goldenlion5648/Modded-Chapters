@@ -1,0 +1,68 @@
+{
+    "scale": 0.25,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        },
+        "sky_color": 1572953,
+        "fog_color": 1592993,
+        "water_color": 1577637,
+        "water_fog_color": 1577697
+    },
+    "surface_builder": "minecraft:basalt_deltas",
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:canyon"
+        ]
+    },
+    "features": [
+        [],
+        [
+
+        ],
+        [],
+        [
+        ],
+        [],
+        [],
+        [
+
+        ],
+        [],
+        [
+
+        ],
+        [
+        ]
+    ],
+    "starts": [
+
+    ],
+    "spawners": {
+        "monster": [
+            
+        ],
+        "creature": [],
+        "ambient": [
+            
+        ],
+        "water_creature": [
+            
+        ],
+        "water_ambient": [
+            
+        ],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": false,
+    "precipitation": "rain",
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "category": "ocean",
+    "depth": -0.2
+}

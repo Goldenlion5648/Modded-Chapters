@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:default",
+    "config": {
+        "top_material": {
+            "Name": "tconstruct:earth_congealed_slime"
+        },
+        "under_material": {
+            "Name": "tconstruct:sky_congealed_slime"
+        },
+        "underwater_material": {
+            "Name": "tconstruct:grout"
+        }
+    }
+}

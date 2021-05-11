@@ -1,0 +1,9 @@
+{
+  "retroGen": false,
+  "swapper": {
+    "kubejs:seared_replaced": "tconstruct:seared_stone",
+    "kubejs:seared_fluid": "tconstruct:seared_stone_fluid",
+    "minecraft:polished_granite": "minecraft:water",
+    "dummymodid:dummyblocktoreplace3": "dummymodid2:replacer3"
+  }
+}

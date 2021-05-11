@@ -1,0 +1,71 @@
+{
+    "type": {
+        "name": "rework:tinkerer_world",
+        "ultrawarm": false,
+        "natural": true,
+        "piglin_safe": false,
+        "respawn_anchor_works": false,
+        "bed_works": true,
+        "has_raids": true,
+        "has_skylight": true,
+        "has_ceiling": false,
+        "coordinate_scale": 1,
+        "ambient_light": 0,
+        "logical_height": 256,
+        "infiniburn": "minecraft:infiniburn_overworld"
+    },
+    "generator": {
+        "type": "minecraft:noise",
+        "seed": 730556653,
+        "biome_source": {
+            "type": "minecraft:checkerboard",
+            "seed": 0,
+            "scale": 3,
+            "biomes": [
+                "rework:slimeland",
+                "rework:seared_fields"
+            ]
+        },
+        "settings": {
+            "name": "minecraft:overworld",
+            "bedrock_roof_position": -10,
+            "bedrock_floor_position": 0,
+            "sea_level": 32,
+            "disable_mob_generation": false,
+            "default_block": {
+                "Name": "kubejs:seared_replaced"
+            },
+            "default_fluid": {
+                "Name": "kubejs:seared_fluid"
+            },
+            "noise": {
+                "height": 256,
+                "density_factor": 0.71,
+                "density_offset": -0.46875,
+                "size_horizontal": 1,
+                "size_vertical": 1,
+                "simplex_surface_noise": true,
+                "random_density_offset": true,
+                "sampling": {
+                    "xz_scale": 1,
+                    "y_scale": 1,
+                    "xz_factor": 80,
+                    "y_factor": 160
+                },
+                "bottom_slide": {
+                    "target": -30,
+                    "size": 0,
+                    "offset": 0
+                },
+                "top_slide": {
+                    "target": -10,
+                    "size": 3,
+                    "offset": 0
+                }
+            },
+            "structures": {
+                "structures": {}
+            }
+        }
+    }
+}
