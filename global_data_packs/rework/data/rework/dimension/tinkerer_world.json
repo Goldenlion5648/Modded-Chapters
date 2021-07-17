@@ -33,7 +33,7 @@
             "sea_level": 32,
             "disable_mob_generation": false,
             "default_block": {
-                "Name": "kubejs:seared_replaced"
+                "Name": "create:scoria_cobblestone"
             },
             "default_fluid": {
                 "Name": "kubejs:seared_fluid"
