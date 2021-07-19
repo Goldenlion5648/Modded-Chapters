@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "playerhelditem": "minecraft:stick",
+        "block": {
+            "block": "minecraft:chest",
+            "contains": {
+                "item": "minecraft:stick",
+                "count": ">10"
+            }
+        },
+        "message": "too bad",
+        "result": "deny"
+    }
+]

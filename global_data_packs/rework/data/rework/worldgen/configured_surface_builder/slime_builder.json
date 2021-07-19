@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:default",
+    "type": "minecraft:swamp",
     "config": {
         "top_material": {
             "Name": "tconstruct:earth_congealed_slime"

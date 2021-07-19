@@ -1,0 +1,16 @@
+#spawns zombies
+
+[    {
+        "mob": "minecraft:zombie",
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+            "minimum": 2,
+            "maximum": 5
+        },
+        "conditions": {
+            "dimension": "rework:version3",
+            "norestrictions": true,
+            "maxthis": 10
+        }
+    }]

@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/botania/iron_ore_livingrock"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/botania/dense_iron_ore_livingrock"
+    }
+  }
+}

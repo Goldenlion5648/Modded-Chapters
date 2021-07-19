@@ -1,0 +1,33 @@
+{
+	id: "31B3DC80DCAEF618"
+	group: ""
+	order_index: 3
+	filename: "mid"
+	title: "Mid"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:prismarine_shard"
+			x: 1.0d
+			y: 1.0d
+			id: "636B2D52F9BA62D6"
+			tasks: [{
+				id: "09856AE2C7C80539"
+				type: "kill"
+				entity: "minecraft:guardian"
+				value: 8L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "66689FA0347A222B"
+			tasks: [{
+				id: "35BBCD57DC2E43EE"
+				type: "item"
+				item: "cyclic:flippers"
+			}]
+		}
+	]
+}

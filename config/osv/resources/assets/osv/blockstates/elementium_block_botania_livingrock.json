@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/botania/elementium_block_livingrock"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/botania/dense_elementium_block_livingrock"
+    }
+  }
+}

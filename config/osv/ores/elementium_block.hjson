@@ -1,0 +1,22 @@
+name: elementium_block
+mod: botania
+block: {
+  location: botania:elementium_block
+  level: 2
+}
+texture: {
+  original: botania:block/elementium_block
+}
+recipe: {
+  result: botania:elementium_block
+  xp: 1.0
+}
+loot: botania:blocks/elementium_block
+gen: [
+  {
+    height: [0, 70]
+    size: 8
+    count: 8
+    stage: TOP_LAYER_MODIFICATION
+  }
+]

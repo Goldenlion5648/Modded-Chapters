@@ -59,7 +59,7 @@
 	# If true, eating foods outside of survival mode (e.g. creative/adventure) is not tracked.
 	#
 	#
-	limitProgressionToSurvival = false
+	limitProgressionToSurvival = true
 	# Whether or not to reset food diversity on death, effectively losing all benefits.
 	#
 	#

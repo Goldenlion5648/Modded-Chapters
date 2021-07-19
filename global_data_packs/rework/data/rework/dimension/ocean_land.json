@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "minecraft:deep_ocean",
+            "features": false,
+            "layers": [
+                {
+                    "block": "kubejs:ocean_floor",
+                    "height": 3
+                },
+                {
+                    "block": "minecraft:water",
+                    "height": 120
+                }
+            ],
+            "structures": {
+                "structures": {}
+            }
+        }
+    }
+}

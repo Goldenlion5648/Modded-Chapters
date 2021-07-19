@@ -1,0 +1,19 @@
+{
+	id: "11C2E5A408CC7323"
+	group: ""
+	order_index: 2
+	filename: "healthgoals"
+	title: "HealthGoals"
+	icon: "bhc:red_heart_canister"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.5d
+		y: 1.0d
+		id: "751952CACF516DE8"
+		tasks: [{
+			id: "658523BAB21ABB5B"
+			type: "custom"
+		}]
+	}]
+}

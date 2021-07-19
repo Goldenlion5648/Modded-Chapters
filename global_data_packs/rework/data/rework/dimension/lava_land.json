@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "minecraft:deep_ocean",
+            "layers": [
+                {
+                    "block": "minecraft:stone_bricks",
+                    "height": 1
+                },
+                {
+                    "block": "minecraft:lava",
+                    "height": 120
+                }
+            ],
+            "structures": {
+                "structures": {}
+            }
+        }
+    }
+}

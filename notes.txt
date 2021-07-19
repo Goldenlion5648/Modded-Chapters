@@ -1,0 +1,8 @@
+setblock ~-1 ~-1 ~-1 structure_block{mode:"LOAD",powered:0b,name:"<databpack:<path_to_nbt_file>"}
+
+remove reed recipes
+// make crystal clump spawn crystals on destroy
+// set harvest level to be same as obsidian
+add modular machine with ocean floor needed
+
+textures for crystal and trigger

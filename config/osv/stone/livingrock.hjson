@@ -1,0 +1,22 @@
+enabled: true
+block: {
+  location: botania:livingrock
+}
+source: [
+  botania:livingrock
+]
+gen: [
+  {
+    height: [ 20, 80 ]
+    size: 14
+    count: 4
+    blacklistBiomes: true
+    biomes: {
+      types: [
+        NETHER
+        THE_END
+      ]
+    }
+     stage: TOP_LAYER_MODIFICATION
+  }
+]

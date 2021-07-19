@@ -1,1 +1,35 @@
-[]
+[
+    {
+        "mob": "minecraft:slime",
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+            "minimum": 3,
+            "maximum": 7
+        },
+        "conditions": {
+            "dimension": "rework:tinkerer_world",
+            "norestrictions": true,
+            "maxthis": 12
+        }
+    },
+    {
+        "mob": ["minecraft:guardian"],
+        "persecond": 1.0,
+        "attempts": 20,
+        "amount": {
+            "minimum": 4,
+            "maximum": 8
+        },
+        "conditions": {
+            "dimension": "rework:ocean_land",
+            "norestrictions": true,
+            "maxheight": 120,
+            "minheight": 3,
+            "mindist": 10,
+            "maxdist": 50,
+            "inwater": true,    
+            "maxthis": 80
+        }
+    }
+]

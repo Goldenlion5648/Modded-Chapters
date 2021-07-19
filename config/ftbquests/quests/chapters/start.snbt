@@ -1,9 +1,204 @@
 {
-	id: "2145379EAAB330EE",
-	group: "",
-	order_index: 0,
-	filename: "start",
-	title: "Start",
-	default_quest_shape: "",
-	quests: []
+	id: "2145379EAAB330EE"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "Alfheim"
+	icon: "botania:livingrock"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Alfheim"
+			icon: {
+				id: "cyclic:charm_home"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: -3.0d
+			subtitle: "He can fly!"
+			description: [
+				"Here in alfheim, everyone can fly! "
+				""
+				"There just seems to be something disallowing you from moving to high."
+			]
+			hide_text_until_complete: false
+			id: "0986739DC65611AE"
+		}
+		{
+			title: "Stolen Flowers"
+			x: -3.5d
+			y: -0.5d
+			shape: "circle"
+			description: [
+				"What ever happened to the elves, it seemed to also take away all of the mystical flowers! Those helped to establish the link to those that were trying to trade from a portal to alfheim!"
+				""
+				"Maybe getting some mystical flowers planted would allow someone to trade and send some materials to get the elves back!"
+				""
+				"Thankfully, floral fertilizer can conjure mystical flowers!"
+				""
+				""
+			]
+			dependencies: ["4F961348CD440C9A"]
+			id: "1471A33B63AA1772"
+			tasks: [{
+				id: "1D1B73DFAA39EA06"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 8L
+			}]
+		}
+		{
+			title: "Food?"
+			x: -4.5d
+			y: 1.0d
+			subtitle: "Someone give that man a cookie!"
+			description: [
+				"There does not appear to be any life here in alfheim, hostile or friendly."
+				""
+				"I'll have to find another source of food."
+				""
+				"Looks like there are enough resources here to make some magic cookies."
+			]
+			dependencies: ["1471A33B63AA1772"]
+			id: "364EE2FC51C539F1"
+			tasks: [{
+				id: "2F4C562FEE7CB1D4"
+				type: "item"
+				item: "botania:mana_cookie"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			description: [
+				"It appears that there is no other life here."
+				""
+				"This isn't what your lexicon described at all! Where are the elves that always mysteriously traded you resources?"
+			]
+			dependencies: ["0986739DC65611AE"]
+			hide: true
+			id: "4F961348CD440C9A"
+			tasks: [{
+				id: "01F9B1846505EDBE"
+				type: "checkmark"
+				title: "Alone?"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["1471A33B63AA1772"]
+			id: "590F7F455F2B32FD"
+			tasks: [{
+				id: "6CD765225E8235D3"
+				type: "gamestage"
+				title: "Use the floral fertilizer!"
+				icon: "botania:gray_mystical_flower"
+				stage: "floralUsed"
+			}]
+			rewards: [{
+				id: "43F26CDCEC61141E"
+				type: "item"
+				item: "botania:livingwood"
+				count: 16
+			}]
+		}
+		{
+			title: "Trading Time"
+			x: -1.5d
+			y: 2.0d
+			description: [
+				"It's working! Someone is trying to trade!"
+				""
+				"This might be a new botanist, so they could get confused if we ask for help on their first trade, we should play along and toss back what they expect for now"
+				""
+				"It seems dreamwood can be found in patches in the ground here!"
+			]
+			id: "14F635539E229016"
+			tasks: [{
+				id: "397B24AF225AD13D"
+				type: "item"
+				icon: "botania:dreamwood"
+				item: "botania:dreamwood"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73C2CD61C3D38237"
+				type: "item"
+				item: "botania:livingwood"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			id: "5F8D23FB3E01D73D"
+			tasks: [{
+				id: "6AB36A115BC8047E"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 6L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			description: ["It seems now the being on the otherside wants to trade manasteel."]
+			id: "484A7680A4CB2E15"
+			tasks: [{
+				id: "28D8EE29AC9EBF82"
+				type: "checkmark"
+				title: "New Deal"
+			}]
+			rewards: [{
+				id: "4B9B35372958C434"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 12
+			}]
+		}
+		{
+			title: "Oops"
+			x: -1.0d
+			y: 4.5d
+			description: [
+				"Oh no! The elves were normally able to break harder materials using their elementium tools. (They must have gotten the original elementium with a mana blaster or something...)"
+				""
+				"We need to apologize that we can't hold up our end of the deal. If we don't send anything back, they are surely going to stop trading. "
+			]
+			id: "7985428E9586700A"
+			tasks: [{
+				id: "5D925A7096264F74"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			description: ["This could be useful for automation!"]
+			id: "1EB0C444FD4DF476"
+			tasks: [{
+				id: "193868EB1F5636F9"
+				type: "item"
+				item: "botania:crafty_crate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: ["It sounds like the inventor wants some elementium ore now that he knows where elementium comes from. After all, the ore is even rarer than the ingot."]
+			id: "0CF61E1EA24EA7DB"
+			tasks: [{
+				id: "43F18217832C27A7"
+				type: "item"
+				item: "kubejs:elementium_ore"
+			}]
+		}
+	]
 }

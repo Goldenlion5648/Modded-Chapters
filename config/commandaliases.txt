@@ -1,3 +1,13 @@
-night | effect give @p minecraft:night_vision 1000 2 true
+bar | kubejs hotbar
+r | reload
+tpa | execute in rework:alfheim run teleport ~ ~ ~
+night | effect give @p minecraft:night_vision 40000 1 true
+tpr | execute in rework:alfheim run teleport ~ ~ ~
+h | ct hand vanilla
+tpt | execute in rework:tinkerer_world run teleport ~ ~ ~
+ke | kubejs errors
 tpf | tp @p ~ ~ ~1000
 tptink | execute in rework:tinkerer_world run teleport ~ ~ ~
+hotbar | kubejs hotbar
+tpo | execute in minecraft:overworld run tp ~ ~ ~
+tpoc | execute in rework:ocean_land run tp ~ ~ ~

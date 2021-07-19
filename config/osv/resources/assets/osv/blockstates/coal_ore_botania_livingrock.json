@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/botania/coal_ore_livingrock"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/botania/dense_coal_ore_livingrock"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:swamp",
+    "config": {
+        "top_material": {
+            "Name": "kubejs:seared_replaced"
+        },
+        "under_material": {
+            "Name": "kubejs:seared_replaced"
+        },
+        "underwater_material": {
+            "Name": "tconstruct:grout"
+        }
+    }
+}

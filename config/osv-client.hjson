@@ -15,5 +15,12 @@
      # Lower values may look better, but cause z-fighting.
      # Range: 1.0 ~ 2.0
     modelScale: 1.001
+     # When this is enabled, the value of modelScale will automatically
+     # be doubled when Optifine is installed.
+    optifineHack: true
+     # Whether to automatically reload resources after enabling the
+     # generated resource pack. This may result in fewer missing
+     # textures in rare cases.
+    autoRefresh: false
   }
 }

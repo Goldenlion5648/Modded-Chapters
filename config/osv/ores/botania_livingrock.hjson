@@ -1,0 +1,29 @@
+ # Generated data. Some values are estimated.
+ # See TUTORIAL.hjson for more info.
+{
+  name: botania_livingrock
+  mod: botania
+  block: {
+    location: botania:livingrock
+    material: ROCK
+    soundType: STONE
+    light: 0
+    resistance: 10
+    hardness: 2
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    speedFactor: 1
+    jumpFactor: 1
+    isSolid: true
+    level: -1
+    tool: pickaxe
+    variableOpacity: false
+    requiresTool: false
+    xp: 0
+  }
+  texture: {
+    original: botania:block/livingrock
+  }
+  loot: botania:blocks/livingrock
+  gen: []
+}

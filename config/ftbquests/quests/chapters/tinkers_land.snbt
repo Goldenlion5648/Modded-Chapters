@@ -1,0 +1,24 @@
+{
+	id: "6BF8FCFCB3D7E620"
+	group: ""
+	order_index: 1
+	filename: "tinkers_land"
+	title: "Tinkers Land"
+	icon: "tconstruct:earth_congealed_slime"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 1.0d
+		y: 0.0d
+		id: "79A1E503201E37DA"
+		tasks: [{
+			id: "29F335F876E4916B"
+			type: "item"
+			item: {
+				id: "botania:mana_tablet"
+				Count: 1b
+				tag: { }
+			}
+		}]
+	}]
+}

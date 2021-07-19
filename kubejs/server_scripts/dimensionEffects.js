@@ -13,7 +13,7 @@ const effects = [
 //showParticles: Whether to show the particles of having the effect
 //transparentParticles: Only used when showParticles = true, makes the particles more see-through
 
-const alfWorld = "rework:version3"
+const alfWorld = "rework:alfheim"
 
 //On player tick, evaluate the effects that can be applied, add/remove tags when appropriate
 onEvent('player.tick', event => {
@@ -81,7 +81,7 @@ function stripNamespace(input) {
     return input.substring(lastDot + 1)
 }
 
-function inspect(obj) {
+/* function inspect(obj) {
     if (typeof obj !== 'undefined') {
         var resultArray = []
         resultArray.push('Inspecting: ' + obj)
@@ -122,4 +122,4 @@ function inspect(obj) {
     } else {
         console.info('inspected object is undefined')
     }
-}
+} */
