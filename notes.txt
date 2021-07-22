@@ -3,6 +3,16 @@ setblock ~-1 ~-1 ~-1 structure_block{mode:"LOAD",powered:0b,name:"<databpack:<pa
 remove reed recipes
 // make crystal clump spawn crystals on destroy
 // set harvest level to be same as obsidian
-add modular machine with ocean floor needed
+// add modular machine with ocean floor needed
+add recipes for modular machinery ocean floor machine
+
+creeper dimension
 
 textures for crystal and trigger
+
+/setblock ~-1 ~-1 ~-1 structure_block{mode:"LOAD",posY:10,sizeX:0,posZ:5,integrity:0.7f,powered:1b,name:"rework:water_ore_struct"}
+
+
+
+slime data:
+// {Brain: {memories: {}}, HurtByTimestamp: 0, ForgeData: {"botania:world_spawned": 1b}, Size: 3, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 16.0d, Modifiers: [{Amount: 0.016855864160030706d, Operation: 1, UUID: [I; -729496625, 1488145580, -1744120775, 1998373706], Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}, {Base: 16.0d, Name: "minecraft:generic.max_health"}, {Base: 4.0d, Name: "minecraft:generic.attack_damage"}, {Base: 0.6000000238418579d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, UUID: [I; 1538244886, 38290859, -2094953531, 564096267], Motion: [0.0d, -0.0784000015258789d, 0.0d], wasOnGround: 1b, Health: 16.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [224.0f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [-152.6710651756734d, 4.0d, 83.32361027771539d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s}

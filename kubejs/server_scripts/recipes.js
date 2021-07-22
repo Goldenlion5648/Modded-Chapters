@@ -22,12 +22,12 @@ onEvent('recipes', e => {
     e.forEachRecipe({id: /botania:runic.+/}, recipe => { 
         // console.log(inspect(recipe))
         var temp = String(recipe.json)
-        console.log(temp)
+        // console.log(temp)
         jsoned = JSON.parse(temp)
-        console.log("input:")
-        console.log(jsoned.ingredients)
-        console.log("output:")
-        console.log(jsoned.output)
+        // console.log("input:")
+        // console.log(jsoned.ingredients)
+        // console.log("output:")
+        // console.log(jsoned.output)
      })
     // Change recipes here
     e.remove({ output: 'botania:pure_daisy' })
@@ -35,7 +35,7 @@ onEvent('recipes', e => {
     e.remove({ id: 'botania:fertilizer_dye' });
     e.remove({ id: 'botania:petal_apothecary/pure_daisy' });
     e.replaceInput({ type: 'botania:runic_altar' }, 'botania:mana_diamond', 'minecraft:gold_nugget')
-    console.log("*".repeat(50))
+    // console.log("*".repeat(50))
     // inspect(e)
 
     e.shaped('botania:livingwood', [

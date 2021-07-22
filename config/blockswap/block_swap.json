@@ -2,6 +2,7 @@
   "retroGen": false,
   "swapper": {
     "kubejs:seared_replaced": "tconstruct:seared_stone",
+    "kubejs:green_cobblestone": "pickletweaks:green_cobblestone",
     "kubejs:seared_fluid": "tconstruct:seared_stone_fluid",
     "minecraft:polished_granite": "minecraft:water",
     "minecraft:bee_nest": "minecraft:air",

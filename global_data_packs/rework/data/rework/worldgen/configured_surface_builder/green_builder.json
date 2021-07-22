@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:swamp",
+    "config": {
+        "top_material": {
+            "Name": "minecraft:emerald_block"
+        },
+        "under_material": {
+            "Name": "minecraft:green_concrete"
+        },
+        "underwater_material": {
+            "Name": "minecraft:green_glazed_terracotta"
+        }
+    }
+}

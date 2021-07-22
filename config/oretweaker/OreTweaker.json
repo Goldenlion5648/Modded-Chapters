@@ -12,6 +12,104 @@
       ]
     },
     {
+        "ore": "minecraft:air",
+        "filler": "pickletweaks:green_cobblestone",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "filler": "quark:green_shingles",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "filler": "chisel:antiblock/green",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "filler": "tconstruct:greenheart_wood",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "filler": "minecraft:green_glazed_terracotta",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "filler": "minecraft:green_concrete",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "filler": "minecraft:green_terracotta",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "filler": "botania:green_pavement",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:emerald_block",
+        "filler": "botania:green_pavement",
+        "minY": 10,
+        "maxY": 90,
+        "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "minY": 60,
+        "maxY": 90,
+        "maxVeinSize": 100,
+        "spawnRate": 3
+        
+    },
+    {
       "ore": "minecraft:diorite",
       "minY": -1,
       "maxY": -1,

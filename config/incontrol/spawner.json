@@ -31,5 +31,25 @@
             "inwater": true,    
             "maxthis": 80
         }
+    },
+    {
+        "mob": [
+            "minecraft:creeper"
+        ],
+        "persecond": 1.0,
+        "attempts": 20,
+        "amount": {
+            "minimum": 7,
+            "maximum": 11
+        },
+        "conditions": {
+            "dimension": "rework:greenland",
+            "norestrictions": true,
+            "maxheight": 90,
+            "minheight": 70,
+            "mindist": 10,
+            "maxdist": 50,
+            "maxthis": 100
+        }
     }
 ]

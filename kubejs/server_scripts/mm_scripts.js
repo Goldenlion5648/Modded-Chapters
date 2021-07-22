@@ -24,8 +24,42 @@ onEvent('recipes', event => {
                 "block": "masterfulmachinery:basic_basic_port_items_output"
             }
         }
-    }
-)
+    })
+
+    event.custom({
+        "type": "masterfulmachinery:machine_structure",
+        "controllerId": "basic",
+        "id": "ocean_floor_scanner",
+        "name": "Ocean Floor Scanner",
+        "layout": [
+            [
+                "XXX",
+                "XXX",
+                "XXX"
+            ],
+            [
+                "AAA",
+                "AAA",
+                "ACA"
+            ],
+            [
+                "   ",
+                " w ",
+                "   "
+            ]
+        ],
+        "legend": {
+            "X": {
+                "block": "kubejs:ocean_floor"
+            },
+            "A": {
+                "block": "minecraft:cobblestone"
+            },
+            "w": {
+                "block": "minecraft:emerald_block"
+            }
+        }
+    })
 
     //RecipeNameHere
     event.custom({

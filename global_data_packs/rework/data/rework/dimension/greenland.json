@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "rework:green_biome",
+            "features": true,
+            "layers": [
+                {
+                    "block": "pickletweaks:green_cobblestone",
+                    "height": 17
+                },
+                {
+                    "block": "quark:green_shingles",
+                    "height": 15
+                },
+                {
+                    "block": "chisel:antiblock/green",
+                    "height": 13
+                },
+                {
+                    "block": "tconstruct:greenheart_wood",
+                    "height": 11
+                },
+                {
+                    "block": "minecraft:green_glazed_terracotta",
+                    "height": 9
+                },
+                {
+                    "block": "minecraft:green_concrete",
+                    "height": 7
+                },
+                {
+                    "block": "minecraft:green_terracotta",
+                    "height": 5
+                },
+                {
+                    "block": "botania:green_pavement",
+                    "height": 3
+                }
+            ],
+            "structures": {
+                "structures": {}
+            }
+        }
+    }
+}
