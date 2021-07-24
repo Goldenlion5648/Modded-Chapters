@@ -1,5 +1,8 @@
 //priority -1000
 
+onEvent('entity.loot_tables', event => {
+    
+})
 onEvent('block.loot_tables', event => {
     // event.addBlock(/minecraft:dirt/, table => {
     //     table.pool(pool => {

@@ -7,20 +7,20 @@
             "features": true,
             "layers": [
                 {
-                    "block": "pickletweaks:green_cobblestone",
+                    "block": "minecraft:obsidian",
                     "height": 17
                 },
                 {
-                    "block": "quark:green_shingles",
+                    "block": "pickletweaks:green_cobblestone",
                     "height": 15
-                },
-                {
-                    "block": "chisel:antiblock/green",
-                    "height": 13
                 },
                 {
                     "block": "tconstruct:greenheart_wood",
                     "height": 11
+                },
+                {
+                    "block": "chisel:antiblock/green",
+                    "height": 13
                 },
                 {
                     "block": "minecraft:green_glazed_terracotta",

@@ -43,6 +43,10 @@ function spawnCrystals(event) {
     // })
 }
 
+function effectBasedOnDim(){
+    
+}
+
 
 onEvent('block.break', event => {
     // event.cancel()
@@ -66,13 +70,6 @@ onEvent('block.break', event => {
     // }
     if (event.block.id == 'kubejs:water_crystal_trigger') {
         spawnCrystals(event)
-
-        // event.server.schedule(10, event.server, function (callback) {
-        //     let command =
-        //         `execute as ${event.player.name} in ${event.player.world.dimension} run setblock ${event.block.pos.x - 1} ${event.block.pos.y - 2} ${event.block.pos.z} minecraft:redstone_block`
-
-        //     callback.server.runCommandSilent(command);
-        // })
     }
     return
 })

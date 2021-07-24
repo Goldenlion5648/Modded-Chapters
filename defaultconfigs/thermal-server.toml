@@ -24,7 +24,7 @@
 	#If TRUE, the Blitz Mob is enabled.
 	Blitz = true
 	#If TRUE, Rockwool Blocks and Recipes are enabled.
-	Rockwool = false
+	Rockwool = true
 	#If TRUE, the Basalz Mob is enabled.
 	Basalz = true
 	#If TRUE, the Blizz Mob is enabled.

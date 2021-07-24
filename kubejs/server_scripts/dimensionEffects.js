@@ -1,6 +1,8 @@
 //priority 0
 const effects = [
-    { heightCondition: (a, b) => a <= b, dimensionCondition: (cur, shouldBe) => cur == shouldBe, verticalLimit: 130, tag: 'flightLimit', cancelsTag: ['toxicLimit'], potionEffect: 'fltpot:flight_effect', duration: 4, amplification: 0, showParticles: false, transparentParticles: false }
+    { heightCondition: (a, b) => a <= b,
+         dimensionCondition: (cur, shouldBe) => cur == shouldBe, 
+         verticalLimit: 130, tag: 'flightLimit', cancelsTag: ['toxicLimit'], potionEffect: 'fltpot:flight_effect', duration: 4, amplification: 0, showParticles: false, transparentParticles: false }
 ]
 
 //heightCondition: How you want to evaluate the user's height, only options are really >, >=, <, <=, ==, !=
@@ -17,7 +19,11 @@ const alfWorld = "rework:alfheim"
 
 //On player tick, evaluate the effects that can be applied, add/remove tags when appropriate
 onEvent('player.tick', event => {
-    
+    if (event.player.isCreativeMode())
+    {
+        console.log("was creative")
+        return
+    }
     effects.forEach(effect => {
         if (effect.heightCondition(event.player.y, effect.verticalLimit) && effect.dimensionCondition(event.player.getWorld().dimension, alfWorld)) {
             // if (effect.cancelsTag.length > 0) {

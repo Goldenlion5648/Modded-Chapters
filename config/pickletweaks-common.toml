@@ -37,7 +37,7 @@
 	#Enable Flint tools and armor?
 	flintGear = true
 	#Enable Emerald tools and armor?
-	emeraldGear = true
+	emeraldGear = false
 	#Enable right click crop harvesting?
 	rightClickHarvest = true
 	#Enable Sickles?

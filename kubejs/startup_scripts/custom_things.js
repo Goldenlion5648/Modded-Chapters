@@ -15,9 +15,11 @@ onEvent('block.registry', event => {
     event.create('green_cobblestone').material('stone').hardness(1.0).displayName('Green Cobblestone')
 	event.create('seared_fluid').material('stone').hardness(1.0).displayName('Seared Fluid Replaced')
     event.create('water_crystal_trigger').material('glass').harvestTool("pickaxe", 3).requiresTool(true).hardness(8.0).resistance(100000).displayName('Condensed Crystal')
-    event.create('water_crystal').material('glass').harvestTool("pickaxe", 3).requiresTool(true).hardness(1.5).opaque(false).notSolid().displayName('Water Crystal')
+    event.create('water_crystal').material('glass').harvestTool("pickaxe", 3).requiresTool(true).hardness(1.5).displayName('Water Crystal')
     event.create('ocean_floor').material('stone').unbreakable().displayName('Ocean Floor')
     event.create('green_gem').material('stone').hardness(8.0).resistance(100000).displayName('Green Gem')
+    event.create('mysterious_block').material('stone').hardness(8.0).resistance(100000).displayName('Mysterious Block')
+    event.create('mysterious_block').material('stone').hardness(8.0).resistance(100000).displayName('Mysterious Block')
 	// event.create('elementium_ore').material('stone').hardness(2.0).displayName('Elementium Ore')
 })
 

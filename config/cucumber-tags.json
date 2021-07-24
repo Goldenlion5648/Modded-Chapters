@@ -29,5 +29,7 @@
   "forge:ingots/lead": "exnihilosequentia:ingot_lead",
   "forge:ingots/graphite": "null",
   "forge:ingots/uranium": "exnihilosequentia:ingot_uranium",
-  "forge:ingots/nickel": "exnihilosequentia:ingot_nickel"
+  "forge:ingots/nickel": "exnihilosequentia:ingot_nickel",
+  "forge:gems/sapphire": "thermal:sapphire",
+  "forge:gems/ruby": "thermal:ruby"
 }

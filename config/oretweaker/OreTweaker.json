@@ -51,16 +51,7 @@
         "biomeBlacklist": [],
         "biomeWhitelist": []
     },
-    {
-        "ore": "minecraft:air",
-        "filler": "minecraft:green_glazed_terracotta",
-        "minY": 10,
-        "maxY": 90,
-        "maxVeinSize": 102,
-        "spawnRate": 3,
-        "biomeBlacklist": [],
-        "biomeWhitelist": []
-    },
+
     {
         "ore": "minecraft:air",
         "filler": "minecraft:green_concrete",
@@ -71,23 +62,24 @@
         "biomeBlacklist": [],
         "biomeWhitelist": []
     },
-    {
-        "ore": "minecraft:air",
-        "filler": "minecraft:green_terracotta",
-        "minY": 10,
-        "maxY": 90,
-        "maxVeinSize": 102,
-        "spawnRate": 3,
-        "biomeBlacklist": [],
-        "biomeWhitelist": []
-    },
+
     {
         "ore": "minecraft:air",
         "filler": "botania:green_pavement",
         "minY": 10,
         "maxY": 90,
-        "maxVeinSize": 102,
-        "spawnRate": 3,
+        "maxVeinSize": 70,
+        "spawnRate": 6,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "minecraft:air",
+        "filler": "minecraft:green_glazed_terracotta",
+        "minY": 53,
+        "maxY": 70,
+        "maxVeinSize": 50,
+        "spawnRate": 4,
         "biomeBlacklist": [],
         "biomeWhitelist": []
     },
@@ -96,19 +88,12 @@
         "filler": "botania:green_pavement",
         "minY": 10,
         "maxY": 90,
-        "maxVeinSize": 102,
-        "spawnRate": 3,
+        "maxVeinSize": 60,
+        "spawnRate": 6,
         "biomeBlacklist": [],
         "biomeWhitelist": []
     },
-    {
-        "ore": "minecraft:air",
-        "minY": 60,
-        "maxY": 90,
-        "maxVeinSize": 100,
-        "spawnRate": 3
-        
-    },
+
     {
       "ore": "minecraft:diorite",
       "minY": -1,
@@ -435,30 +420,6 @@
       "maxY": -1,
       "maxVeinSize": -1,
       "spawnRate": -1
-    },
-    {
-        "ore": "minecraft:emerald_block",
-        "filler": "minecraft:water",
-        "minY": 40,
-        "maxY": 100,
-        "maxVeinSize": 6,
-        "spawnRate": 4,
-        "biomeBlacklist": [],
-        "biomeWhitelist": [
-            "deep_ocean"
-        ]
-    },
-    {
-        "ore": "minecraft:emerald_block",
-        "filler": "minecraft:stone_bricks",
-        "minY": 1,
-        "maxY": 100,
-        "maxVeinSize": 6,
-        "spawnRate": 4,
-        "biomeBlacklist": [],
-        "biomeWhitelist": [
-            "deep_ocean"
-        ]
     },
     {
         "ore": "minecraft:gold_block",

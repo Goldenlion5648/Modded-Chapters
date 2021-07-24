@@ -37,7 +37,7 @@
             "minecraft:creeper"
         ],
         "persecond": 1.0,
-        "attempts": 20,
+        "attempts": 5,
         "amount": {
             "minimum": 7,
             "maximum": 11
@@ -45,11 +45,11 @@
         "conditions": {
             "dimension": "rework:greenland",
             "norestrictions": true,
-            "maxheight": 90,
-            "minheight": 70,
-            "mindist": 10,
-            "maxdist": 50,
-            "maxthis": 100
+            "maxheight": 85,
+            "minheight": 30,
+            "mindist": 15,
+            "maxdist": 45,
+            "maxthis": 80
         }
     }
 ]

@@ -26,7 +26,25 @@
 			tasks: [{
 				id: "35BBCD57DC2E43EE"
 				type: "item"
-				item: "cyclic:flippers"
+				item: {
+					id: "cyclic:flippers"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "kubejs:water_crystal_trigger"
+			x: -0.5d
+			y: 2.0d
+			id: "2FF53190405FB569"
+			tasks: [{
+				id: "502D6AF9A97EE9BE"
+				type: "observation"
+				timer: 0L
+				observe: "block:kubejs:water_crystal_trigger"
 			}]
 		}
 	]

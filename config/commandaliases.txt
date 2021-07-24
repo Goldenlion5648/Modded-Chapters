@@ -11,4 +11,4 @@ tptink | execute in rework:tinkerer_world run teleport ~ ~ ~
 hotbar | kubejs hotbar
 tpo | execute in minecraft:overworld run tp ~ ~ ~
 tpoc | execute in rework:ocean_land run tp ~ ~ ~
-tpg | execute in rework:greenland5 run tp ~ ~ ~
+tpg | execute in rework:greenland run tp ~ ~ ~

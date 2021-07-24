@@ -1,0 +1,20 @@
+{
+	id: "3FFFAA6E7F0582C6"
+	group: ""
+	order_index: 4
+	filename: "greenland"
+	title: "Greenland"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 1.5d
+		y: 0.0d
+		id: "2A4DEB0A43083E2A"
+		tasks: [{
+			id: "7487F92C1FC6526B"
+			type: "item"
+			item: "kubejs:green_gem"
+			count: 24L
+		}]
+	}]
+}

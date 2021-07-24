@@ -22,7 +22,7 @@
 	# The chance of Creeper explosions to drop the blocks as items.
 	# Set to 1.0 to always drop.
 	#Range: 0.0 ~ 1.0
-	creeperExplosionBlockDropChance = 1.0
+	creeperExplosionBlockDropChance = 0.0
 	# The strength of Creeper explosions. Default in vanilla in 3.0 for normal Creepers,
 	# and it is doubled ie. 6.0 for Charged Creepers.
 	#Range: 0.0 ~ 1000.0
@@ -49,7 +49,7 @@
 	# Completely disable Creepers from exploding
 	disableCreeperExplosionCompletely = false
 	# Disable Creeper explosions from damaging items on the ground
-	disableCreeperExplosionItemDamage = false
+	disableCreeperExplosionItemDamage = true
 	# Completely disable other explosions than Creepers from damaging blocks
 	disableOtherExplosionBlockDamage = false
 	# Disable other explosions than Creepers from damaging items on the ground
