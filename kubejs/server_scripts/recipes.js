@@ -20,10 +20,15 @@ var toRemove = [
 onEvent('recipes', e => {
     e.remove({ output: 'minecraft:emerald_block' })
     e.remove({ id: 'minecraft:emerald' });
-    e.shapeless('16x minecraft:stick', [
-        '#minecraft:logs',
-        '#minecraft:logs'
-    ])
+    // e.shapeless('16x minecraft:stick',
+    //     [['#minecraft:logs', 'minecraft:air', 'minecraft:air','#minecraft:logs']
+    // ])
+    e.shaped('16x minecraft:stick', [
+        'S',
+        'S'
+    ], {
+        S: '#minecraft:logs'
+    })
     e.shaped('minecraft:emerald_block', [
         'SS',
         'SS'
@@ -45,6 +50,11 @@ onEvent('recipes', e => {
     ], {
         S: 'minecraft:emerald'
     })
+    e.shapeless('8x kubejs:tough_root', [
+        'tconstruct:greenheart_wood',
+        'tconstruct:greenheart_wood'
+    ])
+
 
 })
 
@@ -92,7 +102,7 @@ onEvent('recipes', e => {
     toRemove.forEach(item => e.remove({ output: item }))
     // e.remove({ output: 'minecraft:wooden_*'});
     // e.remove({ id: 'minecraft:glowstone' })
-    e.shapeless('kubejs:trade_apology', ['minecraft:paper', '#forge:dyes'])
+    // e.shapeless('kubejs:trade_apology', ['minecraft:paper', '#forge:dyes'])
 })
 
 function stripNamespace(input) {

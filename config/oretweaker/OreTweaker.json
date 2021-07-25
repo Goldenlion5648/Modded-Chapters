@@ -23,20 +23,10 @@
     },
     {
         "ore": "minecraft:air",
-        "filler": "quark:green_shingles",
-        "minY": 10,
-        "maxY": 90,
-        "maxVeinSize": 102,
-        "spawnRate": 3,
-        "biomeBlacklist": [],
-        "biomeWhitelist": []
-    },
-    {
-        "ore": "minecraft:air",
         "filler": "chisel:antiblock/green",
-        "minY": 10,
+        "minY": 55,
         "maxY": 90,
-        "maxVeinSize": 102,
+        "maxVeinSize": 70,
         "spawnRate": 3,
         "biomeBlacklist": [],
         "biomeWhitelist": []
@@ -76,8 +66,8 @@
     {
         "ore": "minecraft:air",
         "filler": "minecraft:green_glazed_terracotta",
-        "minY": 53,
-        "maxY": 70,
+        "minY": 50,
+        "maxY": 85,
         "maxVeinSize": 50,
         "spawnRate": 4,
         "biomeBlacklist": [],

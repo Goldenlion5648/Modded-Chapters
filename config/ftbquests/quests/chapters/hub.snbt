@@ -1,0 +1,91 @@
+{
+	id: "6D0098E87067DC15"
+	group: ""
+	order_index: 0
+	filename: "hub"
+	title: "Hub"
+	icon: "minecraft:white_concrete"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Greenland Portal"
+			x: -1.5d
+			y: -6.0d
+			id: "6AA842E34A6CF050"
+			tasks: [{
+				id: "1268BDCC86350999"
+				type: "item"
+				item: "kubejs:greenland_portal_frame"
+				count: 10L
+			}]
+			rewards: [{
+				id: "7A97FD7CAFABADC9"
+				type: "item"
+				item: "kubejs:greenland_portal_frame"
+				count: 20
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			id: "6DF3B82DEB4FFCC6"
+			tasks: [{
+				id: "202AACABC5E9F3EC"
+				type: "checkmark"
+				title: "Starting Gear"
+			}]
+			rewards: [
+				{
+					id: "52FE43AB97EE85E7"
+					type: "item"
+					item: "minecraft:green_terracotta"
+					count: 64
+				}
+				{
+					id: "419970AD6D53DACB"
+					type: "item"
+					item: {
+						id: "tconstruct:mattock"
+						Count: 1b
+						tag: {
+							tic_stats: {
+								"tconstruct:attack_speed": 1.0f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:knockback"
+									level: 1s
+								}
+								{
+									name: "tconstruct:shovel_transform_hidden"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								traits: 0
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

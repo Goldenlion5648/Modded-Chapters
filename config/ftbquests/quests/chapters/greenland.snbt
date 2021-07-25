@@ -1,20 +1,83 @@
 {
 	id: "3FFFAA6E7F0582C6"
 	group: ""
-	order_index: 4
+	order_index: 1
 	filename: "greenland"
 	title: "Greenland"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 1.5d
-		y: 0.0d
-		id: "2A4DEB0A43083E2A"
-		tasks: [{
-			id: "7487F92C1FC6526B"
-			type: "item"
-			item: "kubejs:green_gem"
-			count: 24L
-		}]
-	}]
+	quests: [
+		{
+			x: 5.5d
+			y: -1.0d
+			id: "2A4DEB0A43083E2A"
+			tasks: [{
+				id: "7487F92C1FC6526B"
+				type: "item"
+				item: "kubejs:green_gem"
+				count: 24L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			id: "2F54A457AD104270"
+			tasks: [{
+				id: "62661CE53FEB2AAA"
+				type: "item"
+				item: "tconstruct:greenheart_wood"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["2F54A457AD104270"]
+			id: "4EC9D5B7C3E60AA1"
+			tasks: [
+				{
+					id: "0041E2DFFC3B9AE7"
+					type: "item"
+					item: "tconstruct:pattern"
+				}
+				{
+					id: "086A72C68696AD6A"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "tconstruct:greenheart_planks"
+						}
+					}
+				}
+				{
+					id: "4DD9A9A930A8246B"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "tconstruct:greenheart_planks"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "20ACADEB0641EF59"
+			tasks: [{
+				id: "1083FF332383B606"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:slimewood"
+					}
+				}
+			}]
+		}
+	]
 }

@@ -3,40 +3,16 @@
     "generator": {
         "type": "minecraft:flat",
         "settings": {
-            "biome": "rework:green_biome",
-            "features": true,
+            "biome": "rework:hub_biome",
+            "features": false,
             "layers": [
                 {
-                    "block": "minecraft:obsidian",
-                    "height": 17
-                },
-                {
-                    "block": "pickletweaks:green_cobblestone",
-                    "height": 15
-                },
-                {
-                    "block": "tconstruct:greenheart_wood",
-                    "height": 11
-                },
-                {
-                    "block": "chisel:antiblock/green",
-                    "height": 13
-                },
-                {
-                    "block": "minecraft:green_glazed_terracotta",
-                    "height": 9
-                },
-                {
-                    "block": "minecraft:green_concrete",
-                    "height": 7
-                },
-                {
-                    "block": "minecraft:green_terracotta",
-                    "height": 5
-                },
-                {
-                    "block": "botania:green_pavement",
+                    "block": "minecraft:bedrock",
                     "height": 3
+                },
+                {
+                    "block": "minecraft:white_concrete",
+                    "height": 96
                 }
             ],
             "structures": {

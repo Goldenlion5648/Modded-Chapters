@@ -19,6 +19,10 @@
                     "height": 11
                 },
                 {
+                    "block": "minecraft:air",
+                    "height": 13
+                },
+                {
                     "block": "chisel:antiblock/green",
                     "height": 13
                 },
@@ -31,12 +35,8 @@
                     "height": 7
                 },
                 {
-                    "block": "minecraft:green_terracotta",
-                    "height": 5
-                },
-                {
                     "block": "botania:green_pavement",
-                    "height": 3
+                    "height": 5
                 }
             ],
             "structures": {

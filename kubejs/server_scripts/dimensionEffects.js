@@ -21,7 +21,7 @@ const alfWorld = "rework:alfheim"
 onEvent('player.tick', event => {
     if (event.player.isCreativeMode())
     {
-        console.log("was creative")
+        // console.log("was creative")
         return
     }
     effects.forEach(effect => {

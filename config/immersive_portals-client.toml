@@ -1,12 +1,12 @@
 #Used for debugging
 compatibility_render_mode = false
 #Reduced Portal Rendering
-reduced_portal_rendering = false
+reduced_portal_rendering = true
 #Used for debugging
 check_gl_error = false
 #Max Portal-in-portal Render Layer
 #Range: 1 ~ 10
-max_portal_layer = 5
+max_portal_layer = 3
 #Render Yourself In Portal
 render_yourself_in_portal = true
 #...
