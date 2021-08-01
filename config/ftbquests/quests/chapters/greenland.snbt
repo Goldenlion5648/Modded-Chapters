@@ -4,23 +4,32 @@
 	order_index: 1
 	filename: "greenland"
 	title: "Greenland"
+	icon: "minecraft:green_glazed_terracotta"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 5.5d
-			y: -1.0d
+			x: -3.0d
+			y: -2.0d
+			description: [
+				"Now that you have a pickaxe, try to find some green gems hidden in the glazed terracotta."
+				""
+				"It seems to rotate the nearby glazed terracotta."
+			]
+			dependencies: ["20ACADEB0641EF59"]
 			id: "2A4DEB0A43083E2A"
 			tasks: [{
 				id: "7487F92C1FC6526B"
 				type: "item"
 				item: "kubejs:green_gem"
-				count: 24L
+				count: 12L
 			}]
 		}
 		{
 			x: 1.0d
 			y: 0.5d
+			description: ["There seems to be some wood in an open area down in the depths of the this dimension!"]
+			dependencies: ["05B9A3A91EC42376"]
 			id: "2F54A457AD104270"
 			tasks: [{
 				id: "62661CE53FEB2AAA"
@@ -29,8 +38,10 @@
 			}]
 		}
 		{
+			title: "Tinkers Tools"
 			x: 0.0d
 			y: -1.0d
+			description: ["No vanilla wooden tools allowed here! Time for tinkers tools!"]
 			dependencies: ["2F54A457AD104270"]
 			id: "4EC9D5B7C3E60AA1"
 			tasks: [
@@ -62,10 +73,23 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "461CE7FACB2C9048"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -1.0d
+			description: [
+				"Looks like this greenheart wood can be used to make some slimy tinkers tools!"
+				""
+				"There might even be a way to get some normal wooden parts with it..."
+				""
+				"Probably worth upgrading the mattack with some slimy parts."
+			]
+			dependencies: ["4EC9D5B7C3E60AA1"]
 			id: "20ACADEB0641EF59"
 			tasks: [{
 				id: "1083FF332383B606"
@@ -75,6 +99,189 @@
 					Count: 1b
 					tag: {
 						Material: "tconstruct:slimewood"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: [
+				"Looks like this will have to do for my food source for the time being"
+				""
+			]
+			dependencies: ["2F54A457AD104270"]
+			id: "5263425DF7F096FB"
+			tasks: [{
+				id: "2A493FBED0607D02"
+				type: "item"
+				item: "kubejs:tough_root"
+			}]
+		}
+		{
+			icon: "minecraft:green_glazed_terracotta"
+			x: 2.0d
+			y: -1.0d
+			description: ["Welcome to greenland! You can probably see where this land gets its name."]
+			id: "05B9A3A91EC42376"
+			tasks: [{
+				id: "7972476A81F218F2"
+				type: "dimension"
+				dimension: "rework:greenland"
+			}]
+		}
+		{
+			title: "Greenhearts for Green Heart"
+			icon: "bhc:green_heart_canister"
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["2F54A457AD104270"]
+			id: "76AFC987EEC2F7A6"
+			tasks: [
+				{
+					id: "3D9DA8C6B53EB706"
+					type: "kill"
+					entity: "minecraft:creeper"
+					value: 8L
+				}
+				{
+					id: "229C1EB8C3ABDFFC"
+					type: "item"
+					item: "tconstruct:greenheart_wood"
+					count: 8L
+					consume_items: true
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "180C8A2659A0D3BD"
+				type: "item"
+				item: "bhc:green_heart_canister"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"There seems to be some emeralds hidden in the concrete!"
+				""
+				"I can use these to make some armor and upgrade my tools."
+			]
+			dependencies: ["20ACADEB0641EF59"]
+			id: "0416F55AA216F68E"
+			tasks: [{
+				id: "5996E71CF86D5F58"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Emerald Armor"
+			x: -4.0d
+			y: 0.0d
+			description: ["It seems this emerald armor is not as good as one might think..."]
+			dependencies: ["0416F55AA216F68E"]
+			id: "38AE4A551F52FCD2"
+			tasks: [
+				{
+					id: "64CB6E2A63BEF298"
+					type: "item"
+					item: {
+						id: "cyclic:emerald_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4340470F91238DDF"
+					type: "item"
+					item: {
+						id: "cyclic:emerald_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B3A8E11067FCB4C"
+					type: "item"
+					item: {
+						id: "cyclic:emerald_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41E34EC1783F6AB8"
+					type: "item"
+					item: {
+						id: "cyclic:emerald_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["5263425DF7F096FB"]
+			id: "5A445C5579A6BB01"
+			tasks: [{
+				id: "1416264CF09F34D4"
+				type: "item"
+				item: "kubejs:tough_root2"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: [
+				"5A445C5579A6BB01"
+				"0416F55AA216F68E"
+			]
+			id: "61366D945A3D5F66"
+			tasks: [{
+				id: "3C7C652760D9982E"
+				type: "item"
+				item: "kubejs:tough_root3"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			description: [
+				"To get back to the hub, the greenland portal frame can be placed in any horizontal shape, then lit with a flint and steel."
+				"To prove no cheating was involved, I must enter the portal while not at full health ¯\\_(ツ)_/¯"
+			]
+			dependencies: ["05B9A3A91EC42376"]
+			id: "58AA90C02045103C"
+			tasks: [{
+				id: "263AB628C02A061A"
+				type: "custom"
+				title: "Portal back to the hub"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["2A4DEB0A43083E2A"]
+			id: "77404BEE505538F8"
+			tasks: [{
+				id: "31F652EE3E283DCF"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]

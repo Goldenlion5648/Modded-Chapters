@@ -54,6 +54,17 @@ onEvent('block.loot_tables', event => {
         })
     })
 
+    event.addBlock("kubejs:wet_cobblestone", table => {
+        table.pool(pool => {
+            // pool.survivesExplosion()
+            // pool.randomChance()
+            pool.addEntry({
+                
+
+            })
+        })
+    })
+
 })
 
 onEvent('recipes', event => {

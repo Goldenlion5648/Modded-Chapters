@@ -81,7 +81,7 @@ var customCommands = {
 
 events.listen('command.run', function (event) {
 
-    console.log(`ran something ${event}`)
+    // console.log(`ran something ${event}`)
     // return
     // if (!event.parseResults
     //     || !event.parseResults.reader
@@ -89,16 +89,16 @@ events.listen('command.run', function (event) {
     //     || !event.parseResults.context.source)
     //     return;
 
-    var player = event.parseResults.context.source.func_197022_f();
-    if (!player)
-        return;
+    // var player = event.parseResults.context.source.func_197022_f();
+    // if (!player)
+    //     return;
 
-    var command = event.parseResults.reader.getString();
-    var cmdParts = command.substr(1).split(' ');
-    if (customCommands[cmdParts[0]])
-        customCommands[cmdParts[0]](
-            event.server.getPlayer(player.entity),
-            cmdParts,
-            event
-        );
+    // var command = event.parseResults.reader.getString();
+    // var cmdParts = command.substr(1).split(' ');
+    // if (customCommands[cmdParts[0]])
+    //     customCommands[cmdParts[0]](
+    //         event.server.getPlayer(player.entity),
+    //         cmdParts,
+    //         event
+    //     );
 });

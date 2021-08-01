@@ -367,12 +367,12 @@
 	"Note Block Mob Sounds" = true
 	"Pat The Dogs" = true
 	"Poison Potato Usage" = true
-	"Reacharound Placing" = true
+	"Reacharound Placing" = false
 	"Replace Scaffolding" = true
 	"Sign Editing" = true
 	"Simple Harvest" = true
 	"Snow Golem Player Heads" = true
-	"Springy Slime" = true
+	"Springy Slime" = false
 	"Utility Recipes" = true
 	"Villagers Follow Emeralds" = true
 
@@ -1867,7 +1867,7 @@
 [client]
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Greener Grass" = true
 	"Improved Mount Hud" = true
 	"Improved Tooltips" = true

@@ -8,7 +8,7 @@ function spawnCrystals(event) {
         // setblock   structure_block{mode:"LOAD",posY:10,sizeX:0,posZ:5,integrity:1.0f,powered:0b,name:"rework:water_ore_struct"}
         // })
         let command =
-            `execute as ${event.player.name} in ${event.player.world.dimension} run setblock ${event.block.pos.x} ${event.block.pos.y - 2} ${event.block.pos.z + j} structure_block{mode:"LOAD",posY:${10 + 12 * j},sizeX:0,posZ:${4*j},integrity:${1-(j/timesToRun)}f,powered:0b,name:"rework:water_ore_struct"}`
+            `execute as ${event.player.name} in ${event.player.world.dimension} run setblock ${event.block.pos.x} ${event.block.pos.y - 2} ${event.block.pos.z + j} structure_block{mode:"LOAD",posY:${10 + 12 * j},sizeX:0,posZ:${4 * j},integrity:${1 - (j / timesToRun)}f,powered:0b,name:"rework:water_ore_struct"}`
 
         event.server.runCommandSilent(command);
         // event.server.scheduleInTicks(3 + wait * j, event.server, function (callback) {
@@ -43,18 +43,18 @@ function spawnCrystals(event) {
     // })
 }
 
-function effectBasedOnDim(){
-    
+function effectBasedOnDim() {
+
 }
 
 
 onEvent('block.break', event => {
     // event.cancel()
-    console.log(event.block)
-    console.log("id " + event.block.id)
+    // console.log(event.block)
+    // console.log("id " + event.block.id)
     // console.log("pos " + event.block.position)
-    console.log("pos " + event.block.pos.x)
-    console.log("pos " + event.block.pos.y)
+    // console.log("pos " + event.block.pos.x)
+    // console.log("pos " + event.block.pos.y)
     // event.server.schedule(5, event.server, function (callback) {
     //     // let command =
     //     //     `tellraw @a "nice"`
@@ -68,6 +68,18 @@ onEvent('block.break', event => {
     //         callback.server.runCommandSilent(command);
     //     })
     // }
+
+    if (event.block.id == 'kubejs:wet_cobblestone') {
+        event.server.scheduleInTicks(5, event.server, function (callback) {
+            command = `execute in ${event.block.world.dimension} run setblock ${event.block.pos.x} ${event.block.pos.y} ${event.block.pos.z} minecraft:water[level=7]`
+            // console.log("command was " + command)
+            callback.server.runCommandSilent(command);
+            // callback.server.runCommandSilent(`tellraw @a "done"`);
+            // console.log("ran water")
+        })
+        // event.cancel()
+    }
+
     if (event.block.id == 'kubejs:water_crystal_trigger') {
         spawnCrystals(event)
     }

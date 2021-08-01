@@ -17,15 +17,6 @@
     "generator": {
         "type": "minecraft:noise",
         "seed": 730556653,
-        "biome_source": {
-            "type": "minecraft:checkerboard",
-            "seed": 0,
-            "scale": 3,
-            "biomes": [
-                "rework:slimeland",
-                "rework:seared_fields"
-            ]
-        },
         "settings": {
             "name": "minecraft:overworld",
             "bedrock_roof_position": -10,
@@ -33,7 +24,7 @@
             "sea_level": 32,
             "disable_mob_generation": false,
             "default_block": {
-                "Name": "create:scoria_cobblestone"
+                "Name": "quark:marble"
             },
             "default_fluid": {
                 "Name": "kubejs:seared_fluid"
@@ -64,8 +55,22 @@
                 }
             },
             "structures": {
-                "structures": {}
+                "structures": {
+                    "tconstruct:overworld_slime_island": {
+                        "spacing": 10,
+                        "separation": 5,
+                        "salt": 0
+                    }
+                }
             }
+        },
+        "biome_source": {
+            "type": "minecraft:checkerboard",
+            "scale": 3,
+            "biomes": [
+                "rework:slimeland",
+                "rework:seared_fields"
+            ]
         }
     }
 }

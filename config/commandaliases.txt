@@ -12,3 +12,4 @@ hotbar | kubejs hotbar
 tpo | execute in minecraft:overworld run tp ~ ~ ~
 tpoc | execute in rework:ocean_land run tp ~ ~ ~
 tpg | execute in rework:greenland run tp ~ ~ ~
+tph | execute in rework:hub run tp 0 100 0

@@ -13,6 +13,9 @@ reason to go back to previous areas
 challenge to overcome in each area
 
 
+nbt regex:
+(?<=\{|,)\w+(?=:)
+
 
 "C:\Users\cobou\Documents\Curse\Minecraft\Instances\Expert2021\kubejs\server_scripts\recipes.js"
 
@@ -25,6 +28,8 @@ creeper dimension
 textures for crystal and trigger
 
 breaking certain block has different effect based on dimension
+damage creeper in smeltery => liquid creeper
+cast onto sand for tnt
 
 
 
@@ -49,3 +54,38 @@ breaking certain block has different effect based on dimension
     },
 slime data:
 // {Brain: {memories: {}}, HurtByTimestamp: 0, ForgeData: {"botania:world_spawned": 1b}, Size: 3, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 16.0d, Modifiers: [{Amount: 0.016855864160030706d, Operation: 1, UUID: [I; -729496625, 1488145580, -1744120775, 1998373706], Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}, {Base: 16.0d, Name: "minecraft:generic.max_health"}, {Base: 4.0d, Name: "minecraft:generic.attack_damage"}, {Base: 0.6000000238418579d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, UUID: [I; 1538244886, 38290859, -2094953531, 564096267], Motion: [0.0d, -0.0784000015258789d, 0.0d], wasOnGround: 1b, Health: 16.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [224.0f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [-152.6710651756734d, 4.0d, 83.32361027771539d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s}
+
+
+{
+        title: "Welcome to Alfheim"
+        icon: {
+            id: "cyclic:charm_home"
+            Count: 1b
+            tag: {
+                Damage: 0
+            }
+        }
+        x: -3.5d
+        y: -3.0d
+        subtitle: "He can fly!"
+        description: [
+            "Here in alfheim, everyone can fly! "
+            ""
+            "There just seems to be something disallowing you from moving to high."
+        ]
+        hide_text_until_complete: false
+        id: "0986739DC65611AE"
+    }
+
+onEvent('item.right_click', (event) => {
+  if (event.item.id == 'oneblock:obmaker') {
+    event.player.data.ftbquests.changeProgress('523b655938ae73bf', (prog) => {
+      prog.reset = false;
+      prog.notifications = true;
+    });
+  }
+});
+
+/* summon stronger creeper
+summon minecraft:creeper ~ ~1 ~ {Brain: {memories: {}}, HurtByTimestamp: 0, ForgeData: {excompressum: {NoCompress: 1b}}, Attributes: [{Base: 0.25d, Name: "minecraft:generic.movement_speed"}, {Base: 50.00d, Name: "minecraft:generic.max_health"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 16.0d, Modifiers: [{Amount: 0.0430022132544805d, Operation: 1, UUID: [I; -168845243, -1055437158, -1992140735, 1522778265], Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}], Health: 50.0f}
+*/

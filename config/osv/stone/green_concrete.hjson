@@ -1,0 +1,21 @@
+enabled: true
+block: {
+  location: minecraft:green_concrete
+}
+source: [
+  stone
+]
+gen: [
+  {
+    height: [ 69, 80 ]
+    size: 55
+    count: 1
+    blacklistBiomes: true
+    biomes: {
+      types: [
+        NETHER
+        THE_END
+      ]
+    }
+  }
+]

@@ -16,10 +16,10 @@
     {
         "mob": ["minecraft:guardian"],
         "persecond": 1.0,
-        "attempts": 20,
+        "attempts": 6,
         "amount": {
-            "minimum": 4,
-            "maximum": 8
+            "minimum": 3,
+            "maximum": 6
         },
         "conditions": {
             "dimension": "rework:ocean_land",
@@ -27,9 +27,9 @@
             "maxheight": 120,
             "minheight": 3,
             "mindist": 10,
-            "maxdist": 50,
+            "maxdist": 40,
             "inwater": true,    
-            "maxthis": 80
+            "maxthis": 60
         }
     },
     {

@@ -1,9 +1,8 @@
-scoreboard objectives add floralUsed minecraft.used:botania.fertilizer
-scoreboard objectives add health health
-
 gamerule doWeatherCycle false
+gamerule mobGriefingCreeper false
 weather clear 1000000
 say reload from rework2 successful
+gamerule logAdminCommands false
 # scoreboard objectives add 
 # scoreboard objectives add test dummy
 # scoreboard players set @p test 1

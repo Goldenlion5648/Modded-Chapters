@@ -227,7 +227,7 @@
 			boots = 2
 			#Armor toughness
 			#Range: 0.10000000149011612 ~ 99.0
-			toughness = 3.0
+			toughness = 0.10000000149011612
 			#Damage Reduction
 			#Range: 1 ~ 99
 			helm = 2

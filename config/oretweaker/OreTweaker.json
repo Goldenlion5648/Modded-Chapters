@@ -15,8 +15,18 @@
         "ore": "minecraft:air",
         "filler": "pickletweaks:green_cobblestone",
         "minY": 10,
-        "maxY": 90,
+        "maxY": 30,
         "maxVeinSize": 102,
+        "spawnRate": 3,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+    },
+    {
+        "ore": "kubejs:wet_cobblestone",
+        "filler": "pickletweaks:green_cobblestone",
+        "minY": 10,
+        "maxY": 30,
+        "maxVeinSize": 20,
         "spawnRate": 3,
         "biomeBlacklist": [],
         "biomeWhitelist": []
@@ -48,7 +58,7 @@
         "minY": 10,
         "maxY": 90,
         "maxVeinSize": 102,
-        "spawnRate": 3,
+        "spawnRate": 4,
         "biomeBlacklist": [],
         "biomeWhitelist": []
     },
@@ -66,24 +76,13 @@
     {
         "ore": "minecraft:air",
         "filler": "minecraft:green_glazed_terracotta",
-        "minY": 50,
-        "maxY": 85,
-        "maxVeinSize": 50,
-        "spawnRate": 4,
-        "biomeBlacklist": [],
-        "biomeWhitelist": []
-    },
-    {
-        "ore": "minecraft:emerald_block",
-        "filler": "botania:green_pavement",
-        "minY": 10,
-        "maxY": 90,
+        "minY": 48,
+        "maxY": 64,
         "maxVeinSize": 60,
-        "spawnRate": 6,
+        "spawnRate": 3,
         "biomeBlacklist": [],
         "biomeWhitelist": []
     },
-
     {
       "ore": "minecraft:diorite",
       "minY": -1,

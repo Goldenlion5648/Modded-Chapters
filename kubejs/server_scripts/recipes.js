@@ -1,4 +1,4 @@
-// priority: 0
+// priority: 10
 
 // settings.logAddedRecipes = true
 // settings.logRemovedRecipes = true
@@ -42,6 +42,26 @@ onEvent('recipes', e => {
 onEvent('recipes', e => {
     e.remove({ output: 'minecraft:emerald_block' })
     e.remove({ id: 'minecraft:emerald' });
+
+    // var emeraldTools = [
+    //     Item.of('cyclic:emerald_sword'),
+    //     Item.of('cyclic:emerald_pickaxe'),
+    //     Item.of('cyclic:emerald_shovel'),
+    //     Item.of('cyclic:emerald_hoe'),
+    //     Item.of('cyclic:emerald_axe')
+    // ].forEach(t => {
+    //     e.remove({ output: `${t}` })
+    // })
+    e.remove({
+        output: [
+            Item.of('cyclic:emerald_sword'),
+            Item.of('cyclic:emerald_pickaxe'),
+            Item.of('cyclic:emerald_shovel'),
+            Item.of('cyclic:emerald_hoe'),
+            Item.of('cyclic:emerald_axe')
+        ]
+    })
+
     e.shapeless('4x minecraft:emerald', [
         'minecraft:emerald_block'])
     e.shaped('minecraft:emerald_block', [
@@ -50,10 +70,56 @@ onEvent('recipes', e => {
     ], {
         S: 'minecraft:emerald'
     })
-    e.shapeless('8x kubejs:tough_root', [
+    e.shapeless('4x kubejs:tough_root2', [
+        'kubejs:tough_root',
+        'kubejs:tough_root',
+        'kubejs:tough_root',
+        'minecraft:gunpowder'
+    ])
+
+    e.shapeless('4x kubejs:tough_root3', [
+        'kubejs:tough_root2',
+        'kubejs:tough_root2',
+        'kubejs:tough_root2',
+        'minecraft:emerald'
+    ])
+
+    e.shapeless('6x kubejs:tough_root3', [
+        'kubejs:tough_root',
+        'kubejs:tough_root',
+        'kubejs:tough_root',
+        'minecraft:gunpowder',
+        'minecraft:emerald'
+    ])
+    // e.shaped('12x kubejs:tough_root', [
+    //     'SS',
+    //     'SS'
+    // ], {
+    //     S: 'kubejs:tough_root',
+    //     S: 'kubejs:tough_root'
+    // })
+    e.shapeless('12x kubejs:tough_root', [
         'tconstruct:greenheart_wood',
         'tconstruct:greenheart_wood'
     ])
+
+    e.shaped("tconstruct:smeltery_controller", [
+        'SSS',
+        'SGS',
+        'SSS'
+    ], {
+        S: 'minecraft:emerald',
+        G: 'kubejs:green_gem'
+    })
+
+    e.shaped("tconstruct:smeltery_controller", [
+        'SSS',
+        'SGS',
+        'SSS'
+    ], {
+        S: 'tconstruct:seared_bricks',
+        G: 'kubejs:green_gem'
+    })
 
 
 })

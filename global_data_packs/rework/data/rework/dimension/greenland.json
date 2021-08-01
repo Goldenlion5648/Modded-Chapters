@@ -7,7 +7,7 @@
             "features": true,
             "layers": [
                 {
-                    "block": "minecraft:obsidian",
+                    "block": "kubejs:tough_green_rock",
                     "height": 17
                 },
                 {
@@ -20,22 +20,18 @@
                 },
                 {
                     "block": "minecraft:air",
-                    "height": 13
-                },
-                {
-                    "block": "chisel:antiblock/green",
-                    "height": 13
+                    "height": 11
                 },
                 {
                     "block": "minecraft:green_glazed_terracotta",
                     "height": 9
                 },
                 {
-                    "block": "minecraft:green_concrete",
+                    "block": "botania:green_pavement",
                     "height": 7
                 },
                 {
-                    "block": "botania:green_pavement",
+                    "block": "minecraft:green_concrete",
                     "height": 5
                 }
             ],

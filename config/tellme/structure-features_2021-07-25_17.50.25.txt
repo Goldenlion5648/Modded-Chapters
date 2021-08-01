@@ -1,0 +1,30 @@
+-------------------
+Registry name, Name
+-------------------
+minecraft:bastion_remnant, bastion_remnant
+minecraft:buried_treasure, buried_treasure
+minecraft:desert_pyramid, desert_pyramid
+minecraft:endcity, endcity
+minecraft:fortress, fortress
+minecraft:igloo, igloo
+minecraft:jungle_pyramid, jungle_pyramid
+minecraft:mansion, mansion
+minecraft:mineshaft, mineshaft
+minecraft:monument, monument
+minecraft:nether_fossil, nether_fossil
+minecraft:ocean_ruin, ocean_ruin
+minecraft:pillager_outpost, pillager_outpost
+minecraft:ruined_portal, ruined_portal
+minecraft:shipwreck, shipwreck
+minecraft:stronghold, stronghold
+minecraft:swamp_hut, swamp_hut
+minecraft:village, village
+quark:big_dungeon, quark:big_dungeon
+tconstruct:clay_island, tconstruct:clay_island
+tconstruct:earth_slime_island, tconstruct:earth_slime_island
+tconstruct:end_slime_island, tconstruct:end_slime_island
+tconstruct:nether_slime_island, tconstruct:nether_slime_island
+tconstruct:overworld_slime_island, tconstruct:overworld_slime_island
+-------------------
+Registry name, Name
+-------------------

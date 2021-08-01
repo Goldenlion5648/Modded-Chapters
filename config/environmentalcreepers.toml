@@ -49,7 +49,7 @@
 	# Completely disable Creepers from exploding
 	disableCreeperExplosionCompletely = false
 	# Disable Creeper explosions from damaging items on the ground
-	disableCreeperExplosionItemDamage = true
+	disableCreeperExplosionItemDamage = false
 	# Completely disable other explosions than Creepers from damaging blocks
 	disableOtherExplosionBlockDamage = false
 	# Disable other explosions than Creepers from damaging items on the ground

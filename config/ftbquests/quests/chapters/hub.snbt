@@ -9,26 +9,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Greenland Portal"
-			x: -1.5d
-			y: -6.0d
-			id: "6AA842E34A6CF050"
-			tasks: [{
-				id: "1268BDCC86350999"
-				type: "item"
-				item: "kubejs:greenland_portal_frame"
-				count: 10L
-			}]
-			rewards: [{
-				id: "7A97FD7CAFABADC9"
-				type: "item"
-				item: "kubejs:greenland_portal_frame"
-				count: 20
-			}]
-		}
-		{
-			x: -0.5d
-			y: -4.0d
+			x: 0.0d
+			y: -6.5d
+			description: [
+				"Here is the adventure you ordered."
+				""
+				"BTW portals can be made in any horizontal shape. (hence so many blocks, only 10 are needed)"
+			]
 			id: "6DF3B82DEB4FFCC6"
 			tasks: [{
 				id: "202AACABC5E9F3EC"
@@ -54,7 +41,7 @@
 								"tconstruct:mining_speed": 2.0f
 								"tconstruct:attack_damage": 1.5f
 								"tconstruct:harvest_level": 0.0f
-								"tconstruct:durability": 60.0f
+								"tconstruct:durability": 32.0f
 							}
 							tic_broken: 0b
 							tic_modifiers: [
@@ -85,7 +72,240 @@
 						}
 					}
 				}
+				{
+					id: "44AA4E68AF7C4B46"
+					type: "item"
+					item: {
+						id: "minecraft:chest"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Slot: 0b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 1b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 2b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 3b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 4b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 5b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 6b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 7b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 8b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 9b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 10b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 11b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 12b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 13b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 14b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 15b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 16b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 17b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 18b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 19b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 20b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 21b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 22b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 23b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 24b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+									{
+										Slot: 25b
+										id: "minecraft:flint_and_steel"
+										Count: 1b
+										tag: {
+											Damage: 60
+										}
+									}
+									{
+										Slot: 26b
+										id: "kubejs:greenland_portal_frame"
+										Count: 16b
+									}
+								]
+								id: "minecraft:chest"
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+				}
 			]
+		}
+		{
+			icon: "minecraft:green_concrete"
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["6DF3B82DEB4FFCC6"]
+			id: "06FDDD99BEB1E8F8"
+			tasks: [{
+				id: "14426D013843EC3C"
+				type: "dimension"
+				dimension: "rework:greenland"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			description: ["Your mission is to establish a connection to the greenland dimension. Place a portal in any horizontal shape and light it using the flint and steel."]
+			hide_text_until_complete: true
+			id: "44DE69D8F4000593"
+			tasks: [{
+				id: "07FE0EDCAADD7D4B"
+				type: "checkmark"
+				title: "I'm Ready!"
+			}]
+			rewards: [{
+				id: "25CC40E3F826153A"
+				type: "command"
+				icon: "minecraft:green_concrete"
+				command: "/function rework:greenland"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "16173ADC27D827E1"
+			tasks: [{
+				id: "40A202AF2270C906"
+				type: "item"
+				item: "minecraft:stone"
+			}]
 		}
 	]
 }

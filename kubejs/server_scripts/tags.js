@@ -1,5 +1,6 @@
 //priority: 1000
-const greenBlocks = ["pickletweaks:green_cobblestone",
+const greenBlocks = [
+    "pickletweaks:green_cobblestone",
     "quark:green_shingles",
     "chisel:antiblock/green",
     "tconstruct:greenheart_wood",

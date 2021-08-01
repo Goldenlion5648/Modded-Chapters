@@ -27,6 +27,11 @@
 			]
 			hide_text_until_complete: false
 			id: "0986739DC65611AE"
+			tasks: [{
+				id: "7A4C551062DFCEFC"
+				type: "checkmark"
+				title: "I know can fly!"
+			}]
 		}
 		{
 			title: "Stolen Flowers"
@@ -53,8 +58,8 @@
 		}
 		{
 			title: "Food?"
-			x: -4.5d
-			y: 1.0d
+			x: -7.5d
+			y: -2.0d
 			subtitle: "Someone give that man a cookie!"
 			description: [
 				"There does not appear to be any life here in alfheim, hostile or friendly."
@@ -63,7 +68,6 @@
 				""
 				"Looks like there are enough resources here to make some magic cookies."
 			]
-			dependencies: ["1471A33B63AA1772"]
 			id: "364EE2FC51C539F1"
 			tasks: [{
 				id: "2F4C562FEE7CB1D4"

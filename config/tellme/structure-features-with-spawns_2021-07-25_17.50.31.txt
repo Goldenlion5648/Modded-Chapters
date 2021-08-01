@@ -1,0 +1,30 @@
+-----------------------------------------------
+Registry name, Name, Mob spawns, Passive spawns
+-----------------------------------------------
+minecraft:bastion_remnant, bastion_remnant, , 
+minecraft:buried_treasure, buried_treasure, , 
+minecraft:desert_pyramid, desert_pyramid, , 
+minecraft:endcity, endcity, , 
+minecraft:fortress, fortress, { minecraft:blaze [weight: 10, min: 2, max: 3] }, { minecraft:magma_cube [weight: 3, min: 4, max: 4] }, { minecraft:skeleton [weight: 2, min: 5, max: 5] }, { minecraft:wither_skeleton [weight: 8, min: 5, max: 5] }, { minecraft:zombified_piglin [weight: 5, min: 4, max: 4] }, 
+minecraft:igloo, igloo, , 
+minecraft:jungle_pyramid, jungle_pyramid, , 
+minecraft:mansion, mansion, , 
+minecraft:mineshaft, mineshaft, , 
+minecraft:monument, monument, { minecraft:guardian [weight: 1, min: 2, max: 4] }, 
+minecraft:nether_fossil, nether_fossil, , 
+minecraft:ocean_ruin, ocean_ruin, , 
+minecraft:pillager_outpost, pillager_outpost, { minecraft:pillager [weight: 1, min: 1, max: 1] }, 
+minecraft:ruined_portal, ruined_portal, , 
+minecraft:shipwreck, shipwreck, , 
+minecraft:stronghold, stronghold, , 
+minecraft:swamp_hut, swamp_hut, { minecraft:witch [weight: 1, min: 1, max: 1] }, { minecraft:cat [weight: 1, min: 1, max: 1] }
+minecraft:village, village, , 
+quark:big_dungeon, quark:big_dungeon, { minecraft:creeper [weight: 8, min: 1, max: 3] }, { minecraft:illusioner [weight: 10, min: 1, max: 1] }, { minecraft:skeleton [weight: 8, min: 1, max: 3] }, { minecraft:witch [weight: 4, min: 1, max: 1] }, { minecraft:zombie [weight: 8, min: 1, max: 3] }, 
+tconstruct:clay_island, tconstruct:clay_island, , 
+tconstruct:earth_slime_island, tconstruct:earth_slime_island, { tconstruct:earth_slime [weight: 30, min: 4, max: 4] }, 
+tconstruct:end_slime_island, tconstruct:end_slime_island, { tconstruct:ender_slime [weight: 30, min: 4, max: 4] }, 
+tconstruct:nether_slime_island, tconstruct:nether_slime_island, { minecraft:magma_cube [weight: 150, min: 4, max: 6] }, 
+tconstruct:overworld_slime_island, tconstruct:overworld_slime_island, { tconstruct:sky_slime [weight: 30, min: 4, max: 4] }, 
+-----------------------------------------------
+Registry name, Name, Mob spawns, Passive spawns
+-----------------------------------------------
