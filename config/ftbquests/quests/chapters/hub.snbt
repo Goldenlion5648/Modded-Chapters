@@ -36,6 +36,7 @@
 						id: "tconstruct:mattock"
 						Count: 1b
 						tag: {
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:attack_speed": 1.0f
 								"tconstruct:mining_speed": 2.0f

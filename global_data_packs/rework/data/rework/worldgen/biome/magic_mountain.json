@@ -22,9 +22,22 @@
     },
     "features": [
         [],
+        [
+
+        ],
+        [],
+        [
+        ],
         [],
         [],
         [],
-        []
+        [],
+        [
+            "minecraft:flower_default",
+            "rework:wither_rose3"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
     ]
 }
