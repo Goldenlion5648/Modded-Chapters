@@ -1,0 +1,19 @@
+{
+	id: "3E66AEE169EA039D"
+	group: ""
+	order_index: 2
+	filename: "magic_mountain"
+	title: "Magic Mountain"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.5d
+		id: "5B2A2C6CBADAB3B4"
+		tasks: [{
+			id: "639F931FF7B19332"
+			type: "dimension"
+			dimension: "rework:mountainland"
+		}]
+	}]
+}

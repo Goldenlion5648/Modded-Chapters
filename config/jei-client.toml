@@ -30,7 +30,7 @@
 	ModNameSearchMode = "ENABLED"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TagSearchMode = "REQUIRE_PREFIX"
+	TagSearchMode = "ENABLED"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	CreativeTabSearchMode = "REQUIRE_PREFIX"

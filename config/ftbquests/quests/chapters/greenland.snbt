@@ -9,12 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.0d
-			y: -2.0d
+			x: -4.5d
+			y: -1.5d
 			description: [
 				"Now that you have a pickaxe, try to find some green gems hidden in the glazed terracotta."
 				""
-				"It seems to rotate the nearby glazed terracotta."
+				"It seems to rotate the nearby glazed terracotta where it hides."
 			]
 			dependencies: ["20ACADEB0641EF59"]
 			id: "2A4DEB0A43083E2A"
@@ -22,7 +22,7 @@
 				id: "7487F92C1FC6526B"
 				type: "item"
 				item: "kubejs:green_gem"
-				count: 12L
+				count: 4L
 			}]
 		}
 		{
@@ -39,8 +39,8 @@
 		}
 		{
 			title: "Tinkers Tools"
-			x: 0.0d
-			y: -1.0d
+			x: -1.0d
+			y: 0.0d
 			description: ["No vanilla wooden tools allowed here! Time for tinkers tools!"]
 			dependencies: ["2F54A457AD104270"]
 			id: "4EC9D5B7C3E60AA1"
@@ -80,14 +80,14 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
+			x: -2.5d
+			y: -0.5d
 			description: [
 				"Looks like this greenheart wood can be used to make some slimy tinkers tools!"
 				""
 				"There might even be a way to get some normal wooden parts with it..."
 				""
-				"Probably worth upgrading the mattack with some slimy parts."
+				"Probably worth upgrading the mattack with some slimy parts and making some other tools."
 			]
 			dependencies: ["4EC9D5B7C3E60AA1"]
 			id: "20ACADEB0641EF59"
@@ -104,8 +104,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.0d
+			x: 0.0d
+			y: 2.0d
 			description: [
 				"Looks like this will have to do for my food source for the time being"
 				""
@@ -120,8 +120,8 @@
 		}
 		{
 			icon: "minecraft:green_glazed_terracotta"
-			x: 2.0d
-			y: -1.0d
+			x: 4.0d
+			y: -0.5d
 			description: ["Welcome to greenland! You can probably see where this land gets its name."]
 			id: "05B9A3A91EC42376"
 			tasks: [{
@@ -135,6 +135,7 @@
 			icon: "bhc:green_heart_canister"
 			x: 2.0d
 			y: 1.5d
+			shape: "heart"
 			dependencies: ["2F54A457AD104270"]
 			id: "76AFC987EEC2F7A6"
 			tasks: [
@@ -160,10 +161,10 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -4.0d
 			y: 0.0d
 			description: [
-				"There seems to be some emeralds hidden in the concrete!"
+				"There seems to be some emeralds hidden in the concrete on the surface!"
 				""
 				"I can use these to make some armor and upgrade my tools."
 			]
@@ -177,8 +178,8 @@
 		}
 		{
 			title: "Emerald Armor"
-			x: -4.0d
-			y: 0.0d
+			x: -5.5d
+			y: 1.5d
 			description: ["It seems this emerald armor is not as good as one might think..."]
 			dependencies: ["0416F55AA216F68E"]
 			id: "38AE4A551F52FCD2"
@@ -232,6 +233,11 @@
 		{
 			x: -1.5d
 			y: 1.5d
+			description: [
+				"Looks like the taste can be improved with some gunpowder!"
+				""
+				"Gives it some extra kick"
+			]
 			dependencies: ["5263425DF7F096FB"]
 			id: "5A445C5579A6BB01"
 			tasks: [{
@@ -241,8 +247,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 2.0d
+			x: -3.5d
+			y: 1.0d
+			description: ["Adding some emerald makes it even better!"]
 			dependencies: [
 				"5A445C5579A6BB01"
 				"0416F55AA216F68E"
@@ -255,35 +262,288 @@
 			}]
 		}
 		{
+			title: "Get Blocked!"
 			x: 1.5d
-			y: -2.5d
-			description: [
-				"To get back to the hub, the greenland portal frame can be placed in any horizontal shape, then lit with a flint and steel."
-				"To prove no cheating was involved, I must enter the portal while not at full health ¯\\_(ツ)_/¯"
-			]
-			dependencies: ["05B9A3A91EC42376"]
-			id: "58AA90C02045103C"
-			tasks: [{
-				id: "263AB628C02A061A"
-				type: "custom"
-				title: "Portal back to the hub"
-			}]
-		}
-		{
-			x: -4.5d
 			y: -1.5d
-			dependencies: ["2A4DEB0A43083E2A"]
+			description: ["Protect yourself from (some) of the damage!"]
+			dependencies: ["2F54A457AD104270"]
 			id: "77404BEE505538F8"
 			tasks: [{
-				id: "31F652EE3E283DCF"
+				id: "34895ED2A4FCC3EC"
 				type: "item"
 				item: {
-					id: "minecraft:shield"
+					id: "spartanshields:shield_basic_wood"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["The more variety in the last 16 foods that you have eaten, the more benefits that you get. This can include more hearts, and other positive effects."]
+			dependencies: ["5263425DF7F096FB"]
+			id: "4B1471EE023C6B15"
+			tasks: [{
+				id: "42CA29B470B5427C"
+				type: "checkmark"
+				title: "Variety Benefits"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["1BB820AF470C6542"]
+			id: "6B93DDA31B1E239F"
+			tasks: [{
+				id: "1F5E1E0F37394D78"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+		{
+			title: "Minimal Smeltery"
+			x: -7.5d
+			y: -3.0d
+			dependencies: [
+				"2A4DEB0A43083E2A"
+				"104F33505F1C8453"
+			]
+			id: "1A276B43D60ED761"
+			tasks: [
+				{
+					id: "56167E1546BC338B"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6891ECAD7D648B5A"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "291C1363018CA8EA"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "07EB9B8C19A10728"
+					type: "item"
+					title: "Any #tconstruct:seared_blocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:seared_blocks"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Green Machine"
+			x: -8.5d
+			y: -1.0d
+			description: ["Make the Green Machine. It can produce the resources from greenland through Liquid Green"]
+			dependencies: ["563527D8C1DB4A0C"]
+			id: "1A61EF5870D32E55"
+			tasks: [
+				{
+					id: "1D1ABE9516FAFE9F"
+					type: "item"
+					item: "botania:green_pavement"
+				}
+				{
+					id: "00D63384FD30B901"
+					type: "item"
+					item: "kubejs:green_gem"
+					count: 2L
+				}
+				{
+					id: "5CB9B1B491CC7EB0"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+				{
+					id: "0578E33FD94F085D"
+					type: "item"
+					item: "minecraft:creeper_head"
+					count: 2L
+				}
+				{
+					id: "0C617C13244106BC"
+					type: "item"
+					item: "masterfulmachinery:basic_small_fluid_port_fluids_input"
+				}
+				{
+					id: "671276ABF7F764AC"
+					type: "item"
+					item: "masterfulmachinery:basic_basic_port_items_output"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: [
+				"0416F55AA216F68E"
+				"2A4DEB0A43083E2A"
+			]
+			id: "563527D8C1DB4A0C"
+			tasks: [{
+				id: "78858F28FB4B5A7C"
+				type: "item"
+				item: "masterfulmachinery:basic_controller"
+			}]
+		}
+		{
+			title: "Materials From Blasting"
+			x: -0.5d
+			y: -2.0d
+			description: [
+				"It appears that blasting some of the Green Cobblestone and its variants produces other blocks. Sometimes even compressing them."
+				""
+				"Some of the blocks can even be blasted again!"
+			]
+			dependencies: ["2F54A457AD104270"]
+			id: "6765212767E9F784"
+			tasks: [
+				{
+					id: "21D78A423E8A8430"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "2EA3DA286C6A86F6"
+					type: "item"
+					item: "minecraft:sand"
+				}
+				{
+					id: "745AD1EDF136FF59"
+					type: "item"
+					item: "minecraft:clay"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["6765212767E9F784"]
+			id: "1BB820AF470C6542"
+			tasks: [{
+				id: "5FD737FD484A4929"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+		}
+		{
+			title: "Grout Doubler"
+			x: -4.5d
+			y: -3.0d
+			description: [
+				"Currently we don't have a liquid fuel source for the smeltery, so we will have to settle for the melter and solid fuels"
+				"Might want to build it a bit above the Tough Green Rock"
+				"At least it doubles grout to seared brick output!"
+			]
+			dependencies: ["6B93DDA31B1E239F"]
+			id: "719B040D6E2A7D39"
+			tasks: [
+				{
+					id: "552A1C7CDC5C90AD"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "12B478A23938C57A"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["719B040D6E2A7D39"]
+			id: "2F0449CFB3844E5C"
+			tasks: [
+				{
+					id: "4B9A1A3836784A4B"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "07C4B0C1486C677E"
+					type: "item"
+					item: "tconstruct:seared_channel"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			description: [
+				"It appears that liquid green can be used as a fuel source for the smeltery instead of lava."
+				""
+				"Liquid Green can be obtained through melting green glazed terracotta in the melter. You can obtain more later through melting creepers in the smeltery."
+			]
+			dependencies: ["2F0449CFB3844E5C"]
+			id: "104F33505F1C8453"
+			tasks: [{
+				id: "19205ED5AE170AF2"
+				type: "checkmark"
+				title: "Liquid Green"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			id: "2BA12BE37B007BD7"
+			tasks: [
+				{
+					id: "2B786DE2F2201346"
+					type: "observation"
+					icon: "botania:green_pavement"
+					timer: 0L
+					observe: "block:botania:green_pavement"
+				}
+				{
+					id: "05D75B08F2E570EC"
+					type: "observation"
+					icon: "minecraft:green_glazed_terracotta"
+					timer: 0L
+					observe: "block:minecraft:green_glazed_terracotta"
+				}
+				{
+					id: "0734054E16519E15"
+					type: "observation"
+					icon: "minecraft:green_concrete"
+					timer: 0L
+					observe: "block:minecraft:green_concrete"
+				}
+				{
+					id: "5B7F7A26F9ED9419"
+					type: "observation"
+					icon: "pickletweaks:green_cobblestone"
+					timer: 0L
+					observe: "block:pickletweaks:green_cobblestone"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: [
+				"Creepers here do not care about the light level, so we have provided permanent night vision for you."
+				""
+				"They can also chain react one another."
+			]
+			id: "1F53F0ACBB1249DD"
+			tasks: [{
+				id: "3FFED5CD1621A771"
+				type: "checkmark"
+				title: "Dimension Notes"
 			}]
 		}
 	]

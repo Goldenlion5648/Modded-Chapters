@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masterfulmachinery:basic_small_port_fluids_output"
+          "name": "masterfulmachinery:basic_small_fluid_port_fluids_output"
         }
       ],
       "conditions": [

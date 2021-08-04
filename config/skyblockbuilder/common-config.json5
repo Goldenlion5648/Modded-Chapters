@@ -22,7 +22,7 @@
     "Overworld": {
     
       // Should overworld generate as in default world type? [default: false]
-      "Default": false
+      "Default": true
     }
   },
   
@@ -33,7 +33,7 @@
     "clearInv": false,
     
     // Should players' items be dropped when leaving a team? [default: true]
-    "dropItems": true
+    "dropItems": false
   },
   
   "Spawn": {
@@ -42,16 +42,16 @@
     // minecraft:overworld
     // minecraft:the_nether
     // minecraft:the_end
-    "dimension": "minecraft:overworld",
+    "dimension": "rework:hub",
     
     // Direction the player should look at initial spawn
     // Allowed values: north, east, south, west
-    "direction": "south",
+    "direction": "east",
     
     // Height of the bottom layer from the structure.
     // This affects where exactly the island will be generated.
     // Range: 0 - 255
-    "height": 64,
+    "height": 99,
     
     // The radius to find a valid spawn if no given spawn is valid
     // Minimum: 0
@@ -101,7 +101,6 @@
     "generationStructures": {
       "whitelist": true,
       "elements": [
-        "minecraft:fortress"
       ]
     }
   },
@@ -109,7 +108,7 @@
   "Utility": {
   
     // Should players be able to create their own team? [default: false]
-    "createOwnTeam": false,
+    "createOwnTeam": true,
     
     // Should players be able to leave their team or invite others? [default: true]
     "selfManage": true,
@@ -120,19 +119,19 @@
       "modifySpawns": false,
       
       // The range from island center for possible spawns to add. [default: 50]
-      "range": 50
+      "range": 2
     },
     
     "Teleports": {
     
       // Should players be able to visit other island? [default: true]
-      "allowVisits": true,
+      "allowVisits": false,
       
       // Should players be able to teleport to their home island? [default: true]
-      "home": true,
+      "home": false,
       
       // Should players be able to teleport to spawn? [default: true]
-      "spawn": true
+      "spawn": false
     }
   },
   
@@ -158,20 +157,20 @@
     "seaHeight": 63,
     
     // Should a surface be generated in overworld? [default: false]
-    "surface": false,
+    "surface": true,
     
     // The block settings for generating the surface.
     // Same format as flat world generation settings (blocks only)
-    "surfaceSettings": "minecraft:bedrock,2*minecraft:dirt,minecraft:grass_block",
+    "surfaceSettings": "minecraft:bedrock,99*minecraft:white_concrete",
     
     "SingleBiome": {
     
       // Specifies the biome for the whole world
-      "biome": "minecraft:plains",
+      "biome": "rework:hub_biome",
       
       // Should only one biome be generated? [default: false]
       // WARNING: Some structures need a special biome, e.g. Mansion needs Dark Oak Forest! These structures will not be generated if you have only one biome!
-      "enabled": false,
+      "enabled": true,
       
       // The dimension where the single biome should be applied. Use "default" for spawn dimension
       // Allowed values: default, overworld, the_nether, the_end

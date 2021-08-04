@@ -9,7 +9,7 @@
     "enableTextToSpeech": false,
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
-    "displayFluids": false
+    "displayFluids": true
   },
   "overlay": {
     "overlayPosX": 0.5,

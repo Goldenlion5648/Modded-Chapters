@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "masterfulmachinery:block/base_block"
+        "base": "botania:block/green_pavement"
       },
       "elements": [
         {

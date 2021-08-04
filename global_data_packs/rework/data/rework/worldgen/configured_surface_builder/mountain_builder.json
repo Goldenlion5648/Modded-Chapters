@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:default",
+    "config": {
+        "top_material": {
+            "Name": "botania:infused_grass"
+        },
+        "under_material": {
+            "Name": "chisel:concrete/purple/jellybean"
+        },
+        "underwater_material": {
+            "Name": "chisel:concrete/purple/jellybean"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "surface_builder": "rework:mountain_builder",
+    "depth": 0.5,
+    "scale": 1.25,
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "precipitation": "rain",
+    "category": "extreme_hills",
+    "effects": {
+        "sky_color": 7536870,
+        "fog_color": 12638463,
+        "water_color": 6276203,
+        "water_fog_color": 329011
+    },
+    "starts": [],
+    "spawners": {},
+    "spawn_costs": {},
+    "carvers": {
+        "air": [
+            "minecraft:canyon"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

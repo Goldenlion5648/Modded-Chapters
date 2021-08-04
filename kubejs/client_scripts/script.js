@@ -5,6 +5,8 @@ console.info('Hello, World! (You will see this line every time client resources 
 onEvent('jei.hide.items', event => {
     // event.hide('#exnihilosequentia:crook')
     event.hide([Item.of('exnihilosequentia:crook_wood', { Damage: 0 }), Item.of('exnihilosequentia:crook_stone', { Damage: 0 }), Item.of('exnihilosequentia:crook_andesite', { Damage: 0 }), Item.of('exnihilosequentia:crook_granite', { Damage: 0 }), Item.of('exnihilosequentia:crook_diorite', { Damage: 0 }), Item.of('exnihilosequentia:crook_gold', { Damage: 0 })])
+
+    event.hide(['cyclic:energy_pipe', 'cyclic:item_pipe', 'cyclic:fluid_pipe'])
     // for (let i of removeAndHide) {
     //     event.hide('example:ingredient');
     // }

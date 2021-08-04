@@ -61,6 +61,15 @@ onEvent('recipes', e => {
             Item.of('cyclic:emerald_axe')
         ]
     })
+    e.remove({
+        output: [
+            Item.of('tconstruct:grout')
+
+        ]
+    })
+    e.remove({
+        output: ['cyclic:energy_pipe', 'cyclic:item_pipe', 'cyclic:fluid_pipe']
+    })
 
     e.shapeless('4x minecraft:emerald', [
         'minecraft:emerald_block'])
@@ -70,6 +79,41 @@ onEvent('recipes', e => {
     ], {
         S: 'minecraft:emerald'
     })
+
+    e.shaped('minecraft:furnace', [
+        'SSS',
+        'S S',
+        'SSS'
+    ], {
+        S: 'pickletweaks:green_cobblestone'
+    })
+
+    e.shaped('3x minecraft:ladder', [
+        'S S',
+        'SSS',
+        'S S'
+    ], {
+        S: 'minecraft:stick'
+    })
+
+    e.shaped('tconstruct:seared_drain', [
+        'S S',
+        'SES',
+        'S S'
+    ], {
+        S: 'tconstruct:seared_brick',
+        E: 'kubejs:green_gem'
+    })
+    e.shaped('masterfulmachinery:basic_controller', [
+        'SMS',
+        'MEM',
+        'SMS'
+    ], {
+        S: 'botania:green_pavement',
+        M: 'minecraft:emerald',
+        E: 'kubejs:green_gem'
+    })
+
     e.shapeless('4x kubejs:tough_root2', [
         'kubejs:tough_root',
         'kubejs:tough_root',
@@ -103,14 +147,14 @@ onEvent('recipes', e => {
         'tconstruct:greenheart_wood'
     ])
 
-    e.shaped("tconstruct:smeltery_controller", [
-        'SSS',
-        'SGS',
-        'SSS'
-    ], {
-        S: 'minecraft:emerald',
-        G: 'kubejs:green_gem'
-    })
+    // e.shaped("tconstruct:smeltery_controller", [
+    //     'SSS',
+    //     'SGS',
+    //     'SSS'
+    // ], {
+    //     S: 'minecraft:emerald',
+    //     G: 'kubejs:green_gem'
+    // })
 
     e.shaped("tconstruct:smeltery_controller", [
         'SSS',

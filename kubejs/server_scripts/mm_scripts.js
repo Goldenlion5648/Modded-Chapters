@@ -15,11 +15,11 @@ onEvent('recipes', event => {
             ],
             [
                 "BBB",
-                "GGG",
-                "WWW"
+                "BBB",
+                "BBB"
             ],
             [
-                "IFO",
+                "F O",
                 "MEM",
                 "HCH"
             ]
@@ -41,7 +41,7 @@ onEvent('recipes', event => {
                 "block": "masterfulmachinery:basic_basic_port_items_input"
             },
             "F": {
-                "block": "masterfulmachinery:basic_small_port_fluids_input"
+                "block": "masterfulmachinery:basic_small_fluid_port_fluids_input"
             },
             "H": {
                 "block": "minecraft:creeper_head"

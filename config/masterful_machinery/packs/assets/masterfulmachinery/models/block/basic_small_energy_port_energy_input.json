@@ -37,14 +37,14 @@
     }
   },
   "textures": {
-    "particle": "masterfulmachinery:block/base_ports/energy_output_cutout"
+    "particle": "masterfulmachinery:block/base_ports/energy_input_cutout"
   },
   "loader": "forge:multi-layer",
   "layers": {
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "masterfulmachinery:block/base_block"
+        "base": "botania:block/green_pavement"
       },
       "elements": [
         {
@@ -90,7 +90,7 @@
     "translucent": {
       "parent": "minecraft:block/block",
       "textures": {
-        "overlay": "masterfulmachinery:block/base_ports/energy_output_cutout"
+        "overlay": "masterfulmachinery:block/base_ports/energy_input_cutout"
       },
       "elements": [
         {

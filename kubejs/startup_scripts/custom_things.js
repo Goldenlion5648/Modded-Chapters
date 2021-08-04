@@ -37,7 +37,7 @@ onEvent('block.registry', event => {
     event.create('water_crystal_trigger').material('glass').harvestTool("pickaxe", 3).requiresTool(true).hardness(8.0).resistance(100000).displayName('Condensed Crystal')
     event.create('water_crystal').material('glass').harvestTool("pickaxe", 3).requiresTool(true).hardness(1.5).displayName('Water Crystal')
     event.create('ocean_floor').material('stone').unbreakable().displayName('Ocean Floor')
-    event.create('tough_green_rock').material('stone').harvestTool("pickaxe", 4).displayName('Tough Green Rock')
+    event.create('tough_green_rock').material('stone').harvestTool("pickaxe", 4).requiresTool(true).hardness(8.0).resistance(100000).displayName('Tough Green Rock')
     event.create('green_gem').material('stone').hardness(8.0).resistance(100000).requiresTool(true).displayName('Green Gem Core')
     event.create('mysterious_block').material('stone').hardness(8.0).resistance(100000).displayName('Mysterious Block')
     // event.create('mysterious_block').material('stone').hardness(8.0).resistance(100000).displayName('Mysterious Block')

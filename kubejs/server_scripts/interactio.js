@@ -61,64 +61,64 @@ onEvent('recipes', e => {
             "empty_weight": 4
         }
     })
-/*
-    e.custom({
-        "type": "interactio:block_explode",
-        "input": {
-            "block": "minecraft:gravel"
-        },
-        "output": {
-            "type": "block",
-            "entries": [
-                {
-                    "result": {
-                        "block": `minecraft:sand`
+    /*
+        e.custom({
+            "type": "interactio:block_explode",
+            "input": {
+                "block": "minecraft:gravel"
+            },
+            "output": {
+                "type": "block",
+                "entries": [
+                    {
+                        "result": {
+                            "block": `minecraft:sand`
+                        },
+                        "weight": 6
                     },
-                    "weight": 6
-                },
-                {
-                    "result": {
-                        "block": `minecraft:gravel`
+                    {
+                        "result": {
+                            "block": `minecraft:gravel`
+                        },
+                        "weight": 3
                     },
-                    "weight": 3
-                },
-                {
-                    "result": {
-                        "block": `excompressum:compressed_sand`
-                    },
-                    "weight": 2
-                }
-            ],
-            "empty_weight": 1
-        }
-    })
-
-    e.custom({
-        "type": "interactio:block_explode",
-        "input": {
-            "block": "excompressum:compressed_gravel"
-        },
-        "output": {
-            "type": "block",
-            "entries": [
-                {
-                    "result": {
-                        "block": `excompressum:compressed_sand`
-                    },
-                    "weight": 4
-                },
-                {
-                    "result": {
-                        "block": `excompressum:compressed_gravel`
-                    },
-                    "weight": 2
-                }
-            ],
-            "empty_weight": 1
-        }
-    })
+                    {
+                        "result": {
+                            "block": `excompressum:compressed_sand`
+                        },
+                        "weight": 2
+                    }
+                ],
+                "empty_weight": 1
+            }
+        })
     
-    */
+        e.custom({
+            "type": "interactio:block_explode",
+            "input": {
+                "block": "excompressum:compressed_gravel"
+            },
+            "output": {
+                "type": "block",
+                "entries": [
+                    {
+                        "result": {
+                            "block": `excompressum:compressed_sand`
+                        },
+                        "weight": 4
+                    },
+                    {
+                        "result": {
+                            "block": `excompressum:compressed_gravel`
+                        },
+                        "weight": 2
+                    }
+                ],
+                "empty_weight": 1
+            }
+        })
+        
+        */
     e.custom({
         "type": "interactio:block_explode",
         "input": {
@@ -137,7 +137,7 @@ onEvent('recipes', e => {
                     "result": {
                         "block": `kubejs:wet_cobblestone`
                     },
-                    "weight": 1
+                    "weight": 3
                 }
             ],
             "empty_weight": 1
@@ -164,8 +164,8 @@ onEvent('recipes', e => {
             "entries": [
                 {
                     "result": {
-                        "item": "tconstruct:seared_brick",
-                        "count": 5
+                        "item": "tconstruct:grout",
+                        "count": 4
                     },
                     "weight": 4
                 }
@@ -173,8 +173,30 @@ onEvent('recipes', e => {
             "empty_weight": 0,
             "rolls": 1
         }
-    }
-)
+    })
+
+    e.custom({
+        "type": "interactio:item_explode",
+        "inputs": [
+            {
+                "item": "tconstruct:grout",
+                "count": 3
+            }
+        ],
+        "output": {
+            "entries": [
+                {
+                    "result": {
+                        "item": "tconstruct:seared_brick",
+                        "count": 4
+                    },
+                    "weight": 4
+                }
+            ],
+            "empty_weight": 0,
+            "rolls": 1
+        }
+    })
 
 
     var dropSelf = [

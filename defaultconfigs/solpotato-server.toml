@@ -31,7 +31,7 @@
 	#
 	#
 	#Range: 0 ~ 1000
-	minFoodsToActivate = 0
+	minFoodsToActivate = 1
 
 [Filtering]
 	# Foods in this list won't contribute to food diversity.

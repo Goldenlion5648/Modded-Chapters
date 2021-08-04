@@ -58,10 +58,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             // pool.survivesExplosion()
             // pool.randomChance()
-            pool.addEntry({
-                
-
-            })
+            
         })
     })
 
