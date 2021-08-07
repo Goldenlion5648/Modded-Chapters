@@ -12,8 +12,20 @@ reason to go back to previous areas
 
 wither roses 
 custom golem spawn (place blocks to spawn mob)
+scanner and upgrade recipes
+elytra
+
+witch gives ender pouch or other backpack
+witch drinks special potion to duplicate using compressed version (or just clone and name them, then require killing all clones)
 
 space dimension
+filled in donut command
+to set pos from console, use
+//pos1 100,100,100
+                                 ring height   
+         ring                     V      
+         ring thickness                      
+//g stone (0.75-sqrt(x^2+z^2))^2+y^2 < 0.25^2
 
 mountain dimension
 lego/ plastic dimension
@@ -43,7 +55,11 @@ damage creeper in smeltery => liquid creeper
 cast onto sand for tnt
 
 
+slime hack
+/execute as @e[type=minecraft:slime, distance=..10] run data merge entity @s {ForgeData: {"botania:world_spawned": 1b}}
 
+make compressed as well:
+/execute as @e[type=minecraft:slime, distance=..100] run data merge entity @s {ForgeData: {"botania:world_spawned": 1b,excompressum: {Compressed: 1b}}}
 
 
 
@@ -99,4 +115,8 @@ onEvent('item.right_click', (event) => {
 
 /* summon stronger creeper
 summon minecraft:creeper ~ ~1 ~ {Brain: {memories: {}}, HurtByTimestamp: 0, ForgeData: {excompressum: {NoCompress: 1b}}, Attributes: [{Base: 0.25d, Name: "minecraft:generic.movement_speed"}, {Base: 50.00d, Name: "minecraft:generic.max_health"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 16.0d, Modifiers: [{Amount: 0.0430022132544805d, Operation: 1, UUID: [I; -168845243, -1055437158, -1992140735, 1522778265], Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}], Health: 50.0f}
+*/
+
+/*weak compressed creeper
+summon minecraft:creeper ~ ~1 ~ {Brain: {memories: {}}, HurtByTimestamp: 0, ForgeData: {excompressum: {Compressed: 1b}}, Attributes: [{Base: 0.25d, Name: "minecraft:generic.movement_speed"}, {Base: 50.00d, Name: "minecraft:generic.max_health"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 16.0d, Modifiers: [{Amount: 0.0430022132544805d, Operation: 1, UUID: [I; -168845243, -1055437158, -1992140735, 1522778265], Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}], Health: 5.0f}
 */

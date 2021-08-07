@@ -58,6 +58,7 @@
     values: [
       default default
       emerald_ore minecraft:green_concrete
+      redstone_ore chisel:concrete/purple/jellybean
     ]
      # Whether to test the block registry for duplicate combinations.
     testForDuplicates: true

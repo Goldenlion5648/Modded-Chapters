@@ -1,0 +1,14 @@
+{
+  "durability": 1337,
+  "damageReductionAmount": 3,
+  "enchantability": 10,
+  "toughness": 2.0,
+  "knockbackResistance": 0.0,
+  "bonusSpeed": 0.15,
+  "jumpBoost": 4,
+  "jumpMovementFactor": 0.012,
+  "fallDamage": false,
+  "spawnParticles": true,
+  "goldenFeatherDurability": 385,
+  "goldenFeatherSpawnParticles": true
+}

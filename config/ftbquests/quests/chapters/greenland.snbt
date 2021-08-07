@@ -291,6 +291,12 @@
 				type: "checkmark"
 				title: "Variety Benefits"
 			}]
+			rewards: [{
+				id: "56D7C649FDE5E831"
+				type: "item"
+				item: "vanillacookbook:creepe"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d

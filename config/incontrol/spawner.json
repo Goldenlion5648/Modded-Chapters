@@ -51,5 +51,25 @@
             "maxdist": 45,
             "maxthis": 80
         }
+    },
+    {
+        "mob": [
+            "minecraft:witch"
+        ],
+        "persecond": 1.0,
+        "attempts": 5,
+        "amount": {
+            "minimum": 7,
+            "maximum": 11
+        },
+        "conditions": {
+            "dimension": "rework:mountainland",
+            "norestrictions": true,
+            "maxheight": 203,
+            "minheight": 180,
+            "mindist": 15,
+            "maxdist": 100,
+            "maxthis": 40
+        }
     }
 ]

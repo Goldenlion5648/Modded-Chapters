@@ -69,6 +69,15 @@ onEvent('block.break', event => {
     //     })
     // }
 
+    if (event.block.id == 'minecraft:red_mushroom_block') {
+        // spawnCrystals(event)
+        var commaPoses = `${event.block.pos.x - 2},${event.block.pos.y},${event.block.pos.z - 2}`
+        event.server.runCommand(`//pos1 ${commaPoses}`);
+        event.server.runCommand(`//pos2 ${event.block.pos.x + 2},${event.block.pos.y},${event.block.pos.z + 2}`);
+        event.server.runCommand(`//replace air stone`);
+        event.server.runCommand(`tellraw @a "ran ${commaPoses}"`);
+    }
+
     if (event.block.id == 'kubejs:wet_cobblestone') {
         event.server.scheduleInTicks(5, event.server, function (callback) {
             command = `execute in ${event.block.world.dimension} run setblock ${event.block.pos.x} ${event.block.pos.y} ${event.block.pos.z} minecraft:water[level=7]`
@@ -87,7 +96,7 @@ onEvent('block.break', event => {
 })
 
     // effects.forEach(effect => {
-    //     if (effect.heightCondition(event.player.y, effect.verticalLimit) && effect.dimensionCondition(event.player.getWorld().dimension, alfWorld)) {
+    //     if (effect.heightCondition(event.block.y, effect.verticalLimit) && effect.dimensionCondition(event.player.getWorld().dimension, alfWorld)) {
     //         // if (effect.cancelsTag.length > 0) {
     //         //     effect.cancelsTag.forEach(tag => {
     //         //         if (tag == '*') {

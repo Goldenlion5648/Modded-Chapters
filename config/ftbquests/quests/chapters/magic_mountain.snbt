@@ -4,6 +4,7 @@
 	order_index: 3
 	filename: "magic_mountain"
 	title: "Magic Mountain"
+	icon: "botania:infused_grass"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -25,6 +26,82 @@
 				id: "173594530D3BF309"
 				type: "item"
 				item: "minecraft:wither_rose"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "210DE00EFF1C62AD"
+			tasks: [{
+				id: "7AD59761C94EA254"
+				type: "item"
+				item: "exnihilosequentia:bucket_witchwater"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: [
+				"As you may have noticed when _borrowing_ one of their hats, it seems like many of the witches are running low on ingredients for their potions. Nobody wants to leave the party though, this could be a good way to get on their good side. They will likely repay you."
+				""
+				"Good thing you know about greenland for gunpowder!"
+			]
+			dependencies: ["36383FA1B93EA628"]
+			id: "036CADBDFE4542F2"
+			tasks: [
+				{
+					id: "60BEF9189A991B5C"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "16A78BEC83EDA69C"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 16L
+					consume_items: true
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			description: ["Now the witches want to try some of the other potions they have heard so much about. These require a special cauldron."]
+			id: "1636EC590953F2CB"
+			tasks: [{
+				id: "312FD30E8FEB6BD2"
+				type: "item"
+				item: "xreliquary:apothecary_cauldron"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["It appears this is where witches come to gather their resources for potions. There seems to be an abundance of redstone in the cliff side."]
+			dependencies: ["5B2A2C6CBADAB3B4"]
+			id: "405A77CA4FA2B3A9"
+			tasks: [{
+				id: "5EB6EAE4171D3AF4"
+				type: "checkmark"
+				title: "Land of Witches"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: [
+				"There seems to be a party of some kind on the highest peaks of this land. You'll have to blend in so that no one suspects anything."
+				""
+				"Maybe you can steal a hat if something were to... happen... to one of them."
+			]
+			dependencies: ["405A77CA4FA2B3A9"]
+			id: "36383FA1B93EA628"
+			tasks: [{
+				id: "456AD256AF1F68EC"
+				type: "item"
+				item: "xreliquary:witch_hat"
 			}]
 		}
 	]

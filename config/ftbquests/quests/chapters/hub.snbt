@@ -117,5 +117,15 @@
 				player_command: false
 			}]
 		}
+		{
+			x: 3.5d
+			y: -4.0d
+			id: "47D5E1641220B27D"
+			tasks: [{
+				id: "66070C03AF7AF594"
+				type: "checkmark"
+				title: "Stranded!"
+			}]
+		}
 	]
 }

@@ -1,0 +1,14 @@
+
+{
+  "variants":
+  {
+    "dense=false":
+    {
+      "model": "osv:block/chisel/concrete/purple/redstone_ore_jellybean"
+    },
+    "dense=true":
+    {
+      "model": "osv:block/chisel/concrete/purple/dense_redstone_ore_jellybean"
+    }
+  }
+}

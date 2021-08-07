@@ -1,10 +1,11 @@
 gamerule doWeatherCycle false
 gamerule mobGriefingCreeper false
 weather clear 1000000
-say reload from rework2 successful
 gamerule logAdminCommands false
 gamerule doFireTick false
 # scoreboard objectives add 
+team add friends
+say reload from rework2 successful
 # scoreboard objectives add test dummy
 # scoreboard players set @p test 1
 # scoreboard objectives setdisplay sidebar test

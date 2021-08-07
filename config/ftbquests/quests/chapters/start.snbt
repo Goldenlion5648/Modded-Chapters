@@ -185,7 +185,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
-			description: ["This could be useful for automation!"]
+			description: ["This could be useful for some automation!"]
 			id: "1EB0C444FD4DF476"
 			tasks: [{
 				id: "193868EB1F5636F9"
