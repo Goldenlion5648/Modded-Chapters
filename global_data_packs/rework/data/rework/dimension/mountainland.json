@@ -46,7 +46,13 @@
                 }
             },
             "structures": {
-                "structures": {}
+                "structures": {
+                    "shulkerssupersimplestructuresystem:cauldron": {
+                        "spacing": 15,
+                        "separation": 10,
+                        "salt": 63
+                    }
+                }
             }
         },
         "biome_source": {

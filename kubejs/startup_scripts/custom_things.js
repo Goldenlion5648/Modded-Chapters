@@ -6,6 +6,7 @@ onEvent('item.registry', event => {
     // Register new items here
     // event.create('trade_apology').displayName('Trade Apology')
     event.create('portal_lighter').displayName('Mysterious Portal Lighter')
+    event.create('healthometer').displayName('Healthometer')
     event.create('instant_bubble').displayName('Instant Bubble')
     // event.create('example_item').displayName('Example Item')
     event.create('tough_root').food(food => {
@@ -29,10 +30,20 @@ onEvent('item.registry', event => {
     }).displayName('Shiny Spicy Tough Root')
 })
 
+function capitalizeEachWord(words){
+    answer = [];
+    for (let word of words) {
+        answer.push(word.charAt(0).toUpperCase() + word.slice(1))
+    }
+    return answer.join(" ");
+}
+
 onEvent('block.registry', event => {
     // Register new blocks here
     event.create('seared_replaced').material('stone').hardness(1.0).displayName('Seared Replaced')
     event.create('wet_cobblestone').material('stone').hardness(1.0).displayName('Porous Cobblestone')
+    event.create('ritual_part').material('stone').hardness(1.0).displayName('Ritual Remains')
+    event.create('graveyard_soil').material('dirt').hardness(1.0).displayName('Graveyard Remains')
     event.create('seared_fluid').material('stone').hardness(1.0).displayName('Seared Fluid Replaced')
     event.create('water_crystal_trigger').material('glass').harvestTool("pickaxe", 3).requiresTool(true).hardness(8.0).resistance(100000).displayName('Condensed Crystal')
     event.create('water_crystal').material('glass').harvestTool("pickaxe", 3).requiresTool(true).hardness(1.5).displayName('Water Crystal')
@@ -41,10 +52,24 @@ onEvent('block.registry', event => {
     event.create('green_gem').material('stone').hardness(8.0).resistance(100000).requiresTool(true).displayName('Green Gem Core')
     event.create('mysterious_block').material('stone').hardness(8.0).resistance(100000).displayName('Mysterious Block')
     // event.create('mysterious_block').material('stone').hardness(8.0).resistance(100000).displayName('Mysterious Block')
-    event.create('greenland_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Greenland Portal Frame')
-    event.create('alfheim_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Alfhiem Portal Frame')
-    event.create('tinkers_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Tinkers Portal Frame')
-    event.create('ocean_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Ocean Portal Frame')
+    const dimensions = [
+        'greenland',
+        'alfheim',
+        'tinkers',
+        'magic_mountain',
+        'ocean'
+    ]
+    var ending = "_portal_frame"
+    dimensions.forEach(portal => {
+        var cur = portal + ending
+        displayName = capitalizeEachWord((cur).split(/_/))
+        event.create(cur).material('stone').hardness(2.0).resistance(100000).displayName(displayName)
+
+    })
+    // event.create('greenland_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Greenland Portal Frame')
+    // event.create('alfheim_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Alfhiem Portal Frame')
+    // event.create('tinkers_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Tinkers Portal Frame')
+    // event.create('ocean_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Ocean Portal Frame')
     event.create('elementium_ore').material('stone').hardness(2.0).displayName('Elementium Ore')
 })
 

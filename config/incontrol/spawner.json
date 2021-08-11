@@ -57,19 +57,38 @@
             "minecraft:witch"
         ],
         "persecond": 1.0,
-        "attempts": 5,
+        "attempts": 10,
         "amount": {
-            "minimum": 7,
-            "maximum": 11
+            "minimum": 3,
+            "maximum": 6
         },
         "conditions": {
             "dimension": "rework:mountainland",
             "norestrictions": true,
             "maxheight": 203,
-            "minheight": 180,
+            "minheight": 195,
             "mindist": 15,
-            "maxdist": 100,
-            "maxthis": 40
+            "maxdist": 80,
+            "maxthis": 60
+        }
+    },
+    {
+        "mob": [
+            "minecraft:skeleton",
+            "minecraft:wither_skeleton"
+        ],
+        "persecond": 1.0,
+        "attempts": 2,
+        "amount": {
+            "minimum": 2,
+            "maximum": 8
+        },
+        "conditions": {
+            "dimension": "rework:mountainland",
+            "norestrictions": true,
+            "mindist": 5,
+            "maxdist": 70,
+            "maxthis": 20
         }
     }
 ]

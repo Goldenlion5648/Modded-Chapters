@@ -8,5 +8,22 @@
             "minecraft:squid"
         ],
         "result": "deny"
+    },
+    {
+        "dimension": "rework:mountainland",
+        "mob": ["minecraft:skeleton",
+        "minecraft:wither_skeleton"],
+        "block": "kubejs:graveyard_soil",
+        "result": "allow"
+    },
+    {
+        "dimension": "rework:mountainland",
+        "mob": "minecraft:wither_skeleton",
+        "result": "deny"
+    },
+    {
+        "dimension": "rework:mountainland",
+        "mob": "minecraft:skeleton",
+        "result": "deny"
     }
 ]

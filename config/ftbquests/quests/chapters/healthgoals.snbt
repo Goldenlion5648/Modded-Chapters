@@ -7,13 +7,87 @@
 	icon: "bhc:red_heart_canister"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.5d
-		y: 1.0d
-		id: "751952CACF516DE8"
-		tasks: [{
-			id: "658523BAB21ABB5B"
-			type: "custom"
-		}]
-	}]
+	quests: [
+		{
+			x: 4.0d
+			y: -2.5d
+			id: "751952CACF516DE8"
+			tasks: [{
+				id: "658523BAB21ABB5B"
+				type: "custom"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["Generally obtained through its crafting recipe"]
+			dependencies: ["1D6050A3A89F8BF8"]
+			id: "5F6295C994C8CEC7"
+			tasks: [{
+				id: "54DC8862EE26D629"
+				type: "item"
+				item: "bhc:red_heart_canister"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["1D6050A3A89F8BF8"]
+			id: "5F82410392FE5210"
+			tasks: [{
+				id: "0F47ED4878464284"
+				type: "item"
+				item: "bhc:yellow_heart_canister"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["1D6050A3A89F8BF8"]
+			id: "3FA64969FAE96A2B"
+			tasks: [{
+				id: "1905937AB9BF6B1D"
+				type: "item"
+				item: "bhc:green_heart_canister"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["1D6050A3A89F8BF8"]
+			id: "5D7464BA2A07CF9B"
+			tasks: [{
+				id: "080FAFBC6CB36338"
+				type: "item"
+				item: "bhc:blue_heart_canister"
+			}]
+		}
+		{
+			icon: "cyclic:heart"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Getting some extra health can never hurt! It is sometimes even required to progress!"
+				""
+				"Note that the normal means of obtaining the hearts (like bosses) do not apply!"
+			]
+			id: "1D6050A3A89F8BF8"
+			tasks: [{
+				id: "1BC657D5640AD072"
+				type: "checkmark"
+				title: "Getting More Health"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["1D6050A3A89F8BF8"]
+			id: "1310F70736FEB210"
+			tasks: [{
+				id: "70048CFB6F66938B"
+				type: "item"
+				item: "kubejs:healthometer"
+			}]
+		}
+	]
 }

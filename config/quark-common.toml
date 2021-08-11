@@ -367,12 +367,12 @@
 	"Note Block Mob Sounds" = true
 	"Pat The Dogs" = true
 	"Poison Potato Usage" = true
-	"Reacharound Placing" = false
+	"Reacharound Placing" = true
 	"Replace Scaffolding" = true
 	"Sign Editing" = true
 	"Simple Harvest" = true
 	"Snow Golem Player Heads" = true
-	"Springy Slime" = false
+	"Springy Slime" = true
 	"Utility Recipes" = true
 	"Villagers Follow Emeralds" = true
 
@@ -891,11 +891,11 @@
 	[world.blossom_trees]
 
 		[world.blossom_trees.blue]
-			Rarity = 200
+			Rarity = 50
 
 			[world.blossom_trees.blue.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "rework:alfheim"]
 
 			[world.blossom_trees.blue.biome_config]
 
@@ -905,19 +905,19 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["snowy"]
-					"Is Blacklist" = false
+					"Biome Types" = []
+					"Is Blacklist" = true
 
 				[world.blossom_trees.blue.biome_config.biomes]
 					Biomes = []
 					"Is Blacklist" = true
 
 		[world.blossom_trees.lavender]
-			Rarity = 100
+			Rarity = 50
 
 			[world.blossom_trees.lavender.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "rework:alfheim"]
 
 			[world.blossom_trees.lavender.biome_config]
 
@@ -927,19 +927,19 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["swamp"]
-					"Is Blacklist" = false
+					"Biome Types" = []
+					"Is Blacklist" = true
 
 				[world.blossom_trees.lavender.biome_config.biomes]
 					Biomes = []
 					"Is Blacklist" = true
 
 		[world.blossom_trees.orange]
-			Rarity = 100
+			Rarity = 50
 
 			[world.blossom_trees.orange.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "rework:alfheim"]
 
 			[world.blossom_trees.orange.biome_config]
 
@@ -949,19 +949,19 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["savanna"]
-					"Is Blacklist" = false
+					"Biome Types" = []
+					"Is Blacklist" = true
 
 				[world.blossom_trees.orange.biome_config.biomes]
 					Biomes = []
 					"Is Blacklist" = true
 
 		[world.blossom_trees.pink]
-			Rarity = 100
+			Rarity = 50
 
 			[world.blossom_trees.pink.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "rework:alfheim"]
 
 			[world.blossom_trees.pink.biome_config]
 
@@ -971,19 +971,19 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["mountain"]
-					"Is Blacklist" = false
+					"Biome Types" = []
+					"Is Blacklist" = true
 
 				[world.blossom_trees.pink.biome_config.biomes]
 					Biomes = []
 					"Is Blacklist" = true
 
 		[world.blossom_trees.yellow]
-			Rarity = 200
+			Rarity = 50
 
 			[world.blossom_trees.yellow.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "rework:alfheim"]
 
 			[world.blossom_trees.yellow.biome_config]
 
@@ -993,8 +993,8 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["plains"]
-					"Is Blacklist" = false
+					"Biome Types" = []
+					"Is Blacklist" = true
 
 				[world.blossom_trees.yellow.biome_config.biomes]
 					Biomes = []
@@ -1005,7 +1005,7 @@
 
 			[world.blossom_trees.red.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "rework:alfheim"]
 
 			[world.blossom_trees.red.biome_config]
 
@@ -1015,8 +1015,8 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["mesa"]
-					"Is Blacklist" = false
+					"Biome Types" = []
+					"Is Blacklist" = true
 
 				[world.blossom_trees.red.biome_config.biomes]
 					Biomes = []
@@ -1100,17 +1100,17 @@
 
 		[world.mega_caves.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld", "rework:greenland"]
+			Dimensions = ["minecraft:overworld"]
 
 		[world.mega_caves.spawn_settings]
 			#Allowed values: [0,)
-			Rarity = 50
+			Rarity = 800
 			#Allowed values: [0,255]
 			"Min Y Level" = 10
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 20
 			#Allowed values: [0,)
-			"Horizontal Size" = 60
+			"Horizontal Size" = 80
 			#Allowed values: [0,)
 			"Vertical Size" = 25
 			#Allowed values: [0,)
@@ -1120,7 +1120,7 @@
 
 			[world.mega_caves.spawn_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld", "rework:greenland"]
+				Dimensions = ["minecraft:overworld"]
 
 			[world.mega_caves.spawn_settings.biomes]
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
@@ -1867,7 +1867,7 @@
 [client]
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
-	"Chest Searching" = false
+	"Chest Searching" = true
 	"Greener Grass" = true
 	"Improved Mount Hud" = true
 	"Improved Tooltips" = true
@@ -1886,7 +1886,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = false
+		"Food Tooltips" = true
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true

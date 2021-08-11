@@ -7,18 +7,30 @@
 	icon: "tconstruct:earth_congealed_slime"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 1.0d
-		y: 0.0d
-		id: "79A1E503201E37DA"
-		tasks: [{
-			id: "29F335F876E4916B"
-			type: "item"
-			item: {
-				id: "botania:mana_tablet"
-				Count: 1b
-				tag: { }
-			}
-		}]
-	}]
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "79A1E503201E37DA"
+			tasks: [{
+				id: "29F335F876E4916B"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			id: "1D5323789209CEF5"
+			tasks: [{
+				id: "410C282E4FBFF2AF"
+				type: "checkmark"
+				title: "Hello Adventurer!"
+			}]
+		}
+	]
 }

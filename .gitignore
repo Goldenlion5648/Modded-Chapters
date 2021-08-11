@@ -5,11 +5,13 @@
 !/defaultconfigs/**
 !/global_data_packs/**
 !/kubejs/**
+!/scripts/**
 
 !/config
 !/defaultconfigs
 !/global_data_packs
 !/kubejs
+!/scripts
 # And all the file types you're interested in.
 # !*.one
 # !*.two

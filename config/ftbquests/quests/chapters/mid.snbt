@@ -3,7 +3,8 @@
 	group: ""
 	order_index: 6
 	filename: "mid"
-	title: "Mid"
+	title: "Oceanland"
+	icon: "minecraft:prismarine_shard"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

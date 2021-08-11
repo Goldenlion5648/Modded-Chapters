@@ -19,18 +19,35 @@
 			}]
 		}
 		{
+			title: "Ritual Grounds"
+			icon: "minecraft:wither_rose"
 			x: -1.0d
 			y: 2.0d
+			description: ["It seems old ritual grounds can be found around these parts. Can be located through groups of wither roses. Remains from the rituals can be found in the ground (sometimes far) beneath them."]
+			dependencies: ["405A77CA4FA2B3A9"]
 			id: "61A0E3F0FA49AE6E"
-			tasks: [{
-				id: "173594530D3BF309"
-				type: "item"
-				item: "minecraft:wither_rose"
-			}]
+			tasks: [
+				{
+					id: "173594530D3BF309"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "4C3F7B56DC6C8573"
+					type: "item"
+					item: "kubejs:graveyard_soil"
+				}
+			]
 		}
 		{
-			x: -3.0d
-			y: 1.5d
+			x: -2.0d
+			y: 9.0d
+			description: [
+				"Has special properties, allowing converting of some mobs into others."
+				""
+				"Seems to be in the lowest parts of this land"
+			]
+			dependencies: ["2151E1E595BC8DF0"]
 			id: "210DE00EFF1C62AD"
 			tasks: [{
 				id: "7AD59761C94EA254"
@@ -39,10 +56,11 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.5d
+			title: "Drink Refills"
+			x: -0.5d
+			y: 3.5d
 			description: [
-				"As you may have noticed when _borrowing_ one of their hats, it seems like many of the witches are running low on ingredients for their potions. Nobody wants to leave the party though, this could be a good way to get on their good side. They will likely repay you."
+				"As you may have noticed when &4borrowing&f one of their hats, it seems like many of the witches are running low on ingredients for their potions. Nobody wants to leave the party though, this could be a good way to get on their good side. They will likely repay you."
 				""
 				"Good thing you know about greenland for gunpowder!"
 			]
@@ -66,9 +84,13 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 5.5d
+			x: -0.5d
+			y: 5.0d
 			description: ["Now the witches want to try some of the other potions they have heard so much about. These require a special cauldron."]
+			dependencies: [
+				"21A7AECA8BE76B9B"
+				"036CADBDFE4542F2"
+			]
 			id: "1636EC590953F2CB"
 			tasks: [{
 				id: "312FD30E8FEB6BD2"
@@ -89,12 +111,12 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: 1.0d
+			y: 2.5d
 			description: [
-				"There seems to be a party of some kind on the highest peaks of this land. You'll have to blend in so that no one suspects anything."
+				"There seems to be a get together of some kind on the highest peaks of this land. You'll have to blend in so that no one suspects anything."
 				""
-				"Maybe you can steal a hat if something were to... happen... to one of them."
+				"Maybe you can steal a hat if something were to &ohappen&r to one of them. Though you can see it on their heads, it seems to just vanish sometimes..."
 			]
 			dependencies: ["405A77CA4FA2B3A9"]
 			id: "36383FA1B93EA628"
@@ -103,6 +125,209 @@
 				type: "item"
 				item: "xreliquary:witch_hat"
 			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			description: [
+				"It appears the witches left their cauldrons near the lower parts of the mountains. These could prove to be a good source of iron through the use of the smeltery!"
+				""
+				"Some of them seem to have some water left in them as well! Bottles could be used to pool the remaining water into one cauldron then collect it all in a bucket (after getting some iron)!"
+			]
+			dependencies: ["405A77CA4FA2B3A9"]
+			id: "21A7AECA8BE76B9B"
+			tasks: [
+				{
+					id: "7D46E867A8858B9A"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "3E589D38736D9072"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			dependencies: ["4101A368F67B0A87"]
+			id: "2151E1E595BC8DF0"
+			tasks: [{
+				id: "7EE4668234EFEDC2"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["21A7AECA8BE76B9B"]
+			id: "4101A368F67B0A87"
+			tasks: [{
+				id: "097B194AAA2B5D52"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			description: ["Everyone at the party is getting bored, so one of the witches has suggested that some entertainment be summoned using an ancient ritual."]
+			dependencies: ["02F01A58330BBB38"]
+			id: "34DFCD1EEE0CA7EA"
+			tasks: [{
+				id: "0865B3F3C7EEFA8A"
+				type: "kill"
+				entity: "minecraft:illusioner"
+				value: 5L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["It seems that both skeletons and their wither counter parts spawn on the graveyard remains!"]
+			dependencies: ["61A0E3F0FA49AE6E"]
+			id: "55A24683A6850023"
+			tasks: [{
+				id: "3763453400628A5A"
+				type: "item"
+				item: "tconstruct:necrotic_bone"
+				count: 10L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			description: ["awesome1&6test"]
+			dependencies: ["61A0E3F0FA49AE6E"]
+			id: "02F01A58330BBB38"
+			tasks: [{
+				id: "2B45BF7C584C7A77"
+				type: "item"
+				item: "zensummoning:altar"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			description: ["After watching you battle the magician, the boredom has been lifted. One of them even tosses you a blue heart."]
+			dependencies: ["34DFCD1EEE0CA7EA"]
+			id: "2EB372E2FE14272F"
+			tasks: [{
+				id: "06CA30800D375BFE"
+				type: "checkmark"
+				title: "Pleased Crowd"
+			}]
+			rewards: [{
+				id: "5A4D927053B1DE6F"
+				type: "item"
+				item: "bhc:blue_heart"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			description: [
+				"After hearing of potions that can giving withering effects from their &along lost cousins&f, they want to give it a try."
+				""
+				"As thanks, she agrees to give you one of her special bags that she uses to store her potions. \"This is my old one, feel free to take what I have left inside\""
+			]
+			dependencies: ["7F83F2B4CBD951EE"]
+			id: "22EEFC7F6E341DDA"
+			tasks: [{
+				id: "602C774517208F9D"
+				type: "item"
+				item: {
+					id: "xreliquary:splash_potion"
+					Count: 1b
+					tag: {
+						effects: [{
+							duration: 250
+							name: "minecraft:wither"
+							potency: 0
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "43A23DC6DC760EA7"
+				type: "item"
+				item: {
+					id: "enderstorage:ender_pouch"
+					Count: 1b
+					tag: {
+						Frequency: {
+							middle: 15
+							right: 10
+							left: 10
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["1636EC590953F2CB"]
+			id: "7F83F2B4CBD951EE"
+			tasks: [{
+				id: "6A13A526BFF2EC56"
+				type: "item"
+				item: "minecraft:nether_wart"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["4101A368F67B0A87"]
+			id: "2E561A4C10C58CF4"
+			tasks: [{
+				id: "690A540FBF945485"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["2E561A4C10C58CF4"]
+			id: "60B269CEF8B2FFDE"
+			tasks: [
+				{
+					id: "577B7342AD3413CF"
+					type: "item"
+					item: "moreflowerbushes:blue_hortensia"
+				}
+				{
+					id: "18CC63C3448D6C3A"
+					type: "item"
+					item: "moreflowerbushes:blue_sage"
+				}
+				{
+					id: "7315FBF187E21AA6"
+					type: "item"
+					item: "moreflowerbushes:purple_hibiscus"
+				}
+				{
+					id: "577457AB48FA9D60"
+					type: "item"
+					item: "moreflowerbushes:mountain_laurel"
+				}
+			]
 		}
 	]
 }

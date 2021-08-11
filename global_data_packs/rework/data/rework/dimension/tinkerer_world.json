@@ -57,8 +57,8 @@
             "structures": {
                 "structures": {
                     "tconstruct:overworld_slime_island": {
-                        "spacing": 10,
-                        "separation": 5,
+                        "spacing": 20,
+                        "separation": 16,
                         "salt": 0
                     }
                 }

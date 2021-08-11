@@ -1,8 +1,8 @@
 // priority: 10
 
 settings.logAddedRecipes = false
-settings.logRemovedRecipes = false
-// settings.logSkippedRecipes = false
+// settings.logRemovedRecipes = true
+settings.logSkippedRecipes = false
 settings.logErroringRecipes = false
 
 console.info('Hello, World! (You will see this line every time server resources reload)----------------------------')
@@ -18,8 +18,8 @@ var toRemove = [
 
 //QoL
 onEvent('recipes', e => {
-    e.remove({ output: 'minecraft:emerald_block' })
-    e.remove({ id: 'minecraft:emerald' });
+    // e.remove({ output: 'minecraft:emerald_block' })
+    // e.remove({ id: 'minecraft:emerald' });
     // e.shapeless('16x minecraft:stick',
     //     [['#minecraft:logs', 'minecraft:air', 'minecraft:air','#minecraft:logs']
     // ])
@@ -42,7 +42,7 @@ onEvent('recipes', e => {
 onEvent('recipes', e => {
     e.remove({ output: 'minecraft:emerald_block' })
     e.remove({ id: 'minecraft:emerald' });
-
+    // e.remove({ id: /.*spawn_egg.*/ });
     // var emeraldTools = [
     //     Item.of('cyclic:emerald_sword'),
     //     Item.of('cyclic:emerald_pickaxe'),
@@ -60,6 +60,12 @@ onEvent('recipes', e => {
             Item.of('cyclic:emerald_hoe'),
             Item.of('cyclic:emerald_axe')
         ]
+    })
+    e.remove({
+        output: ['cyclic:magic_net', 
+        Item.of('cyclic:charm_longfall'),
+        "pickletweaks:flint_shears",
+         Item.of('cyclic:shears_flint')]
     })
     e.remove({
         output: [
@@ -120,6 +126,14 @@ onEvent('recipes', e => {
         'kubejs:tough_root',
         'minecraft:gunpowder'
     ])
+    e.shapeless('4x botania:fertilizer', [
+        'moreflowerbushes:purple_hibiscus',
+        'moreflowerbushes:mountain_laurel',
+        'moreflowerbushes:blue_sage',
+        'moreflowerbushes:blue_hortensia',
+        'minecraft:sugar',
+        'minecraft:bone_meal'
+    ])
 
     e.shapeless('4x kubejs:tough_root3', [
         'kubejs:tough_root2',
@@ -163,6 +177,15 @@ onEvent('recipes', e => {
     ], {
         S: 'tconstruct:seared_bricks',
         G: 'kubejs:green_gem'
+    })
+    e.shaped("zensummoning:altar", [
+        'WGW',
+        'R R',
+        'WGW'
+    ], {
+        R: 'minecraft:redstone_block',
+        W: 'minecraft:wither_rose',
+        G: 'kubejs:graveyard_soil'
     })
 
 

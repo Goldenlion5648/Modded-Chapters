@@ -1091,7 +1091,7 @@
 
 		[world.mega_caves.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld", "rework:greenland5", "rework:greenland"]
+			Dimensions = ["minecraft:overworld",]
 
 		[world.mega_caves.spawn_settings]
 			#Allowed values: [0,)

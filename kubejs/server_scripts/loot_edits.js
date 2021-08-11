@@ -15,7 +15,7 @@ onEvent('block.loot_tables', event => {
     //this overrides the default loot table
     event.addBlock("exnihilosequentia:infested_leaves", table => {
         table.pool(pool => {
-            pool.setUniformRolls(1, 4)
+            pool.setUniformRolls(1, 3)
             pool.addEntry({
                 "type": "minecraft:item",
                 "name": "botania:mana_powder",
@@ -24,6 +24,21 @@ onEvent('block.loot_tables', event => {
                         "condition": "minecraft:match_tool",
                         "predicate": {
                             "tag": "exnihilosequentia:crook"
+                        }
+                    }
+                ]
+            })
+            pool.addEntry({
+                "type": "minecraft:item",
+                "name": "minecraft:stone",
+                "conditions": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:match_tool",
+                            "predicate": {
+                                "tag": "exnihilosequentia:crook"
+                            }
                         }
                     }
                 ]

@@ -17,7 +17,7 @@
 					Damage: 0
 				}
 			}
-			x: -3.5d
+			x: -5.5d
 			y: -3.0d
 			subtitle: "He can fly!"
 			description: [
@@ -25,6 +25,7 @@
 				""
 				"There just seems to be something disallowing you from moving to high."
 			]
+			dependencies: ["073449630FCC0B01"]
 			hide_text_until_complete: false
 			id: "0986739DC65611AE"
 			tasks: [{
@@ -76,39 +77,20 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: -4.5d
+			y: -2.5d
 			description: [
 				"It appears that there is no other life here."
 				""
 				"This isn't what your lexicon described at all! Where are the elves that always mysteriously traded you resources?"
 			]
-			dependencies: ["0986739DC65611AE"]
+			dependencies: ["073449630FCC0B01"]
 			hide: true
 			id: "4F961348CD440C9A"
 			tasks: [{
 				id: "01F9B1846505EDBE"
 				type: "checkmark"
 				title: "Alone?"
-			}]
-		}
-		{
-			x: -2.5d
-			y: 1.0d
-			dependencies: ["1471A33B63AA1772"]
-			id: "590F7F455F2B32FD"
-			tasks: [{
-				id: "6CD765225E8235D3"
-				type: "gamestage"
-				title: "Use the floral fertilizer!"
-				icon: "botania:gray_mystical_flower"
-				stage: "floralUsed"
-			}]
-			rewards: [{
-				id: "43F26CDCEC61141E"
-				type: "item"
-				item: "botania:livingwood"
-				count: 16
 			}]
 		}
 		{
@@ -183,9 +165,10 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.0d
+			x: -6.5d
+			y: 0.5d
 			description: ["This could be useful for some automation!"]
+			dependencies: ["3425B5CECE53C4F9"]
 			id: "1EB0C444FD4DF476"
 			tasks: [{
 				id: "193868EB1F5636F9"
@@ -202,6 +185,49 @@
 				id: "43F18217832C27A7"
 				type: "item"
 				item: "kubejs:elementium_ore"
+			}]
+		}
+		{
+			title: "We don't want your bread!"
+			icon: "minecraft:bread"
+			x: -5.0d
+			y: 1.0d
+			description: ["Time to show players what happens when they send something that the elves don't want to trade for!"]
+			id: "37FD06AD1682B8D5"
+			tasks: [{
+				id: "2674740034C2A8CA"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 3L
+			}]
+			rewards: [{
+				id: "5D33CBD185E1E1A6"
+				type: "item"
+				item: "minecraft:bread"
+				count: 10
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			id: "073449630FCC0B01"
+			tasks: [{
+				id: "2C6D143684D65BC3"
+				type: "dimension"
+				dimension: "rework:alfheim"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: ["It seems that the floating islands are alive! Dreamwood seems to help support it. The islands seem to be infinite, taking some should not be a problem."]
+			dependencies: ["4F961348CD440C9A"]
+			id: "3425B5CECE53C4F9"
+			tasks: [{
+				id: "408D1946800D4BCB"
+				type: "item"
+				item: "botania:dreamwood"
+				count: 16L
 			}]
 		}
 	]

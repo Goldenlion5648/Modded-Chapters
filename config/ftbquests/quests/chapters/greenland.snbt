@@ -352,7 +352,11 @@
 			title: "Green Machine"
 			x: -8.5d
 			y: -1.0d
-			description: ["Make the Green Machine. It can produce the resources from greenland through Liquid Green"]
+			description: [
+				"Make the Green Machine. It can produce the resources from greenland through Liquid Green"
+				""
+				"Might have to come back later with some creeper heads when I have a way to obtain them."
+			]
 			dependencies: ["563527D8C1DB4A0C"]
 			id: "1A61EF5870D32E55"
 			tasks: [

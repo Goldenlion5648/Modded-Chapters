@@ -54,6 +54,20 @@ breaking certain block has different effect based on dimension
 damage creeper in smeltery => liquid creeper
 cast onto sand for tnt
 
+spawn illusioner with zen summoning, compressed
+
+wither rose circle with lods which contains ritual remains from kubejs
+
+evil generator with witch things
+
+UHC dimension by setting hunger below healing level
+
+
+event.entity.damageHeldItem()
+
+
+
+
 
 slime hack
 /execute as @e[type=minecraft:slime, distance=..10] run data merge entity @s {ForgeData: {"botania:world_spawned": 1b}}
