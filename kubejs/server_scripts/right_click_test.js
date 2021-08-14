@@ -1,4 +1,12 @@
 onEvent('item.right_click', event => {
+    if (event.item.id == 'kubejs:healthometer') {
+        event.server.schedule(5, event.server, function (callback) {
+            callback.server.runCommandSilent(`tellraw @a "${event.player.getHealth()}"`);
+            callback.server.runCommandSilent(`tellraw @a "max: ${event.player.getMaxHealth()}"`);
+            // let command =
+            //     `execute as ${event.player.name} in ${event.player.world.dimension} run summon minecraft:iron_golem ${event.player.x} ${event.player.y} ${event.player.z}`
+        })
+    }
     if (event.item.id == 'minecraft:stick') {
     // event.server.schedule(5, event.server, function (callback) {
     //     let command = `execute as ${event.player.name} in ${event.player.world.dimension} run summon minecraft:iron_golem ${event.player.x} ${event.player.y} ${event.player.z}`

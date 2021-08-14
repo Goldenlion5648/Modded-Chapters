@@ -101,7 +101,7 @@
 	#Range: > 0
 	evolvedOrechidCost = 700
 	#Setting this to false will disable the Evolved Orechid.
-	enableEvolvedOrechid = false
+	enableEvolvedOrechid = true
 	#The ore generation delay for the Evolved Orechid in ticks. GoG Orechid is 2, vanilla Orechid is 100.
 	#Range: > 0
 	evolvedOrechidDelay = 2

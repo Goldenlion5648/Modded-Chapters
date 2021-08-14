@@ -59,8 +59,8 @@
 		}
 		{
 			title: "Food?"
-			x: -7.5d
-			y: -2.0d
+			x: -8.0d
+			y: -3.0d
 			subtitle: "Someone give that man a cookie!"
 			description: [
 				"There does not appear to be any life here in alfheim, hostile or friendly."
@@ -95,14 +95,18 @@
 		}
 		{
 			title: "Trading Time"
-			x: -1.5d
-			y: 2.0d
+			x: -4.5d
+			y: 1.0d
 			description: [
 				"It's working! Someone is trying to trade!"
 				""
 				"This might be a new botanist, so they could get confused if we ask for help on their first trade, we should play along and toss back what they expect for now"
 				""
 				"It seems dreamwood can be found in patches in the ground here!"
+			]
+			dependencies: [
+				"1471A33B63AA1772"
+				"3425B5CECE53C4F9"
 			]
 			id: "14F635539E229016"
 			tasks: [{
@@ -121,14 +125,16 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.5d
+			x: -6.5d
+			y: -1.5d
+			description: ["There seems to be some elementium ore here in alfheim in the lower parts of the island."]
+			dependencies: ["4F961348CD440C9A"]
 			id: "5F8D23FB3E01D73D"
 			tasks: [{
-				id: "6AB36A115BC8047E"
+				id: "0171DB61BF7D97AC"
 				type: "item"
-				item: "botania:elementium_ingot"
-				count: 6L
+				item: "botania:elementium_nugget"
+				count: 64L
 			}]
 		}
 		{
@@ -174,6 +180,7 @@
 				id: "193868EB1F5636F9"
 				type: "item"
 				item: "botania:crafty_crate"
+				count: 4L
 			}]
 		}
 		{
@@ -190,22 +197,33 @@
 		{
 			title: "We don't want your bread!"
 			icon: "minecraft:bread"
-			x: -5.0d
-			y: 1.0d
-			description: ["Time to show players what happens when they send something that the elves don't want to trade for!"]
+			x: -6.5d
+			y: -4.0d
+			description: [
+				"Time to show players what happens when they send something that the elves don't want to trade for!"
+				""
+			]
 			id: "37FD06AD1682B8D5"
 			tasks: [{
 				id: "2674740034C2A8CA"
 				type: "item"
 				item: "minecraft:tnt"
 				count: 3L
+				consume_items: true
 			}]
-			rewards: [{
-				id: "5D33CBD185E1E1A6"
-				type: "item"
-				item: "minecraft:bread"
-				count: 10
-			}]
+			rewards: [
+				{
+					id: "5D33CBD185E1E1A6"
+					type: "item"
+					item: "minecraft:bread"
+					count: 10
+				}
+				{
+					id: "1E2E17338684C061"
+					type: "item"
+					item: "bhc:blue_heart"
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -227,7 +245,115 @@
 				id: "408D1946800D4BCB"
 				type: "item"
 				item: "botania:dreamwood"
-				count: 16L
+			}]
+		}
+		{
+			icon: "minecraft:dead_bush"
+			x: -3.0d
+			y: -2.0d
+			description: [
+				"It appears that the mystical flowers have been eaten by some silkworms!"
+				""
+				"Some nests of them have been made a bit under the surface, and some of the dirt on the surface near them has been converted to sand."
+			]
+			dependencies: ["4F961348CD440C9A"]
+			id: "589A9B314495D5B3"
+			tasks: [{
+				id: "114E7D439B298865"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: [
+				"While it is annoying that the silkworms have eaten all the mystical flowers, they could prove useful for some resources."
+				""
+				"They seem to scurry away when the cobwebs are destroyed normally. They can occasionally be paralyzed when their web is destroyed by an explosion, allowing them to be collected."
+			]
+			dependencies: ["589A9B314495D5B3"]
+			id: "22410A205E1AB997"
+			tasks: [{
+				id: "05B6BB677A1DE3FA"
+				type: "item"
+				item: "exnihilosequentia:silkworm"
+				count: 4L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			description: ["After using the silk worms on some tree leaves and the tree is infested, lots of string can be collected."]
+			dependencies: ["22410A205E1AB997"]
+			id: "21962F9DC0FA73C0"
+			tasks: [
+				{
+					id: "2D41A4ECCDCBA839"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:crook_bone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D3C0E5FEE8B2E13"
+					type: "item"
+					item: "minecraft:string"
+					count: 32L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["It seems that after eating the mystical flowers, the worms have some magical essence inside of them! By using a crook infused with mana, infested leaves get converted completely to mana powder!"]
+			dependencies: ["21962F9DC0FA73C0"]
+			id: "3FB2D9713C28DB3B"
+			tasks: [
+				{
+					id: "7C9B67507528E998"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:crook_diamond"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F6D59EF1FD53066"
+					type: "item"
+					item: "botania:mana_powder"
+					count: 32L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			description: ["Could be obtained through silk touch, or through other means."]
+			dependencies: ["5F8D23FB3E01D73D"]
+			id: "6F903F43494C28A6"
+			tasks: [{
+				id: "740F8CDDF48CF37F"
+				type: "item"
+				item: "kubejs:elementium_ore"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["3FB2D9713C28DB3B"]
+			id: "2D03B25FFE184803"
+			tasks: [{
+				id: "07AA80C7374804AD"
+				type: "item"
+				item: "kubejs:magic_mountain_portal_frame"
+				count: 10L
 			}]
 		}
 	]

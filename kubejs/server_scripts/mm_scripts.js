@@ -170,4 +170,23 @@ onEvent('recipes', event => {
         ]
     })
 
+    event.custom({
+        "type": "masterfulmachinery:machine_structure",
+        "id": "chance_this2",
+        "controllerId": "basic",
+        "name": "Change This",
+        "layout": [
+            [
+                ") )",
+                ") )",
+                " C "
+            ]
+        ],
+        "legend": {
+            ")": {
+                "tag": "botania:mystical_flowers"
+            }
+        }
+    })
+
 })

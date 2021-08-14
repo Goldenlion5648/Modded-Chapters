@@ -127,5 +127,159 @@
 				title: "Stranded!"
 			}]
 		}
+		{
+			icon: {
+				id: "akashictome:tome"
+				Count: 1b
+				tag: {
+					"akashictome:is_morphing": 1b
+					"akashictome:data": {
+						extendedcrafting: {
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "extendedcrafting:guide"
+							}
+						}
+						tconstruct: {
+							id: "tconstruct:encyclopedia"
+							Count: 1b
+							tag: {
+								mantle: {
+									book: {
+										current_page: ""
+									}
+								}
+								"akashictome:displayName": {
+									text: "Encyclopedia of Tinkering"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Encyclopedia of Tinkering\"}]}"
+								}
+							}
+						}
+						solpotato: {
+							id: "solpotato:food_book"
+							Count: 1b
+						}
+						ftbquests: {
+							id: "ftbquests:book"
+							Count: 1b
+						}
+						bloodmagic: {
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "bloodmagic:guide"
+							}
+						}
+						thermal: {
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "thermal:guidebook"
+							}
+						}
+						mysticalagriculture: {
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "mysticalagriculture:guide"
+							}
+						}
+						cyclic: {
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "cyclic:cyclic_guide_book"
+							}
+						}
+					}
+				}
+			}
+			x: 1.0d
+			y: -6.0d
+			id: "3F34F7560E8956FF"
+			tasks: [{
+				id: "02034D3DC85C93B2"
+				type: "checkmark"
+				title: "Knowledge"
+			}]
+			rewards: [{
+				id: "5F03DFA830DF033F"
+				type: "item"
+				item: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:is_morphing": 1b
+						"akashictome:data": {
+							extendedcrafting: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "extendedcrafting:guide"
+								}
+							}
+							tconstruct: {
+								id: "tconstruct:encyclopedia"
+								Count: 1b
+								tag: {
+									mantle: {
+										book: {
+											current_page: ""
+										}
+									}
+									"akashictome:displayName": {
+										text: "Encyclopedia of Tinkering"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Encyclopedia of Tinkering\"}]}"
+									}
+								}
+							}
+							solpotato: {
+								id: "solpotato:food_book"
+								Count: 1b
+							}
+							ftbquests: {
+								id: "ftbquests:book"
+								Count: 1b
+							}
+							bloodmagic: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "bloodmagic:guide"
+								}
+							}
+							thermal: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							mysticalagriculture: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "mysticalagriculture:guide"
+								}
+							}
+							cyclic: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "cyclic:cyclic_guide_book"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
 	]
 }

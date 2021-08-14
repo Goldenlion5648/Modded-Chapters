@@ -61,6 +61,35 @@ onEvent('recipes', e => {
             "empty_weight": 4
         }
     })
+    //block to items
+    e.custom({
+        "type": "interactio:block_explode",
+        "input": {
+            "block": "minecraft:cobweb"
+        },
+        "output": {
+            "type": "item",
+            "entries": [
+                {
+                    "result": {
+                        "item": "exnihilosequentia:silkworm",
+                        "count": 1
+                    },
+                    "weight": 1
+                },
+                {
+                    "result": {
+                        "item": "minecraft:string",
+                        "count": 2
+                    },
+                    "weight": 3
+                }
+            ],
+            "empty_weight": 2
+        }
+    }
+
+    )
     /*
         e.custom({
             "type": "interactio:block_explode",

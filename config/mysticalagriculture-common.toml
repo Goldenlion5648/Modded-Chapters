@@ -12,16 +12,16 @@
 	#Should fake players be able to use watering cans?
 	fakePlayerWatering = true
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
-	dragonDropsEssence = true
+	dragonDropsEssence = false
 	#Should right clicking on Farmland with an Essence create Essence Farmland?
-	essenceFarmlandConversion = true
+	essenceFarmlandConversion = false
 	#Should the Wither drop essence when killed with an essence weapon?
-	witherDropsEssence = true
+	witherDropsEssence = false
 	#Should crops have a chance of dropping a second seed when harvested?
-	secondarySeedDrops = true
+	secondarySeedDrops = false
 	#The percentage chance that harvesting a Resource Crop will drop a Fertilized Essence.
 	#Range: 0.0 ~ 1.0
-	fertilizedEssenceChance = 0.1
+	fertilizedEssenceChance = 0.0
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	#Range: 0.0 ~ 1.0
 	inferiumDropChance = 0.0

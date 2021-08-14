@@ -126,14 +126,7 @@ onEvent('recipes', e => {
         'kubejs:tough_root',
         'minecraft:gunpowder'
     ])
-    e.shapeless('4x botania:fertilizer', [
-        'moreflowerbushes:purple_hibiscus',
-        'moreflowerbushes:mountain_laurel',
-        'moreflowerbushes:blue_sage',
-        'moreflowerbushes:blue_hortensia',
-        'minecraft:sugar',
-        'minecraft:bone_meal'
-    ])
+    
 
     e.shapeless('4x kubejs:tough_root3', [
         'kubejs:tough_root2',
@@ -178,6 +171,34 @@ onEvent('recipes', e => {
         S: 'tconstruct:seared_bricks',
         G: 'kubejs:green_gem'
     })
+
+    e.shaped("4x kubejs:alfheim_portal_frame", [
+        'SWS',
+        'WGW',
+        'SWS'
+    ], {
+        W: 'tconstruct:greenheart_wood',
+        S: 'minecraft:emerald',
+        G: 'kubejs:green_gem'
+    })
+    e.shaped("6x kubejs:tinkers_portal_frame", [
+        'SSS',
+        'SSS',
+        'SSS'
+    ], {
+        S: 'tconstruct:seared_bricks'
+    })
+    e.shaped("4x kubejs:magic_mountain_portal_frame", [
+        'SSS',
+        'SSS',
+        'SSS'
+    ], {
+        S: 'botania:mana_powder'
+    })
+
+
+
+
     e.shaped("zensummoning:altar", [
         'WGW',
         'R R',

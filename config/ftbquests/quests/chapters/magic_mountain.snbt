@@ -9,8 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
+			x: 2.5d
 			y: 0.5d
+			dependencies: ["2D03B25FFE184803"]
 			id: "5B2A2C6CBADAB3B4"
 			tasks: [{
 				id: "639F931FF7B19332"
@@ -40,8 +41,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 9.0d
+			x: -2.5d
+			y: 8.5d
 			description: [
 				"Has special properties, allowing converting of some mobs into others."
 				""
@@ -101,8 +102,9 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["It appears this is where witches come to gather their resources for potions. There seems to be an abundance of redstone in the cliff side."]
+			description: ["It appears this is where witches come to gather their resources for potions. There seems to be an abundance of redstone in the cliff sides."]
 			dependencies: ["5B2A2C6CBADAB3B4"]
+			hide: true
 			id: "405A77CA4FA2B3A9"
 			tasks: [{
 				id: "5EB6EAE4171D3AF4"
@@ -304,6 +306,7 @@
 		{
 			x: 0.0d
 			y: 9.0d
+			description: ["It seems that these flowers are able to be transformed into floral fertilizer after being purified!"]
 			dependencies: ["2E561A4C10C58CF4"]
 			id: "60B269CEF8B2FFDE"
 			tasks: [

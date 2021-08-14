@@ -6,16 +6,16 @@ import mods.zensummoning.SummoningInfo;
 import mods.zensummoning.MobInfo;
 
 
-SummoningDirector.addSummonInfo(
-    SummoningInfo.create()
-        .setCatalyst(<item:minecraft:bone>)
-        .setReagents([<item:minecraft:leather>*2,<item:minecraft:beef>])
-        .addMob(MobInfo.create()
-            .setMob(<entitytype:minecraft:illusioner>)
-            .setOffset(1,2,1)
-            .setSpread(1,1,1)
-        )
-);
+// SummoningDirector.addSummonInfo(
+//     SummoningInfo.create()
+//         .setCatalyst(<item:minecraft:bone>)
+//         .setReagents([<item:minecraft:leather>*2,<item:minecraft:beef>])
+//         .addMob(MobInfo.create()
+//             .setMob(<entitytype:minecraft:illusioner>)
+//             .setOffset(1,2,1)
+//             .setSpread(1,1,1)
+//         )
+// );
             // .setData({
             //     "Health":200,
             //     // "Attributes":[
@@ -78,24 +78,24 @@ SummoningDirector.addSummonInfo(
         )
 );
 
-SummoningDirector.addSummonInfo(
-    SummoningInfo.create()
-        .setCatalyst(<item:minecraft:bone>)
-        .setReagents([<item:minecraft:leather>])
-        .addMob(MobInfo.create()
-            .setMob(<entityType:minecraft:zombie_villager>)
-            .setOffset(1,2,1)
-            .setSpread(1,1,1)
-            .setData({
-                "Health":200,
-                "Attributes":[
-                    {"Name":"generic.max_health", "Base":200},
-                    {"Name":"generic.movement_speed", "Base":0.3},
-                    {"Name":"generic.attack_damage", "Base":6}
-                ],
-                "CustomName":"A Lost Soul",
-                "PersistenceRequired":1,
-                "CustomNameVisible":1
-            })
-        )
-);
+// SummoningDirector.addSummonInfo(
+//     SummoningInfo.create()
+//         .setCatalyst(<item:minecraft:bone>)
+//         .setReagents([<item:minecraft:leather>])
+//         .addMob(MobInfo.create()
+//             .setMob(<entityType:minecraft:zombie_villager>)
+//             .setOffset(1,2,1)
+//             .setSpread(1,1,1)
+//             .setData({
+//                 "Health":200,
+//                 "Attributes":[
+//                     {"Name":"generic.max_health", "Base":200},
+//                     {"Name":"generic.movement_speed", "Base":0.3},
+//                     {"Name":"generic.attack_damage", "Base":6}
+//                 ],
+//                 "CustomName":"A Lost Soul",
+//                 "PersistenceRequired":1,
+//                 "CustomNameVisible":1
+//             })
+//         )
+// );

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "exnihilosequentia:silkworm"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "is_explosion": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

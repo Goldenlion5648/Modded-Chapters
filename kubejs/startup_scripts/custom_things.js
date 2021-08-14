@@ -5,6 +5,8 @@ console.info('Hello, World! (You will only see this line once in console, during
 onEvent('item.registry', event => {
     // Register new items here
     // event.create('trade_apology').displayName('Trade Apology')
+
+    // event.create('lightning_hammer').displayName('Lightning Hammer').type(hoe).tier('diamond').rarity('RARITY_EPIC')
     event.create('portal_lighter').displayName('Mysterious Portal Lighter')
     event.create('healthometer').displayName('Healthometer')
     event.create('instant_bubble').displayName('Instant Bubble')
@@ -70,12 +72,13 @@ onEvent('block.registry', event => {
     // event.create('alfheim_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Alfhiem Portal Frame')
     // event.create('tinkers_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Tinkers Portal Frame')
     // event.create('ocean_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Ocean Portal Frame')
-    event.create('elementium_ore').material('stone').hardness(2.0).displayName('Elementium Ore')
+    event.create('elementium_ore').material('stone').requiresTool(true).hardness(2.0).harvestTool("pickaxe", 6).displayName('Elementium Ore')
 })
 
 onEvent('fluid.registry', event => {
     // Basic "thick" (looks like lava) fluid with red tint
-    event.create('liquid_green').textureThick(0x1F9903).bucketColor(0x82E8A2).displayName('Liquid green')
+    event.create('liquid_green').textureThick(0x1F9903).bucketColor(0x82E8A2).displayName('Liquid Green')
+    event.create('molten_elementium').textureThick(0xe80fe9).bucketColor(0xe80ef9).displayName('Molten Elementium')
     // Basic "thin" (looks like water) fluid with cyan tint
     // event.create('thin_fluid').textureThin(0x00FFFF).bucketColor(0x00FFFF).displayName('Thin Fluid')
     // Fluid with custom textures

@@ -56,26 +56,46 @@ onEvent('block.loot_tables', event => {
     //     })
     // })
 
-    event.addBlock("kubejs:elementium_ore", table => {
-        table.pool(pool => {
-            pool.setUniformRolls(3, 6)
-            // pool.survivesExplosion()
-            // pool.randomChance()
-            pool.addEntry({
-                "type": "minecraft:item",
-                "name": "botania:elementium_nugget"
+    // event.addBlock("kubejs:elementium_ore", table => {
+    //     table.pool(pool => {
+    //         pool.setUniformRolls(3, 6)
+    //         // pool.survivesExplosion()
+    //         // pool.randomChance()
+    //         pool.addEntry({
+    //             "type": "minecraft:item",
+    //             "name": "botania:elementium_nugget"
 
-            })
-        })
-    })
+    //         })
+    //     })
+    // })
 
-    event.addBlock("kubejs:wet_cobblestone", table => {
-        table.pool(pool => {
-            // pool.survivesExplosion()
-            // pool.randomChance()
+    // event.addBlock("kubejs:wet_cobblestone", table => {
+    //     table.pool(pool => {
+    //         // pool.survivesExplosion()
+    //         // pool.randomChance()
             
-        })
-    })
+    //     })
+    // })
+    // event.addBlock("kubejs:elementium_ore", table => {
+    //     table.pool(pool => {
+    //         // pool.survivesExplosion()
+    //         // pool.randomChance()
+    //         pool.addCondition({
+    //             "condition": "minecraft:match_tool",
+    //             "predicate": {
+    //                 "enchantments": [
+    //                     {
+    //                         "enchantment": "minecraft:silk_touch",
+    //                         "levels": {
+    //                             "min": 1
+    //                         }
+    //                     }
+    //                 ]
+    //             }
+    //         })
+            
+    //     })
+    // })
 
 })
 
