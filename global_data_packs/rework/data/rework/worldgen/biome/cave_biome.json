@@ -1,0 +1,21 @@
+{
+    "surface_builder": "rework:cave_surface",
+    "depth": 0.125,
+    "scale": 0.2,
+    "temperature": 0,
+    "downfall": 0,
+    "precipitation": "none",
+    "temperature_modifier": "none",
+    "category": "plains",
+    "effects": {
+        "sky_color": 14844998,
+        "fog_color": 15253915,
+        "water_color": 4159204,
+        "water_fog_color": 329011
+    },
+    "starts": [],
+    "spawners": {},
+    "spawn_costs": {},
+    "carvers": {},
+    "features": []
+}

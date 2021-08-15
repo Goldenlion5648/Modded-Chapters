@@ -44,6 +44,22 @@ nbt regex:
 
 
 TODO
+masterful machine to 
+-trade elven recipes
+-crook leaves for mana powder
+-extract redstone from magic mountain (mystical flowers and redstone to make machine)
+-make machine in shroomlight as "sap" to keep machine cool
+
+start with basic AE
+get drives as quest rewards
+
+
+increase health of mobs in cave dimension
+
+summon boss with item, must be in certain dimension
+
+
+
 add recipes for modular machinery ocean floor machine
 
 creeper dimension

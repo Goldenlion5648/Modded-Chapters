@@ -1,0 +1,107 @@
+{
+	id: "751DD8094A7AE8D9"
+	group: ""
+	order_index: 7
+	filename: "cave"
+	title: "Cave"
+	icon: "quark:marble"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "40D988333A609C92"
+			tasks: [{
+				id: "249C8B238E1B58D7"
+				type: "dimension"
+				dimension: "rework:glowing_caves"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "13A2D54CC317EC80"
+			tasks: [{
+				id: "49D304C98138DF9F"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["13A2D54CC317EC80"]
+			id: "387F92F0E72C9D6A"
+			tasks: [
+				{
+					id: "1E7D87130F59D757"
+					type: "item"
+					item: "quark:waxed_red_crystal"
+				}
+				{
+					id: "0D580F1FF2E21C23"
+					type: "item"
+					item: "quark:waxed_yellow_crystal"
+				}
+				{
+					id: "387CA4DCBB3C0F5A"
+					type: "item"
+					item: "quark:waxed_green_crystal"
+				}
+				{
+					id: "0085EBB68060220E"
+					type: "item"
+					item: "quark:waxed_blue_crystal"
+				}
+				{
+					id: "694472FA26427719"
+					type: "item"
+					item: "quark:waxed_indigo_crystal"
+				}
+				{
+					id: "722F66108275119F"
+					type: "item"
+					item: "quark:waxed_violet_crystal"
+				}
+				{
+					id: "0323232A125799A5"
+					type: "item"
+					item: "quark:waxed_white_crystal"
+				}
+				{
+					id: "4EACA4784135F9AC"
+					type: "item"
+					item: "quark:waxed_black_crystal"
+				}
+				{
+					id: "0F11CF5D28BB9ECB"
+					type: "item"
+					item: "quark:waxed_orange_crystal"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["13A2D54CC317EC80"]
+			id: "2FAFC265782F5DA5"
+			tasks: [
+				{
+					id: "007BD665D15720A0"
+					type: "item"
+					item: "appliedenergistics2:charged_quartz_ore"
+				}
+				{
+					id: "692B4A20C4D311DC"
+					type: "item"
+					item: "appliedenergistics2:quartz_ore"
+				}
+				{
+					id: "1001E762B8328D17"
+					type: "item"
+					item: "appliedenergistics2:quartz_block"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+
+[General]
+	#Should trophies drop from mobs when killed by a player?
+	dropFromMobs = false
+	#Drop chance for trophies when a boss entity is killed by a player.
+	#Range: 0.0 ~ 1.0
+	dropChanceBoss = 0.0
+	#Drop chance for trophies when a normal entity is killed by a player.
+	#Range: 0.0 ~ 1.0
+	dropChanceMobs = 0.00
+	#Allow non opped players to change the settings for a trophy.
+	allowNonOpEdit = false
+

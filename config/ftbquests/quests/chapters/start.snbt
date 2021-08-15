@@ -95,7 +95,7 @@
 		}
 		{
 			title: "Trading Time"
-			x: -4.5d
+			x: -5.0d
 			y: 1.0d
 			description: [
 				"It's working! Someone is trying to trade!"
@@ -127,7 +127,11 @@
 		{
 			x: -6.5d
 			y: -1.5d
-			description: ["There seems to be some elementium ore here in alfheim in the lower parts of the island."]
+			description: [
+				"There seems to be some elementium ore here in alfheim in the lower parts of the island."
+				""
+				"Seems to require a higher tier pickaxe to mine."
+			]
 			dependencies: ["4F961348CD440C9A"]
 			id: "5F8D23FB3E01D73D"
 			tasks: [{
@@ -171,7 +175,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.0d
 			y: 0.5d
 			description: ["This could be useful for some automation!"]
 			dependencies: ["3425B5CECE53C4F9"]
@@ -236,7 +240,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -5.5d
 			y: -0.5d
 			description: ["It seems that the floating islands are alive! Dreamwood seems to help support it. The islands seem to be infinite, taking some should not be a problem."]
 			dependencies: ["4F961348CD440C9A"]
@@ -308,7 +312,7 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 			description: ["It seems that after eating the mystical flowers, the worms have some magical essence inside of them! By using a crook infused with mana, infested leaves get converted completely to mana powder!"]
 			dependencies: ["21962F9DC0FA73C0"]
 			id: "3FB2D9713C28DB3B"

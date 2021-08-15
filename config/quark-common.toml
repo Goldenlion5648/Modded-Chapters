@@ -321,7 +321,7 @@
 		#2 is Iron, 3 is Diamond.
 		"Harvest Level" = 3
 		#2 is Iron, 3 is Diamond.
-		"Netherite Harvest Level" = 3
+		"Netherite Harvest Level" = 4
 		#Set to -1 to have the Pickarang be unbreakable.
 		Durability = 800
 		#Set to -1 to have the Flamerang be unbreakable.
@@ -483,7 +483,7 @@
 		#Does Dragon Breath return a bottle when used as a reagent or material?
 		"Effective Dragon Breath" = true
 		#Can torches can be used as fuel in furnaces?
-		"Torches Burn" = true
+		"Torches Burn" = false
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
 
@@ -544,7 +544,7 @@
 		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt"]
 
 		[world.big_stone_clusters.granite]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -580,7 +580,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.diorite]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -616,7 +616,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.andesite]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -688,7 +688,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [0,255]
@@ -1100,11 +1100,11 @@
 
 		[world.mega_caves.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["rework:glowing_caves"]
 
 		[world.mega_caves.spawn_settings]
 			#Allowed values: [0,)
-			Rarity = 800
+			Rarity = 100
 			#Allowed values: [0,255]
 			"Min Y Level" = 10
 			#Allowed values: [0,255]
@@ -1120,7 +1120,7 @@
 
 			[world.mega_caves.spawn_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["rework:glowing_caves"]
 
 			[world.mega_caves.spawn_settings.biomes]
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
@@ -1128,7 +1128,7 @@
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
-				"Biome Types" = ["ocean", "beach"]
+				"Biome Types" = []
 				"Is Blacklist" = true
 
 	[world.monster_box]
@@ -1265,11 +1265,11 @@
 				"Cluster Count" = 10
 
 	[world.speleothems]
-		"Tries Per Chunk" = 60
-		"Speleothems Per Chunk" = 12
+		"Tries Per Chunk" = 30
+		"Speleothems Per Chunk" = 6
 		"Tries Per Chunk In Nether" = 4
 		"Speleothems Per Chunk In Nether" = 12
-		"Max Ylevel" = 55
+		"Max Ylevel" = 128
 		"Small Speleothems Increase Fall Damage" = true
 
 		[world.speleothems.dimensions]
@@ -1322,7 +1322,7 @@
 
 		[world.brimstone_underground_biome.biome_settings]
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 40
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
@@ -1338,7 +1338,7 @@
 
 			[world.brimstone_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["rework:glowing_caves"]
 
 			[world.brimstone_underground_biome.biome_settings.biomes]
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
@@ -1346,8 +1346,8 @@
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
-				"Biome Types" = ["mesa"]
-				"Is Blacklist" = false
+				"Biome Types" = []
+				"Is Blacklist" = true
 
 	[world.cave_crystal_underground_biome]
 		#Allowed values: [0,1]
@@ -1366,7 +1366,7 @@
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			#Allowed values: [0,)
-			Rarity = 400
+			Rarity = 70
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
@@ -1382,7 +1382,7 @@
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["rework:glowing_caves"]
 
 			[world.cave_crystal_underground_biome.biome_settings.biomes]
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
@@ -1438,7 +1438,7 @@
 
 		[world.glowshroom_underground_biome.biome_settings]
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 50
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
@@ -1454,7 +1454,7 @@
 
 			[world.glowshroom_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["rework:glowing_caves"]
 
 			[world.glowshroom_underground_biome.biome_settings.biomes]
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
@@ -1462,8 +1462,8 @@
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
-				"Biome Types" = ["mountain", "mushroom"]
-				"Is Blacklist" = false
+				"Biome Types" = []
+				"Is Blacklist" = true
 
 	[world.lush_underground_biome]
 
@@ -1531,7 +1531,7 @@
 
 		[world.permafrost_underground_biome.biome_settings]
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 40
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
@@ -1547,7 +1547,7 @@
 
 			[world.permafrost_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["rework:glowing_caves"]
 
 			[world.permafrost_underground_biome.biome_settings.biomes]
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
@@ -1625,11 +1625,11 @@
 
 		[world.spider_nest_underground_biome.biome_settings]
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 50
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
-			"Max Y Level" = 64
+			"Max Y Level" = 120
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
@@ -1641,7 +1641,7 @@
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["rework:glowing_caves"]
 
 			[world.spider_nest_underground_biome.biome_settings.biomes]
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
@@ -1649,16 +1649,16 @@
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
-				"Biome Types" = ["plains"]
-				"Is Blacklist" = false
+				"Biome Types" = []
+				"Is Blacklist" = true
 
 [mobs]
 	Crabs = true
 	Forgotten = true
 	Foxhound = true
-	Frogs = true
-	Stonelings = true
-	Toretoise = true
+	Frogs = false
+	Stonelings = false
+	Toretoise = false
 	Wraith = true
 
 	[mobs.crabs]

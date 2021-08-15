@@ -1,0 +1,22 @@
+name: appliedenergistics2_charged_quartz_ore
+mod: appliedenergistics2
+block: {
+  location: appliedenergistics2:charged_quartz_ore_light_0
+  resistance: 5
+}
+texture: {
+  original: appliedenergistics2:block/charged_quartz_ore_light_0
+  background: appliedenergistics2:block/charged_quartz_ore_light_0
+}
+recipe: {
+  result: iceandfire:copper_ingot
+  xp: 0.35
+}
+loot: iceandfire:blocks/copper_ore
+gen: [
+  {
+    height: [ 0, 128 ]
+    count: 5
+    size: 5
+  }
+]

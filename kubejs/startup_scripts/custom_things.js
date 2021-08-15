@@ -72,7 +72,8 @@ onEvent('block.registry', event => {
     // event.create('alfheim_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Alfhiem Portal Frame')
     // event.create('tinkers_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Tinkers Portal Frame')
     // event.create('ocean_portal_frame').material('stone').hardness(2.0).resistance(100000).displayName('Ocean Portal Frame')
-    event.create('elementium_ore').material('stone').requiresTool(true).hardness(2.0).harvestTool("pickaxe", 6).displayName('Elementium Ore')
+    event.create('elementium_ore').material('stone').requiresTool(true).hardness(2.0).harvestTool("pickaxe", 6).resistance(100000).displayName('Elementium Ore')
+    event.create('elementium_ore').material('stone').requiresTool(true).hardness(2.0).harvestTool("pickaxe", 6).resistance(100000).displayName('Elementium Ore')
 })
 
 onEvent('fluid.registry', event => {

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:default",
+    "config": {
+        "top_material": {
+            "Name": "quark:marble",
+            "Properties": {
+                "snowy": "false"
+            }
+        },
+        "under_material": {
+            "Name": "quark:marble"
+        },
+        "underwater_material": {
+            "Name": "quark:marble"
+        }
+    }
+}

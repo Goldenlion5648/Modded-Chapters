@@ -15,7 +15,7 @@
   "forge:dusts/niter": "thermal:niter_dust",
   "forge:ingots/chrome": "null",
   "forge:ingots/electrum": "thermal:electrum_ingot",
-  "forge:silicon": "null",
+  "forge:silicon": "appliedenergistics2:silicon",
   "forge:gems/apatite": "thermal:apatite",
   "forge:ingots/brass": "create:brass_ingot",
   "forge:ingots/silver": "exnihilosequentia:ingot_silver",

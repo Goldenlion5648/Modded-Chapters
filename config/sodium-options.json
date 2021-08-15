@@ -1,0 +1,25 @@
+{
+  "quality": {
+    "cloud_quality": "DEFAULT",
+    "weather_quality": "DEFAULT",
+    "enable_vignette": false,
+    "enable_fog": true,
+    "enable_clouds": false,
+    "smooth_lighting": "HIGH"
+  },
+  "advanced": {
+    "use_vertex_array_objects": false,
+    "use_chunk_multidraw": false,
+    "translucency_sorting": false,
+    "use_leaves_culling": false,
+    "animate_only_visible_textures": false,
+    "use_entity_culling": false,
+    "use_particle_culling": false,
+    "use_fog_occlusion": false,
+    "use_compact_vertex_format": false,
+    "use_block_face_culling": false,
+    "allow_direct_memory_access": false,
+    "ignore_driver_blacklist": false
+  },
+  "fps_counter": false
+}
