@@ -33,6 +33,7 @@
             "minecraft:plain_vegetation",
             "minecraft:flower_plain_decorated",
             "minecraft:forest_flower_vegetation_common",
+            "integrateddynamics:tree_menril_general",
             "minecraft:patch_grass_plain"
         ],
         []

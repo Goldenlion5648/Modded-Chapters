@@ -87,8 +87,35 @@ onEvent('recipes', e => {
             ],
             "empty_weight": 2
         }
-    }
+    })
 
+    e.custom({
+        "type": "interactio:item_fluid_transform",
+        "inputs": [
+            {
+                "item": "tconstruct:greenheart_wood",
+                "count": 1,
+                "return_chance": 0.0
+            }
+        ],
+        "fluid": {
+            "fluid": "kubejs:liquid_green"
+        },
+        "output": {
+            "entries": [
+                {
+                    "result": {
+                        "item": "minecraft:sugar_cane",
+                        "count": 3
+                    },
+                    "weight": 7
+                }
+            ],
+            "empty_weight": 0,
+            "rolls": 1
+        },
+        "consume_fluid": 1.0
+    }
     )
     /*
         e.custom({

@@ -188,5 +188,59 @@ onEvent('recipes', event => {
             }
         }
     })
+    event.custom({
+        "type": "masterfulmachinery:machine_structure",
+        "id": "green_cobble_gen",
+        "controllerId": "basic",
+        "name": "Green Cobblestone Generator",
+        "layout": [
+            [
+                "*+,",
+                " C "
+            ],
+            [
+                " p ",
+                "   ",
+            ]
+        ],
+        "legend": {
+            "*": {
+                "block": "minecraft:water"
+            },
+            "+": {
+                "block": "masterfulmachinery:basic_basic_port_items_output"
+            },
+            "p": {
+                "block": "masterfulmachinery:basic_small_energy_port_energy_input"
+            },
+            ",": {
+                "block": "kubejs:liquid_green"
+            }
+        }
+    })
+
+    event.custom({
+        "type": "masterfulmachinery:machine_process",
+        "structureId": "green_cobble_gen",
+        "controllerId": "basic",
+        "ticks": 40,
+        "inputs": [
+            {
+                "type": "masterfulmachinery:energy",
+                "data": {
+                    "amount": 400
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "type": "masterfulmachinery:items",
+                "data": {
+                    "item": "pickletweaks:green_cobblestone",
+                    "count": 1
+                }
+            }
+        ]
+    })
 
 })

@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------
+ID, Registry name, Temp., RainType, Downfall, BiomeTypes, BiomeDictionary Types
+-------------------------------------------------------------------------------
+0, minecraft:ocean,  0.50, rain, 0.50, , OCEAN, OVERWORLD, WATER
+1, minecraft:plains,  0.80, rain, 0.40, COOL, DESERT, DESERT_LEGACY, WARM, OVERWORLD, PLAINS
+2, minecraft:desert,  2.00, -, 0.00, DESERT, DESERT_LEGACY, DRY, HOT, OVERWORLD, SANDY
+3, minecraft:mountains,  0.20, rain, 0.30, COOL, DESERT_LEGACY, WARM, HILLS, MOUNTAIN, OVERWORLD
+4, minecraft:forest,  0.70, rain, 0.80, COOL, DESERT_LEGACY, WARM, FOREST, OVERWORLD
+5, minecraft:taiga,  0.25, rain, 0.80, COOL, DESERT_LEGACY, COLD, CONIFEROUS, FOREST, OVERWORLD
+6, minecraft:swamp,  0.80, rain, 0.90, DESERT_LEGACY, WARM, OVERWORLD, SWAMP, WET
+7, minecraft:river,  0.50, rain, 0.50, , OVERWORLD, RIVER, WATER
+8, minecraft:nether_wastes,  2.00, -, 0.00, , DRY, HOT, NETHER
+9, minecraft:the_end,  0.50, -, 0.50, , COLD, DRY, END
+10, minecraft:frozen_ocean,  0.00, snow, 0.50, , COLD, OCEAN, OVERWORLD, SNOWY, WATER
+11, minecraft:frozen_river,  0.00, snow, 0.50, , COLD, OVERWORLD, RIVER, SNOWY, WATER
+12, minecraft:snowy_tundra,  0.00, snow, 0.50, ICY, COLD, OVERWORLD, SNOWY, WASTELAND
+13, minecraft:snowy_mountains,  0.00, snow, 0.50, , COLD, MOUNTAIN, OVERWORLD, SNOWY
+14, minecraft:mushroom_fields,  0.90, rain, 1.00, , MUSHROOM, OVERWORLD, RARE
+15, minecraft:mushroom_field_shore,  0.90, rain, 1.00, , BEACH, MUSHROOM, OVERWORLD, RARE
+16, minecraft:beach,  0.80, rain, 0.40, , BEACH, OVERWORLD
+17, minecraft:desert_hills,  2.00, -, 0.00, , DRY, HILLS, HOT, OVERWORLD, SANDY
+18, minecraft:wooded_hills,  0.70, rain, 0.80, , FOREST, HILLS, OVERWORLD
+19, minecraft:taiga_hills,  0.25, rain, 0.80, , COLD, CONIFEROUS, FOREST, HILLS, OVERWORLD
+20, minecraft:mountain_edge,  0.20, rain, 0.30, , MOUNTAIN, OVERWORLD
+21, minecraft:jungle,  0.95, rain, 0.90, , DENSE, HOT, JUNGLE, OVERWORLD, WET
+22, minecraft:jungle_hills,  0.95, rain, 0.90, , DENSE, HILLS, HOT, JUNGLE, OVERWORLD, WET
+23, minecraft:jungle_edge,  0.95, rain, 0.80, , FOREST, HOT, JUNGLE, OVERWORLD, RARE, WET
+24, minecraft:deep_ocean,  0.50, rain, 0.50, , OCEAN, OVERWORLD, WATER
+25, minecraft:stone_shore,  0.20, rain, 0.30, , BEACH, OVERWORLD
+26, minecraft:snowy_beach,  0.05, snow, 0.30, , BEACH, COLD, OVERWORLD, SNOWY
+27, minecraft:birch_forest,  0.60, rain, 0.60, WARM, FOREST, OVERWORLD
+28, minecraft:birch_forest_hills,  0.60, rain, 0.60, , FOREST, HILLS, OVERWORLD
+29, minecraft:dark_forest,  0.70, rain, 0.80, WARM, DENSE, FOREST, OVERWORLD, SPOOKY
+30, minecraft:snowy_taiga, -0.50, snow, 0.40, ICY, COLD, CONIFEROUS, FOREST, OVERWORLD, SNOWY
+31, minecraft:snowy_taiga_hills, -0.50, snow, 0.40, , COLD, CONIFEROUS, FOREST, HILLS, OVERWORLD, SNOWY
+32, minecraft:giant_tree_taiga,  0.30, rain, 0.80, , COLD, CONIFEROUS, FOREST, OVERWORLD
+33, minecraft:giant_tree_taiga_hills,  0.30, rain, 0.80, , COLD, CONIFEROUS, FOREST, HILLS, OVERWORLD
+34, minecraft:wooded_mountains,  0.20, rain, 0.30, , FOREST, MOUNTAIN, OVERWORLD, SPARSE
+35, minecraft:savanna,  1.20, -, 0.00, DESERT, HOT, OVERWORLD, PLAINS, SAVANNA, SPARSE
+36, minecraft:savanna_plateau,  1.00, -, 0.00, , HOT, OVERWORLD, PLAINS, PLATEAU, RARE, SAVANNA, SPARSE
+37, minecraft:badlands,  2.00, -, 0.00, , DRY, MESA, OVERWORLD, SANDY
+38, minecraft:wooded_badlands_plateau,  2.00, -, 0.00, , DRY, MESA, OVERWORLD, PLATEAU, SANDY, SPARSE
+39, minecraft:badlands_plateau,  2.00, -, 0.00, , DRY, MESA, OVERWORLD, PLATEAU, SANDY
+40, minecraft:small_end_islands,  0.50, -, 0.50, , END
+41, minecraft:end_midlands,  0.50, -, 0.50, , END
+42, minecraft:end_highlands,  0.50, -, 0.50, , END
+43, minecraft:end_barrens,  0.50, -, 0.50, , END
+44, minecraft:warm_ocean,  0.50, rain, 0.50, , HOT, OCEAN, OVERWORLD, WATER
+45, minecraft:lukewarm_ocean,  0.50, rain, 0.50, , OCEAN, OVERWORLD, WATER
+46, minecraft:cold_ocean,  0.50, rain, 0.50, , COLD, OCEAN, OVERWORLD, WATER
+47, minecraft:deep_warm_ocean,  0.50, rain, 0.50, , HOT, OCEAN, OVERWORLD, WATER
+48, minecraft:deep_lukewarm_ocean,  0.50, rain, 0.50, , OCEAN, OVERWORLD, WATER
+49, minecraft:deep_cold_ocean,  0.50, rain, 0.50, , COLD, OCEAN, OVERWORLD, WATER
+50, minecraft:deep_frozen_ocean,  0.50, rain, 0.50, , COLD, OCEAN, OVERWORLD, WATER
+51, appliedenergistics2:spatial_storage,  0.50, -, 0.50, , 
+52, integrateddynamics:meneglin,  0.70, rain, 0.25, COOL, COLD, CONIFEROUS, DENSE, FOREST, MAGICAL, OVERWORLD, WET
+127, minecraft:the_void,  0.50, -, 0.50, , VOID
+129, minecraft:sunflower_plains,  0.80, rain, 0.40, , OVERWORLD, PLAINS, RARE
+130, minecraft:desert_lakes,  2.00, -, 0.00, , DRY, HOT, OVERWORLD, RARE, SANDY
+131, minecraft:gravelly_mountains,  0.20, rain, 0.30, , MOUNTAIN, OVERWORLD, RARE, SPARSE
+132, minecraft:flower_forest,  0.70, rain, 0.80, , FOREST, HILLS, OVERWORLD, RARE
+133, minecraft:taiga_mountains,  0.25, rain, 0.80, , COLD, CONIFEROUS, FOREST, MOUNTAIN, OVERWORLD, RARE
+134, minecraft:swamp_hills,  0.80, rain, 0.90, , HILLS, OVERWORLD, RARE, SWAMP, WET
+140, minecraft:ice_spikes,  0.00, snow, 0.50, , COLD, HILLS, OVERWORLD, RARE, SNOWY
+149, minecraft:modified_jungle,  0.95, rain, 0.90, , DENSE, HOT, JUNGLE, MODIFIED, MOUNTAIN, OVERWORLD, RARE, WET
+151, minecraft:modified_jungle_edge,  0.95, rain, 0.80, , HILLS, HOT, JUNGLE, MODIFIED, OVERWORLD, RARE, SPARSE
+155, minecraft:tall_birch_forest,  0.60, rain, 0.60, , DENSE, FOREST, HILLS, OVERWORLD, RARE
+156, minecraft:tall_birch_hills,  0.60, rain, 0.60, , DENSE, FOREST, MOUNTAIN, OVERWORLD, RARE
+157, minecraft:dark_forest_hills,  0.70, rain, 0.80, , DENSE, FOREST, MOUNTAIN, OVERWORLD, RARE, SPOOKY
+158, minecraft:snowy_taiga_mountains, -0.50, snow, 0.40, , COLD, CONIFEROUS, FOREST, MOUNTAIN, OVERWORLD, RARE, SNOWY
+160, minecraft:giant_spruce_taiga,  0.25, rain, 0.80, , DENSE, FOREST, OVERWORLD, RARE
+161, minecraft:giant_spruce_taiga_hills,  0.25, rain, 0.80, , DENSE, FOREST, HILLS, OVERWORLD, RARE
+162, minecraft:modified_gravelly_mountains,  0.20, rain, 0.30, , MODIFIED, MOUNTAIN, OVERWORLD, RARE, SPARSE
+163, minecraft:shattered_savanna,  1.10, -, 0.00, , DRY, HOT, MOUNTAIN, OVERWORLD, RARE, SAVANNA, SPARSE
+164, minecraft:shattered_savanna_plateau,  1.00, -, 0.00, , DRY, HILLS, HOT, OVERWORLD, PLATEAU, RARE, SAVANNA, SPARSE
+165, minecraft:eroded_badlands,  2.00, -, 0.00, , DRY, HOT, MOUNTAIN, OVERWORLD, RARE, SPARSE
+166, minecraft:modified_wooded_badlands_plateau,  2.00, -, 0.00, , DRY, HILLS, HOT, MODIFIED, OVERWORLD, PLATEAU, RARE, SPARSE
+167, minecraft:modified_badlands_plateau,  2.00, -, 0.00, , DRY, HOT, MODIFIED, MOUNTAIN, OVERWORLD, PLATEAU, RARE, SPARSE
+168, minecraft:bamboo_jungle,  0.95, rain, 0.90, , HOT, JUNGLE, OVERWORLD, RARE, WET
+169, minecraft:bamboo_jungle_hills,  0.95, rain, 0.90, , HILLS, HOT, JUNGLE, OVERWORLD, RARE, WET
+170, minecraft:soul_sand_valley,  2.00, -, 0.00, , DRY, HOT, NETHER
+171, minecraft:crimson_forest,  2.00, -, 0.00, , DRY, FOREST, HOT, NETHER
+172, minecraft:warped_forest,  2.00, -, 0.00, , DRY, FOREST, HOT, NETHER
+173, minecraft:basalt_deltas,  2.00, -, 0.00, , DRY, HOT, NETHER
+174, rework:asteroid_belt,  0.80, rain, 0.40, , 
+175, rework:cave_biome,  0.00, -, 0.00, , 
+176, rework:green_biome,  0.60, -, 0.00, , 
+177, rework:hub_biome,  0.80, rain, 0.40, , 
+178, rework:magic_mountain,  0.80, rain, 0.40, , 
+179, rework:seared_fields,  0.50, rain, 0.50, , 
+180, rework:sky_plains,  0.80, rain, 0.40, , 
+181, rework:slimeland,  0.80, rain, 0.40, , 
+-------------------------------------------------------------------------------
+ID, Registry name, Temp., RainType, Downfall, BiomeTypes, BiomeDictionary Types
+-------------------------------------------------------------------------------

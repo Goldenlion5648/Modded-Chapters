@@ -1,0 +1,14 @@
+-------------
+Registry name
+-------------
+minecraft:checkerboard
+minecraft:fixed
+minecraft:multi_noise
+minecraft:the_end
+minecraft:vanilla_layered
+skyblockbuilder:skyblock_end_provider
+skyblockbuilder:skyblock_nether_provider
+skyblockbuilder:skyblock_provider
+-------------
+Registry name
+-------------

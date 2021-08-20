@@ -1,0 +1,111 @@
+{
+	id: "070EA68AA25287D7"
+	group: ""
+	order_index: 4
+	filename: "machines"
+	title: "Machines"
+	icon: "masterfulmachinery:basic_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "57801D8FEBA68275"
+			tasks: [{
+				id: "275304952ED4730A"
+				type: "item"
+				item: "masterfulmachinery:basic_controller"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "0940F25F5732F5CF"
+			tasks: [{
+				id: "60D6F3CD265D1815"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "48B1C69A07F61248"
+			tasks: [{
+				id: "6467C9B2F8D68ECC"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "082D56B42B00FFF5"
+			tasks: [{
+				id: "09AEF768F5B755E3"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "79922B14A2EF2A02"
+			tasks: [{
+				id: "2457C0F705ACFDA4"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "61EA6C2F010BB547"
+			tasks: [{
+				id: "238D0FEC659DC1F4"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "0CD8AC2EA1E9114C"
+			tasks: [{
+				id: "22421FF4CF21FAC5"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "7F4E59D6DBDA7DBA"
+			tasks: [{
+				id: "02007C4DB4D4410D"
+				type: "item"
+				item: "thermal:dynamo_output_augment"
+				count: 64L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			id: "4806C6A1ECA17071"
+			tasks: [{
+				id: "553EEC11B6B33257"
+				type: "item"
+				item: "kubejs:green_gem"
+			}]
+		}
+	]
+}

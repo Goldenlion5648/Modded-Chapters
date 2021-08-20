@@ -207,7 +207,7 @@
 				title: "Knowledge"
 			}]
 			rewards: [{
-				id: "5F03DFA830DF033F"
+				id: "5FE84BA7104EB2C4"
 				type: "item"
 				item: {
 					id: "akashictome:tome"
@@ -239,6 +239,10 @@
 										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Encyclopedia of Tinkering\"}]}"
 									}
 								}
+							}
+							integratedtunnels: {
+								id: "integrateddynamics:on_the_dynamics_of_integration"
+								Count: 1b
 							}
 							solpotato: {
 								id: "solpotato:food_book"

@@ -1,5 +1,18 @@
 {
-    "type": "minecraft:overworld_caves",
+    "type": {
+        "ultrawarm": false,
+        "natural": true,
+        "piglin_safe": false,
+        "respawn_anchor_works": true,
+        "bed_works": false,
+        "has_raids": false,
+        "has_skylight": false,
+        "has_ceiling": true,
+        "coordinate_scale": 1,
+        "ambient_light": 0.05,
+        "logical_height": 128,
+        "infiniburn": "minecraft:infiniburn_overworld"
+    },
     "generator": {
         "type": "minecraft:noise",
         "seed": 0,

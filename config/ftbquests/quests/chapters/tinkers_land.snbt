@@ -1,7 +1,7 @@
 {
 	id: "6BF8FCFCB3D7E620"
 	group: ""
-	order_index: 4
+	order_index: 3
 	filename: "tinkers_land"
 	title: "Tinkers Land"
 	icon: "tconstruct:earth_congealed_slime"
@@ -30,6 +30,103 @@
 				id: "410C282E4FBFF2AF"
 				type: "checkmark"
 				title: "Hello Adventurer!"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			description: ["\"Even though I am a tinkerer, I do also enjoy some things from the magic arts. It can be difficult for me to obtain some of the materials from this land however. If you can fetch them for me, I'll make it worth your time!\""]
+			dependencies: ["1D5323789209CEF5"]
+			id: "74F1DA1E3EF80998"
+			tasks: [{
+				id: "6CBF66EE8BB78BEB"
+				type: "checkmark"
+				title: "I like inventing"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["74F1DA1E3EF80998"]
+			id: "0C10C7708B1EEB99"
+			tasks: [{
+				id: "494FBACDCA77DF34"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["\"I am a tinkerer at heart. I always wanted to try some of these modifiers for my tools, think you could help me get some of them?\""]
+			dependencies: ["1D5323789209CEF5"]
+			id: "39F8BF83B616EEDA"
+			tasks: [{
+				id: "4ED1BFD72AC1E1A2"
+				type: "checkmark"
+				title: "Modifiers"
+			}]
+		}
+		{
+			title: "The Magnet"
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["39F8BF83B616EEDA"]
+			id: "45CA91434DC2E941"
+			tasks: [{
+				id: "18ED3FAEAE5BA494"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["I have collected some flowers over the years, but no place to store the mana they produce"]
+			id: "3D95D56E9895D08A"
+			tasks: [{
+				id: "6976B3EE788A171D"
+				type: "item"
+				item: "botania:mana_pool"
+				count: 4L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			description: ["I was trying to trade with the elves recently, but they seemed to stop trading back! Looks like you are able to travel between dimensions, think you could help me out?"]
+			id: "61D8BBFB0806AB2C"
+			tasks: [{
+				id: "3F08A954B49472DE"
+				type: "item"
+				item: "botania:dreamwood"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			id: "30F8E952FAEBEFD6"
+			tasks: [{
+				id: "33BD9106B9B84CB0"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			description: ["As you might have noticed, there are a &ofew&r slimes around here. One of my experiments to genetically modify them got a bit out of hand. Now they constantly spawn here. Feel free to suck them up and gain some mana in the process."]
+			id: "364AD6AB10A5C046"
+			tasks: [{
+				id: "398D30FA49925EEB"
+				type: "item"
+				item: "botania:narslimmus"
 			}]
 		}
 	]

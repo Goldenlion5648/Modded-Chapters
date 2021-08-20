@@ -11,19 +11,56 @@
     },
     {
         "dimension": "rework:mountainland",
-        "mob": ["minecraft:skeleton",
-        "minecraft:wither_skeleton"],
-        "block": "kubejs:graveyard_soil",
+        "mob": [
+            "minecraft:skeleton",
+            "minecraft:wither_skeleton"
+        ],
+        "result": "allow",
+        "healthmultiply": 2,
+        "damagemultiply": 2,
+        "armorhelmet": [
+            "minecraft:iron_helmet"
+        ]
+    },
+    {
+        "dimension": "rework:greenland",
+        "mob": "minecraft:creeper",
+        "block": "pickletweaks:green_cobblestone",
         "result": "allow"
     },
     {
-        "dimension": "rework:mountainland",
-        "mob": "minecraft:wither_skeleton",
-        "result": "deny"
+        "dimension": "rework:greenland",
+        "mob": "minecraft:creeper",
+        "block": "botania:green_pavement",
+        "result": "allow"
     },
     {
-        "dimension": "rework:mountainland",
-        "mob": "minecraft:skeleton",
+        "dimension": "rework:greenland",
+        "mob": "minecraft:creeper",
+        "block": "minecraft:green_concrete",
+        "result": "allow"
+    },
+    {
+        "dimension": "rework:greenland",
+        "mob": "minecraft:creeper",
+        "block": "tconstruct:greenheart_wood",
+        "result": "allow"
+    },
+    {
+        "dimension": "rework:greenland",
+        "mob": "minecraft:creeper",
+        "block": "kubejs:tough_green_rock",
+        "result": "allow"
+    },
+    {
+        "dimension": "rework:greenland",
+        "mob": "minecraft:creeper",
+        "block": "minecraft:green_glazed_terracotta",
+        "result": "allow"
+    },
+    {
+        "dimension": "rework:greenland",
+        "mob": "minecraft:creeper",
         "result": "deny"
     }
 ]

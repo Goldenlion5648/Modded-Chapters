@@ -6,7 +6,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.BracketHandlers;
 import crafttweaker.api.fluid.IFluidStack;
 
-<recipetype:tconstruct:casting_basin>.addItemCastingRecipe("elementium_ore", <item:botania:cracked_livingrock_bricks>, <fluid:kubejs:molten_elementium> * 412, <item:kubejs:elementium_ore>, 100, true, false);
+<recipetype:tconstruct:casting_basin>.addItemCastingRecipe("elementium_ore", <item:botania:cracked_livingrock_bricks>, <fluid:kubejs:molten_elementium> * 432, <item:kubejs:elementium_ore>, 100, true, false);
 
 
 //  * 1) Adds a normal Melting Recipe that produces 1mb of Water (Fluid) when Black Dye is melted at 0°C.
@@ -48,5 +48,16 @@ public function add_casting_recipe(mod as string, name as string, fluid as IFlui
         }
     }
 }
+// <recipetype:tconstruct:melting>.addMeltingRecipe(name as string, input as IIngredient, output as IFluidStack, temperature as int, time as int, @Optional byproduct as IFluidStack[])
 
 add_casting_recipe("botania", "elementium", <fluid:kubejs:molten_elementium>);
+// <recipetype:tconstruct:melting>.addMeltingRecipe("green_glazed_terracotta_to_green", <item:minecraft:green_glazed_terracotta>, <fluid:kubejs:liquid_green> * , 200, 10);
+<recipetype:tconstruct:melting>.addMeltingRecipe("green_glazed_terracotta_to_liquid_green", <item:minecraft:green_glazed_terracotta>, <fluid:kubejs:liquid_green> * 20, 200, 10);
+<recipetype:tconstruct:melting>.addMeltingRecipe("green_cobble_to_liquid_green", <item:pickletweaks:green_cobblestone>, <fluid:kubejs:liquid_green> * 3 , 200, 10);
+
+// <recipetype:tconstruct:entity_melting>.addRecipe(name as string, input as CTEntityIngredient, output as IFluidStack, damage as int)
+<recipetype:tconstruct:entity_melting>.addRecipe("creeper_melt", <entitytype:minecraft:creeper>, <fluid:kubejs:liquid_green> * 100, 2);
+
+// <recipetype:tconstruct:fuel>.addFuel(name as string, input as CTFluidIngredient, duration as int, temperature as int)
+
+<recipetype:tconstruct:fuel>.addFuel("green_fuel", <fluid:kubejs:liquid_green>, 40, 700);

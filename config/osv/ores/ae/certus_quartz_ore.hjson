@@ -1,0 +1,28 @@
+ # Generated data. Some values are estimated.
+ # See TUTORIAL.hjson for more info.
+{
+  name: certus_quartz_ore
+  mod: appliedenergistics2
+  block: {
+    location: appliedenergistics2:quartz_ore
+    light: 0
+    resistance: 10000
+    hardness: 3
+    ticksRandomly: false
+    speedFactor: 1
+    jumpFactor: 1
+    isSolid: true
+    level: 7
+    tool: pickaxe
+    variableOpacity: false
+    requiresTool: true
+    xp: [ 2, 5 ]
+    material: ROCK
+    soundType: STONE
+  }
+  texture: {
+    original:appliedenergistics2:blocks/quartz_ore
+  }
+  loot: appliedenergistics2:blocks/quartz_ore
+  gen: []
+}

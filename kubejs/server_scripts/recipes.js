@@ -10,11 +10,11 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 
 // var removeAndHide = [Item.of('exnihilosequentia:crook_wood', { Damage: 0 }), Item.of('exnihilosequentia:crook_stone', { Damage: 0 }), Item.of('exnihilosequentia:crook_andesite', { Damage: 0 }), Item.of('exnihilosequentia:crook_granite', { Damage: 0 }), Item.of('exnihilosequentia:crook_diorite', { Damage: 0 }), Item.of('exnihilosequentia:crook_gold', { Damage: 0 })]
-var toRemove = [
-    "mining_dimension:teleporter"
-    // "mining_dimension:teleporter",
-
-]
+var toRemove = ['quark:gunpowder_sack',
+                'quark:bamboo_block',
+                'quark:sugar_cane_block',
+                'quark:charcoal_block',
+                'thermal:apple_block']
 
 //QoL
 onEvent('recipes', e => {
@@ -172,29 +172,34 @@ onEvent('recipes', e => {
         G: 'kubejs:green_gem'
     })
 
-    e.shaped("4x kubejs:alfheim_portal_frame", [
+    e.shaped("16x kubejs:alfheim_portal_frame", [
         'SWS',
-        'WGW',
+        'RGR',
         'SWS'
     ], {
         W: 'tconstruct:greenheart_wood',
+        R: 'pickletweaks:green_cobblestone',
         S: 'minecraft:emerald',
         G: 'kubejs:green_gem'
     })
-    e.shaped("6x kubejs:tinkers_portal_frame", [
+    e.shaped("16x kubejs:tinkers_portal_frame", [
         'SSS',
-        'SSS',
+        'SGS',
         'SSS'
     ], {
-        S: 'tconstruct:seared_bricks'
+        S: 'tconstruct:seared_bricks',
+        G: 'thermal:emerald_gear'
     })
-    e.shaped("4x kubejs:magic_mountain_portal_frame", [
+    e.shaped("16x kubejs:magic_mountain_portal_frame", [
         'SSS',
-        'SSS',
+        'S S',
         'SSS'
     ], {
-        S: 'botania:mana_powder'
+        S: 'integrateddynamics:menril_log'
     })
+// ['kubejs:magic_mountain_portal_frame', '2x integrateddynamics:menril_log', 'integrateddynamics:menril_log_filled', 'integrateddynamics:crystalized_menril_chunk']
+    //thermal and quark dupes
+    
 
 
 
@@ -227,6 +232,7 @@ onEvent('recipes', e => {
     })
     // Change recipes here
     e.remove({ output: 'botania:pure_daisy' })
+    e.remove({ output: 'cyclic:apple_honey' })
 
     e.remove({ id: 'botania:fertilizer_dye' });
     e.remove({ id: 'botania:petal_apothecary/pure_daisy' });

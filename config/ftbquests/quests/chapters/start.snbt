@@ -17,8 +17,8 @@
 					Damage: 0
 				}
 			}
-			x: -5.5d
-			y: -3.0d
+			x: -5.0d
+			y: -4.5d
 			subtitle: "He can fly!"
 			description: [
 				"Here in alfheim, everyone can fly! "
@@ -268,8 +268,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
+			x: -2.5d
+			y: -1.0d
 			description: [
 				"While it is annoying that the silkworms have eaten all the mystical flowers, they could prove useful for some resources."
 				""
@@ -349,15 +349,35 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.5d
-			dependencies: ["3FB2D9713C28DB3B"]
+			x: -1.0d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["739AFE09319F1BCC"]
 			id: "2D03B25FFE184803"
 			tasks: [{
 				id: "07AA80C7374804AD"
 				type: "item"
 				item: "kubejs:magic_mountain_portal_frame"
 				count: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: ["Note: these saplings require being planted in the middle of a 3 by 3 of dirt/ grass like blocks."]
+			dependencies: ["4F961348CD440C9A"]
+			id: "739AFE09319F1BCC"
+			tasks: [{
+				id: "3F20E7FA49791EB3"
+				type: "item"
+				item: "integrateddynamics:menril_log"
+				count: 8L
+			}]
+			rewards: [{
+				id: "7A2830677325573F"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+				count: 3
 			}]
 		}
 	]

@@ -891,11 +891,11 @@
 	[world.blossom_trees]
 
 		[world.blossom_trees.blue]
-			Rarity = 50
+			Rarity = 80
 
 			[world.blossom_trees.blue.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld", "rework:alfheim"]
+				Dimensions = ["rework:mountainland"]
 
 			[world.blossom_trees.blue.biome_config]
 

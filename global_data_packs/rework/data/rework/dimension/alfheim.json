@@ -18,11 +18,6 @@
     "generator": {
         "type": "minecraft:noise",
         "seed": 0,
-        "biome_source": {
-            "type": "minecraft:fixed",
-            "seed": 0,
-            "biome": "rework:sky_plains"
-        },
         "settings": {
             "name": "minecraft:floating_islands",
             "bedrock_roof_position": -10,
@@ -67,6 +62,50 @@
             "structures": {
                 "structures": {}
             }
+        },
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "seed": 0,
+            "altitude_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
+            "temperature_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
+            "humidity_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
+            "weirdness_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
+            "biomes": [
+                {
+                    "biome": "rework:sky_plains",
+                    "parameters": {
+                        "altitude": 0,
+                        "temperature": 0,
+                        "humidity": 0,
+                        "weirdness": 0,
+                        "offset": 0
+                    }
+                }
+            ]
         }
     }
 }

@@ -1,0 +1,95 @@
+----------------------------
+ID, Registry name, Valid for
+----------------------------
+0, minecraft:ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+1, minecraft:plains, spawn, minecraft:pillager_outpost, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, minecraft:village, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+2, minecraft:desert, minecraft:pillager_outpost, minecraft:mineshaft, minecraft:desert_pyramid, minecraft:ruined_portal, minecraft:stronghold, minecraft:village, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+3, minecraft:mountains, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+4, minecraft:forest, spawn, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+5, minecraft:taiga, spawn, minecraft:pillager_outpost, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, minecraft:village, quark:big_dungeon, tconstruct:overworld_slime_island
+6, minecraft:swamp, minecraft:mineshaft, minecraft:ruined_portal, minecraft:swamp_hut, quark:big_dungeon, tconstruct:overworld_slime_island
+7, minecraft:river, minecraft:mineshaft, minecraft:ruined_portal, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+8, minecraft:nether_wastes, minecraft:ruined_portal, minecraft:fortress, minecraft:bastion_remnant, tconstruct:nether_slime_island
+9, minecraft:the_end, 
+10, minecraft:frozen_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+11, minecraft:frozen_river, minecraft:mineshaft, minecraft:ruined_portal, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+12, minecraft:snowy_tundra, minecraft:pillager_outpost, minecraft:mineshaft, minecraft:igloo, minecraft:ruined_portal, minecraft:stronghold, minecraft:village, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+13, minecraft:snowy_mountains, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+14, minecraft:mushroom_fields, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+15, minecraft:mushroom_field_shore, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, tconstruct:overworld_slime_island, tconstruct:clay_island
+16, minecraft:beach, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:buried_treasure, tconstruct:overworld_slime_island, tconstruct:clay_island
+17, minecraft:desert_hills, minecraft:mineshaft, minecraft:desert_pyramid, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+18, minecraft:wooded_hills, spawn, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+19, minecraft:taiga_hills, spawn, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+20, minecraft:mountain_edge, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+21, minecraft:jungle, spawn, minecraft:mineshaft, minecraft:jungle_pyramid, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+22, minecraft:jungle_hills, spawn, minecraft:mineshaft, minecraft:jungle_pyramid, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+23, minecraft:jungle_edge, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+24, minecraft:deep_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:monument, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+25, minecraft:stone_shore, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, tconstruct:overworld_slime_island, tconstruct:clay_island
+26, minecraft:snowy_beach, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:buried_treasure, tconstruct:overworld_slime_island, tconstruct:clay_island
+27, minecraft:birch_forest, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+28, minecraft:birch_forest_hills, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+29, minecraft:dark_forest, minecraft:mineshaft, minecraft:mansion, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+30, minecraft:snowy_taiga, minecraft:mineshaft, minecraft:igloo, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+31, minecraft:snowy_taiga_hills, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+32, minecraft:giant_tree_taiga, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+33, minecraft:giant_tree_taiga_hills, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+34, minecraft:wooded_mountains, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+35, minecraft:savanna, minecraft:pillager_outpost, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, minecraft:village, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+36, minecraft:savanna_plateau, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+37, minecraft:badlands, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+38, minecraft:wooded_badlands_plateau, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+39, minecraft:badlands_plateau, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+40, minecraft:small_end_islands, tconstruct:end_slime_island
+41, minecraft:end_midlands, minecraft:endcity, tconstruct:end_slime_island
+42, minecraft:end_highlands, minecraft:endcity, tconstruct:end_slime_island
+43, minecraft:end_barrens, tconstruct:end_slime_island
+44, minecraft:warm_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+45, minecraft:lukewarm_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+46, minecraft:cold_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+47, minecraft:deep_warm_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:monument, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+48, minecraft:deep_lukewarm_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:monument, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+49, minecraft:deep_cold_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:monument, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+50, minecraft:deep_frozen_ocean, minecraft:mineshaft, minecraft:ruined_portal, minecraft:shipwreck, minecraft:monument, minecraft:ocean_ruin, tconstruct:earth_slime_island, tconstruct:overworld_slime_island
+51, appliedenergistics2:spatial_storage, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+52, integrateddynamics:meneglin, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+127, minecraft:the_void, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+129, minecraft:sunflower_plains, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+130, minecraft:desert_lakes, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+131, minecraft:gravelly_mountains, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+132, minecraft:flower_forest, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+133, minecraft:taiga_mountains, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+134, minecraft:swamp_hills, minecraft:mineshaft, minecraft:ruined_portal, quark:big_dungeon, tconstruct:overworld_slime_island
+140, minecraft:ice_spikes, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+149, minecraft:modified_jungle, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+151, minecraft:modified_jungle_edge, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+155, minecraft:tall_birch_forest, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+156, minecraft:tall_birch_hills, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+157, minecraft:dark_forest_hills, minecraft:mineshaft, minecraft:mansion, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+158, minecraft:snowy_taiga_mountains, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+160, minecraft:giant_spruce_taiga, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+161, minecraft:giant_spruce_taiga_hills, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+162, minecraft:modified_gravelly_mountains, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+163, minecraft:shattered_savanna, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+164, minecraft:shattered_savanna_plateau, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+165, minecraft:eroded_badlands, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+166, minecraft:modified_wooded_badlands_plateau, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+167, minecraft:modified_badlands_plateau, minecraft:mineshaft, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+168, minecraft:bamboo_jungle, minecraft:mineshaft, minecraft:jungle_pyramid, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+169, minecraft:bamboo_jungle_hills, minecraft:mineshaft, minecraft:jungle_pyramid, minecraft:ruined_portal, minecraft:stronghold, quark:big_dungeon, tconstruct:overworld_slime_island
+170, minecraft:soul_sand_valley, minecraft:ruined_portal, minecraft:fortress, minecraft:nether_fossil, minecraft:bastion_remnant, tconstruct:nether_slime_island
+171, minecraft:crimson_forest, minecraft:ruined_portal, minecraft:fortress, minecraft:bastion_remnant, tconstruct:nether_slime_island
+172, minecraft:warped_forest, minecraft:ruined_portal, minecraft:fortress, minecraft:bastion_remnant, tconstruct:nether_slime_island
+173, minecraft:basalt_deltas, minecraft:ruined_portal, minecraft:fortress, tconstruct:nether_slime_island
+174, rework:asteroid_belt, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+175, rework:cave_biome, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+176, rework:green_biome, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+177, rework:hub_biome, spawn, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+178, rework:magic_mountain, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+179, rework:seared_fields, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+180, rework:sky_plains, spawn, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+181, rework:slimeland, quark:big_dungeon, tconstruct:overworld_slime_island, tconstruct:clay_island
+----------------------------
+ID, Registry name, Valid for
+----------------------------

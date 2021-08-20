@@ -78,7 +78,7 @@
             "minecraft:wither_skeleton"
         ],
         "persecond": 1.0,
-        "attempts": 2,
+        "attempts": 10,
         "amount": {
             "minimum": 2,
             "maximum": 8
@@ -86,9 +86,11 @@
         "conditions": {
             "dimension": "rework:mountainland",
             "norestrictions": true,
-            "mindist": 5,
+            "maxheight": 70,
+            "minheight": 30,
+            "mindist": 15,
             "maxdist": 70,
-            "maxthis": 20
+            "maxthis": 30
         }
     }
 ]

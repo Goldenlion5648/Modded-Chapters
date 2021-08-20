@@ -14,7 +14,7 @@
      # Whether ore variants will drop when using silk touch.
     variantsDropWithSilkTouch: true
      # Whether to allow silverfish to enter into any infested variants.
-    mapInfestedVariants: true
+    mapInfestedVariants: false
      # Whether to skip over any invalid presets and simply not load them.
     ignoreInvalidPresets: false
   }
@@ -118,6 +118,10 @@
       ]
       byg: [
         byg_pendorite_ore
+      ]
+      ae: [
+        certus_quartz_ore
+        charged_certus_quartz
       ]
       druidcraft: [
         druidcraft_amber_ore

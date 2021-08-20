@@ -1,7 +1,6 @@
 //priority: 1000
 const greenBlocks = [
     "pickletweaks:green_cobblestone",
-    "quark:green_shingles",
     "chisel:antiblock/green",
     "tconstruct:greenheart_wood",
     "minecraft:green_glazed_terracotta",
@@ -15,6 +14,9 @@ onEvent('item.tags', event => {
     greenBlocks.forEach(b => {
         event.add("rework:green_blocks", b)
     })
+    // ['exnihilosequentia:ingot_copper', 'tconstruct:copper_ingot']
+    event.remove('forge:ingots/copper', 'exnihilosequentia:ingot_copper')
+    event.remove('forge:ingots/copper', 'tconstruct:copper_ingot')
 
     // // Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
     // event.remove('forge:cobblestone', 'minecraft:mossy_cobblestone')

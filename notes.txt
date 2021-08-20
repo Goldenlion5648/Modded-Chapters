@@ -50,6 +50,11 @@ masterful machine to
 -extract redstone from magic mountain (mystical flowers and redstone to make machine)
 -make machine in shroomlight as "sap" to keep machine cool
 
+integrate elytra into progession
+
+
+
+
 start with basic AE
 get drives as quest rewards
 

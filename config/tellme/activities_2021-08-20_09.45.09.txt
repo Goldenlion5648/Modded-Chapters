@@ -1,0 +1,21 @@
+------------------
+Registry name, Key
+------------------
+minecraft:admire_item, admire_item
+minecraft:avoid, avoid
+minecraft:celebrate, celebrate
+minecraft:core, core
+minecraft:fight, fight
+minecraft:hide, hide
+minecraft:idle, idle
+minecraft:meet, meet
+minecraft:panic, panic
+minecraft:play, play
+minecraft:pre_raid, pre_raid
+minecraft:raid, raid
+minecraft:rest, rest
+minecraft:ride, ride
+minecraft:work, work
+------------------
+Registry name, Key
+------------------

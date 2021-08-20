@@ -22,7 +22,7 @@
 				id: "7487F92C1FC6526B"
 				type: "item"
 				item: "kubejs:green_gem"
-				count: 4L
+				consume_items: false
 			}]
 		}
 		{
@@ -178,8 +178,8 @@
 		}
 		{
 			title: "Emerald Armor"
-			x: -5.5d
-			y: 1.5d
+			x: -4.5d
+			y: 2.0d
 			description: ["It seems this emerald armor is not as good as one might think..."]
 			dependencies: ["0416F55AA216F68E"]
 			id: "38AE4A551F52FCD2"
@@ -231,8 +231,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 1.5d
+			x: -2.0d
+			y: 1.0d
 			description: [
 				"Looks like the taste can be improved with some gunpowder!"
 				""
@@ -247,8 +247,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.0d
+			x: -3.0d
+			y: 2.0d
 			description: ["Adding some emerald makes it even better!"]
 			dependencies: [
 				"5A445C5579A6BB01"
@@ -311,8 +311,8 @@
 		}
 		{
 			title: "Minimal Smeltery"
-			x: -7.5d
-			y: -3.0d
+			x: -6.0d
+			y: -2.5d
 			dependencies: [
 				"2A4DEB0A43083E2A"
 				"104F33505F1C8453"
@@ -350,8 +350,8 @@
 		}
 		{
 			title: "Green Machine"
-			x: -8.5d
-			y: -1.0d
+			x: -8.0d
+			y: 1.5d
 			description: [
 				"Make the Green Machine. It can produce the resources from greenland through Liquid Green"
 				""
@@ -395,8 +395,9 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -6.5d
 			y: 0.0d
+			description: ["These allow one to make some multiblocks. Might be useful to make some resources automatable"]
 			dependencies: [
 				"0416F55AA216F68E"
 				"2A4DEB0A43083E2A"
@@ -491,6 +492,7 @@
 			]
 		}
 		{
+			icon: "kubejs:liquid_green_bucket"
 			x: -7.0d
 			y: -4.5d
 			description: [
@@ -554,6 +556,29 @@
 				id: "3FFED5CD1621A771"
 				type: "checkmark"
 				title: "Dimension Notes"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["2A4DEB0A43083E2A"]
+			id: "7C1472C38DC18B0F"
+			tasks: [{
+				id: "15106FA41F2AED56"
+				type: "item"
+				item: "kubejs:alfheim_portal_frame"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -5.0d
+			dependencies: ["104F33505F1C8453"]
+			id: "72FC4BA2846E603C"
+			tasks: [{
+				id: "410BED3631D74B73"
+				type: "item"
+				item: "minecraft:sugar_cane"
 			}]
 		}
 	]

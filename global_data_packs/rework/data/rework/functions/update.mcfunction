@@ -7,4 +7,6 @@ execute as @e[type=minecraft:witch,team=friends] at @s if entity @s[y=194,dy=-20
 
 execute as @a[nbt={Inventory:[{Slot:103b,id:"xreliquary:witch_hat"}]}] run team join friends @s
 execute as @a[nbt=!{Inventory:[{Slot:103b,id:"xreliquary:witch_hat"}]}] run team leave @s
+
+function rework:slime_hack
 # gamerule logAdminCommands true
