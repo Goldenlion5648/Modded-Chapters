@@ -9,21 +9,44 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: { id: "kubejs:green_gem", Count: 16b }
 			x: -4.5d
 			y: -1.5d
 			description: [
-				"Now that you have a pickaxe, try to find some green gems hidden in the glazed terracotta."
+				"Now that you have a pickaxe, try to find some green gems hidden in the glazed terracotta. It seems to have mystical properties that make it a good base for many things."
 				""
 				"It seems to rotate the nearby glazed terracotta where it hides."
+				""
+				"It almost seems like something on the surface indicates where some is hiding..."
 			]
 			dependencies: ["20ACADEB0641EF59"]
 			id: "2A4DEB0A43083E2A"
-			tasks: [{
-				id: "7487F92C1FC6526B"
-				type: "item"
-				item: "kubejs:green_gem"
-				consume_items: false
-			}]
+			tasks: [
+				{
+					id: "7487F92C1FC6526B"
+					type: "item"
+					item: "kubejs:green_gem"
+					consume_items: false
+				}
+				{
+					id: "51A82647FD49AF21"
+					type: "item"
+					title: "Any #chisel:concrete/green"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "chisel:concrete/green"
+						}
+					}
+				}
+				{
+					id: "1A03EBBE9911D415"
+					type: "item"
+					item: "minecraft:green_glazed_terracotta"
+					count: 16L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -74,9 +97,10 @@
 				}
 			]
 			rewards: [{
-				id: "461CE7FACB2C9048"
+				id: "6C70C8B2F6864167"
 				type: "item"
-				item: "tconstruct:encyclopedia"
+				item: "tconstruct:pattern"
+				count: 4
 			}]
 		}
 		{
@@ -104,11 +128,13 @@
 			}]
 		}
 		{
+			title: "Fooood"
 			x: 0.0d
 			y: 2.0d
 			description: [
 				"Looks like this will have to do for my food source for the time being"
 				""
+				"Even gives strength for a short amount of time!"
 			]
 			dependencies: ["2F54A457AD104270"]
 			id: "5263425DF7F096FB"
@@ -136,7 +162,6 @@
 			x: 2.0d
 			y: 1.5d
 			shape: "heart"
-			dependencies: ["2F54A457AD104270"]
 			id: "76AFC987EEC2F7A6"
 			tasks: [
 				{
@@ -283,7 +308,11 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["The more variety in the last 16 foods that you have eaten, the more benefits that you get. This can include more hearts, and other positive effects."]
+			description: [
+				"The more variety in the last 16 foods that you have eaten, the more benefits that you get. This can include more hearts, and other positive effects."
+				""
+				"Included in your akashic tome is your food journal, showing what you have eaten recently and what benefits you can get."
+			]
 			dependencies: ["5263425DF7F096FB"]
 			id: "4B1471EE023C6B15"
 			tasks: [{
@@ -300,22 +329,23 @@
 		}
 		{
 			x: -3.0d
-			y: -3.5d
+			y: -4.0d
 			dependencies: ["1BB820AF470C6542"]
 			id: "6B93DDA31B1E239F"
 			tasks: [{
 				id: "1F5E1E0F37394D78"
 				type: "item"
 				item: "tconstruct:seared_brick"
+				count: 16L
 			}]
 		}
 		{
 			title: "Minimal Smeltery"
-			x: -6.0d
-			y: -2.5d
+			x: -5.5d
+			y: -4.0d
 			dependencies: [
-				"2A4DEB0A43083E2A"
-				"104F33505F1C8453"
+				"2F0449CFB3844E5C"
+				"719B040D6E2A7D39"
 			]
 			id: "1A276B43D60ED761"
 			tasks: [
@@ -395,7 +425,7 @@
 			]
 		}
 		{
-			x: -6.5d
+			x: -5.5d
 			y: 0.0d
 			description: ["These allow one to make some multiblocks. Might be useful to make some resources automatable"]
 			dependencies: [
@@ -432,33 +462,39 @@
 					item: "minecraft:sand"
 				}
 				{
-					id: "745AD1EDF136FF59"
+					id: "51A18F40B7B9606A"
 					type: "item"
-					item: "minecraft:clay"
+					item: "minecraft:clay_ball"
+					count: 32L
 				}
 			]
 		}
 		{
 			x: -1.5d
 			y: -3.0d
+			description: ["Not obtained quite the normal way..."]
 			dependencies: ["6765212767E9F784"]
 			id: "1BB820AF470C6542"
 			tasks: [{
 				id: "5FD737FD484A4929"
 				type: "item"
 				item: "tconstruct:grout"
+				count: 12L
 			}]
 		}
 		{
-			title: "Grout Doubler"
-			x: -4.5d
+			title: "Simple Smelter"
+			x: -4.0d
 			y: -3.0d
 			description: [
-				"Currently we don't have a liquid fuel source for the smeltery, so we will have to settle for the melter and solid fuels"
+				"Currently we don't have a liquid fuel source for the smeltery, so we will have to settle for the melter and solid fuels."
 				"Might want to build it a bit above the Tough Green Rock"
 				"At least it doubles grout to seared brick output!"
 			]
-			dependencies: ["6B93DDA31B1E239F"]
+			dependencies: [
+				"6B93DDA31B1E239F"
+				"2A4DEB0A43083E2A"
+			]
 			id: "719B040D6E2A7D39"
 			tasks: [
 				{
@@ -474,9 +510,9 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: -4.0d
-			dependencies: ["719B040D6E2A7D39"]
+			x: -4.5d
+			y: -4.5d
+			dependencies: ["6B93DDA31B1E239F"]
 			id: "2F0449CFB3844E5C"
 			tasks: [
 				{
@@ -493,14 +529,14 @@
 		}
 		{
 			icon: "kubejs:liquid_green_bucket"
-			x: -7.0d
-			y: -4.5d
+			x: -5.5d
+			y: -2.5d
 			description: [
 				"It appears that liquid green can be used as a fuel source for the smeltery instead of lava."
 				""
 				"Liquid Green can be obtained through melting green glazed terracotta in the melter. You can obtain more later through melting creepers in the smeltery."
 			]
-			dependencies: ["2F0449CFB3844E5C"]
+			dependencies: ["2A4DEB0A43083E2A"]
 			id: "104F33505F1C8453"
 			tasks: [{
 				id: "19205ED5AE170AF2"
@@ -542,12 +578,18 @@
 					observe: "block:pickletweaks:green_cobblestone"
 				}
 			]
+			rewards: [{
+				id: "41756C364DD964AC"
+				type: "item"
+				item: "vanillacookbook:stuffed_sea_pickle"
+				count: 3
+			}]
 		}
 		{
 			x: 2.5d
 			y: -1.0d
 			description: [
-				"Creepers here do not care about the light level, so we have provided permanent night vision for you."
+				"Creepers here do not care about the light level for where they can spawn, so we have provided permanent night vision for you. However, they only spawn on the blocks that are naturally found here."
 				""
 				"They can also chain react one another."
 			]
@@ -559,8 +601,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -1.5d
+			x: -8.0d
+			y: 0.0d
 			shape: "gear"
 			dependencies: ["2A4DEB0A43083E2A"]
 			id: "7C1472C38DC18B0F"
@@ -571,14 +613,64 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -5.0d
+			x: -7.0d
+			y: -4.0d
 			dependencies: ["104F33505F1C8453"]
 			id: "72FC4BA2846E603C"
 			tasks: [{
 				id: "410BED3631D74B73"
 				type: "item"
 				item: "minecraft:sugar_cane"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.5d
+			dependencies: ["72FC4BA2846E603C"]
+			id: "0F38903826F84944"
+			tasks: [{
+				id: "34E942B360B53BF3"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			dependencies: ["0F38903826F84944"]
+			id: "04DCDC35B7FF57A0"
+			tasks: [{
+				id: "441C5566752F1AE7"
+				type: "item"
+				item: {
+					id: "solpotato:lunchbag"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["You can right click on a ladder to continuously place ladders below it!"]
+			dependencies: ["2F54A457AD104270"]
+			id: "67E24AD7EB94D120"
+			tasks: [{
+				id: "66B546D0D0A267E9"
+				type: "item"
+				item: "minecraft:ladder"
+				count: 9L
+			}]
+			rewards: [{
+				id: "07D46FCB89AC7124"
+				type: "item"
+				item: "minecraft:ladder"
+				count: 24
 			}]
 		}
 	]

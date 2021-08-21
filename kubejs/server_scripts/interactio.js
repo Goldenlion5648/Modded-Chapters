@@ -61,6 +61,24 @@ onEvent('recipes', e => {
             "empty_weight": 4
         }
     })
+    // e.custom({
+    //     "type": "interactio:block_explode",
+    //     "input": {
+    //         "block": "minecraft:sand"
+    //     },
+    //     "output": {
+    //         "type": "block",
+    //         "entries": [
+    //             {
+    //                 "result": {
+    //                     "block": `minecraft:glass`
+    //                 },
+    //                 "weight": 3
+    //             }
+    //         ],
+    //         "empty_weight": 1
+    //     }
+    // })
     //block to items
     e.custom({
         "type": "interactio:block_explode",
@@ -257,12 +275,36 @@ onEvent('recipes', e => {
 
     var dropSelf = [
         "minecraft:gravel",
-        "minecraft:sand",
+        // "minecraft:sand",
         "excompressum:compressed_sand",
         "excompressum:compressed_gravel",
         "minecraft:clay"
     ]
 
+    e.custom({
+        "type": "interactio:block_explode",
+        "input": {
+            "block": `minecraft:sand`
+        },
+        "output": {
+            "type": "item",
+            "entries": [
+                {
+                    "result": {
+                        "item": `minecraft:sand`
+                    },
+                    "weight": 6
+                },
+                {
+                    "result": {
+                        "item": `quark:clear_shard`
+                    },
+                    "weight": 2
+                }
+            ],
+            "empty_weight": 1,
+        }
+    })
     dropSelf.forEach(block => {
         e.custom({
             "type": "interactio:block_explode",

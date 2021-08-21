@@ -380,5 +380,45 @@
 				count: 3
 			}]
 		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["739AFE09319F1BCC"]
+			id: "28BA4C17D770A31B"
+			tasks: [{
+				id: "2181AF1779FDC935"
+				type: "item"
+				item: "integrateddynamics:cable"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["28BA4C17D770A31B"]
+			id: "0101623EC3058535"
+			tasks: [{
+				id: "1CD006E70183269B"
+				type: "item"
+				item: "integratedtunnels:part_interface_item"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["0101623EC3058535"]
+			id: "269D9D51375D9C6A"
+			tasks: [
+				{
+					id: "23F2A50143156F1B"
+					type: "item"
+					item: "integratedtunnels:part_interface_fluid"
+				}
+				{
+					id: "115936AA4293CE1B"
+					type: "item"
+					item: "integratedtunnels:part_interface_energy"
+				}
+			]
+		}
 	]
 }

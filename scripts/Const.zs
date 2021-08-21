@@ -1,4 +1,6 @@
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.IIngredient;
+
 
 public class Const {
     public static var test as string = "Hello World";
@@ -32,6 +34,11 @@ public class Const {
         ingot : 60,
         block : 180
     };
+
+    public static replaceRecipe(recName as string, result as IIngredient, inRecipe as IIngredient[][]) as void {
+        craftingTable.removeRecipe(result);
+        craftingTable.addShaped(recName, result, inRecipe);
+    }
     
 
     // public static val resource_types = {

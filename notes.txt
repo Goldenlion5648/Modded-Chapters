@@ -43,6 +43,12 @@ nbt regex:
 "C:\Users\cobou\Documents\Curse\Minecraft\Instances\Expert2021\kubejs\server_scripts\recipes.js"
 
 
+thermal augment:
+/summon minecraft:item ~ ~ ~ {Item:{id:'minecraft:sea_pickle',Count:1b,tag:{AugmentData:{Type:'Machine',MachineEnergy:0.0f}}}}
+
+# multiplier
+/summon minecraft:item ~ ~ ~ {Item:{id:'minecraft:sea_pickle',Count:1b,tag:{AugmentData:{Type:'Energy',RFMax:4444440.0f}}}}
+
 TODO
 masterful machine to 
 -trade elven recipes
@@ -51,6 +57,8 @@ masterful machine to
 -make machine in shroomlight as "sap" to keep machine cool
 
 integrate elytra into progession
+mystery dimension, different mobs spawn at different heights
+
 
 
 

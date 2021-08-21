@@ -94,7 +94,6 @@
 				id: "02007C4DB4D4410D"
 				type: "item"
 				item: "thermal:dynamo_output_augment"
-				count: 64L
 			}]
 		}
 		{
@@ -105,6 +104,28 @@
 				id: "553EEC11B6B33257"
 				type: "item"
 				item: "kubejs:green_gem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["4806C6A1ECA17071"]
+			id: "29327B841AF58365"
+			tasks: [{
+				id: "73FB615A72D7C947"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
 			}]
 		}
 	]
